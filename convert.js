@@ -1,46 +1,27 @@
 const fs = require('fs');
 const cheerio = require('cheerio');
 
-// 讀取 index.html
-const inputFile = 'index.html';
-const outputFile = 'index_new.html';
+// 讀取 HTML 檔案
+const html = fs.readFileSync('a.html', 'utf8');
+const $ = cheerio.load(html);
 
-const rawHTML = fs.readFileSync(inputFile, 'utf8');
-const $ = cheerio.load(rawHTML);
+const result = [];
 
-// 建立一個新的容器
-const newList = $('<ul class="word-list"></ul>');
+$('._2g-qq').each((i, el) => {
+  const vn = $(el).find('h3').text().trim();
+  const en = $(el).find('p').text().trim();
 
-// 處理所有 li._2g-qq
-$('li._2g-qq').each((i, elem) => {
-  const item = $(elem);
-
-  const vnText = item.find('h3').text().trim();
-  const enText = item.find('p').first().text().trim();
-
-  const newLi = $(`
-    <li class="word-item">
-      <button class="voice"><i class="fa-solid fa-volume-high"></i></button>
-      <div class="word-content">
-        <div class="row">
-          <h3 class="vn">${vnText}</h3>
-          <p class="zh">（預留中文）</p>
-          <p class="en">${enText}</p>
-        </div>
-        <div class="row">
-          <p class="sentence">（預留例句）</p>
-          <p class="translation">（預留翻譯）</p>
-        </div>
-      </div>
-    </li>
-  `);
-
-  newList.append(newLi);
+  if (vn && en) {
+    result.push({
+      vn,
+      zh: "(中文)",
+      en,
+      sentence: "(例句)",
+      translation: "(例句翻譯)"
+    });
+  }
 });
 
-// 替換原本的 <ul> 或是插入到 body 裡
-$('body').empty().append(newList);
-
-// 寫出新檔案
-fs.writeFileSync(outputFile, $.html(), 'utf8');
-console.log(`✅ 轉換完成！輸出檔案：${outputFile}`);
+// 輸出為 result.json
+fs.writeFileSync('result.json', JSON.stringify(result, null, 2), 'utf8');
+console.log(`✅ 已成功輸出 ${result.length} 筆資料到 result.json`);

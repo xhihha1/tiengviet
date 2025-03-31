@@ -1,5 +1,96 @@
 [
   {
+    "vn": "đậm",
+    "zh": "深的（顏色）",
+    "en": "dark, deep",
+    "sentence": "Tôi thích màu đỏ đậm.",
+    "translation": "我喜歡深紅色。"
+  },
+  {
+    "vn": "hồng",
+    "zh": "粉紅色",
+    "en": "pink",
+    "sentence": "Cô ấy mặc áo màu hồng.",
+    "translation": "她穿著粉紅色的上衣。"
+  },
+  {
+    "vn": "vàng",
+    "zh": "黃色、金色",
+    "en": "yellow, gold",
+    "sentence": "Chiếc xe màu vàng rất nổi bật.",
+    "translation": "那台黃色的車很顯眼。"
+  },
+  {
+    "vn": "nhạt",
+    "zh": "淺的（顏色）",
+    "en": "light",
+    "sentence": "Tôi thích màu xanh nhạt.",
+    "translation": "我喜歡淺藍色。"
+  },
+  {
+    "vn": "tím",
+    "zh": "紫色、紫羅蘭色",
+    "en": "purple, violet",
+    "sentence": "Hoa này có màu tím rất đẹp.",
+    "translation": "這朵花的紫色很漂亮。"
+  },
+  {
+    "vn": "nâu",
+    "zh": "咖啡色、棕色",
+    "en": "brown",
+    "sentence": "Tôi có một cái áo khoác màu nâu.",
+    "translation": "我有一件咖啡色的外套。"
+  },
+  {
+    "vn": "xám",
+    "zh": "灰色",
+    "en": "gray, grey",
+    "sentence": "Bầu trời hôm nay màu xám.",
+    "translation": "今天的天空是灰色的。"
+  },
+  {
+    "vn": "xanh lá cây",
+    "zh": "綠色",
+    "en": "green",
+    "sentence": "Lá cây có màu xanh lá cây.",
+    "translation": "樹葉是綠色的。"
+  },
+  {
+    "vn": "xanh da trời",
+    "zh": "藍色（天空藍）",
+    "en": "blue",
+    "sentence": "Bức tranh có nền xanh da trời.",
+    "translation": "這幅畫有藍色的背景。"
+  },
+  {
+    "vn": "đỏ",
+    "zh": "紅色",
+    "en": "red",
+    "sentence": "Anh ấy mua một chiếc xe đạp màu đỏ.",
+    "translation": "他買了一台紅色的腳踏車。"
+  },
+  {
+    "vn": "đen",
+    "zh": "黑色",
+    "en": "black",
+    "sentence": "Tôi không thích mặc đồ màu đen.",
+    "translation": "我不喜歡穿黑色的衣服。"
+  },
+  {
+    "vn": "trắng",
+    "zh": "白色",
+    "en": "white",
+    "sentence": "Con mèo của tôi có lông trắng.",
+    "translation": "我的貓有白色的毛。"
+  },
+  {
+    "vn": "màu",
+    "zh": "顏色",
+    "en": "color",
+    "sentence": "Bạn thích màu gì?",
+    "translation": "你喜歡什麼顏色？"
+  },
+  {
     "vn": "hỏi",
     "zh": "問、詢問",
     "en": "ask, asks",
