@@ -45,6 +45,7 @@ button {
   border-bottom: 1px solid #ddd;
   padding: 12px 10px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .word-item .voice {
