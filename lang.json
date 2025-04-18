@@ -1,0 +1,2508 @@
+[
+  {
+    "vn": "hỏi",
+    "zh": "問、詢問",
+    "en": "ask, asks",
+    "sentence": "Tôi muốn hỏi một câu.",
+    "translation": "我想問一個問題。"
+  },
+  {
+    "vn": "đáp án",
+    "zh": "答案",
+    "en": "answer",
+    "sentence": "Đây là đáp án đúng.",
+    "translation": "這是正確答案。"
+  },
+  {
+    "vn": "câu",
+    "zh": "句子",
+    "en": "sentence",
+    "sentence": "Đọc câu này.",
+    "translation": "讀這個句子。"
+  },
+  {
+    "vn": "trả lời",
+    "zh": "回答、回應",
+    "en": "answer, respond, answers",
+    "sentence": "Xin vui lòng trả lời câu hỏi.",
+    "translation": "請回答問題。"
+  },
+  {
+    "vn": "như",
+    "zh": "像、如同",
+    "en": "like, as",
+    "sentence": "Anh ấy hát như ca sĩ.",
+    "translation": "他唱得像歌手一樣。"
+  },
+  {
+    "vn": "thế nào",
+    "zh": "如何、怎麼樣",
+    "en": "how, how were, how was",
+    "sentence": "Bạn cảm thấy thế nào?",
+    "translation": "你感覺怎麼樣？"
+  },
+  {
+    "vn": "nhiêu",
+    "zh": "多少",
+    "en": "much",
+    "sentence": "Bao nhiêu tiền?",
+    "translation": "多少錢？"
+  },
+  {
+    "vn": "làm sao",
+    "zh": "怎麼辦、如何",
+    "en": "how",
+    "sentence": "Làm sao để đến đó?",
+    "translation": "怎麼去那裡？"
+  },
+  {
+    "vn": "bao",
+    "zh": "包",
+    "en": "bag",
+    "sentence": "Tôi có một cái bao.",
+    "translation": "我有一個包。"
+  },
+  {
+    "vn": "ví",
+    "zh": "錢包",
+    "en": "wallet, purse",
+    "sentence": "Ví của tôi bị mất.",
+    "translation": "我的錢包丟了。"
+  },
+  {
+    "vn": "pin",
+    "zh": "電池",
+    "en": "battery",
+    "sentence": "Pin của điện thoại hết rồi.",
+    "translation": "手機的電池沒電了。"
+  },
+  {
+    "vn": "thuốc lá",
+    "zh": "煙草",
+    "en": "tobacco",
+    "sentence": "Hút thuốc lá có hại cho sức khỏe.",
+    "translation": "吸煙有害健康。"
+  },
+  {
+    "vn": "túi",
+    "zh": "袋子",
+    "en": "bag",
+    "sentence": "Tôi cần một cái túi mới.",
+    "translation": "我需要一個新袋子。"
+  },
+  {
+    "vn": "đèn",
+    "zh": "燈",
+    "en": "light, lamp",
+    "sentence": "Bật đèn lên.",
+    "translation": "打開燈。"
+  },
+  {
+    "vn": "điện thoại",
+    "zh": "電話",
+    "en": "phone, telephone",
+    "sentence": "Điện thoại của tôi đâu?",
+    "translation": "我的電話在哪裡？"
+  },
+  {
+    "vn": "tivi",
+    "zh": "電視",
+    "en": "television, televisions, tv",
+    "sentence": "Tôi đang xem tivi.",
+    "translation": "我在看電視。"
+  },
+  {
+    "vn": "máy tính",
+    "zh": "電腦",
+    "en": "computer",
+    "sentence": "Máy tính của tôi bị hỏng.",
+    "translation": "我的電腦壞了。"
+  },
+  {
+    "vn": "gương",
+    "zh": "鏡子",
+    "en": "mirror, example",
+    "sentence": "Nhìn vào gương.",
+    "translation": "看鏡子。"
+  },
+  {
+    "vn": "đồng hồ",
+    "zh": "手錶、鐘",
+    "en": "watch, clock",
+    "sentence": "Đồng hồ của tôi chạy chậm.",
+    "translation": "我的手錶走得慢。"
+  },
+  {
+    "vn": "cửa sổ",
+    "zh": "窗戶",
+    "en": "window, windows",
+    "sentence": "Mở cửa sổ ra.",
+    "translation": "打開窗戶。"
+  },
+  {
+    "vn": "muỗng",
+    "zh": "湯匙",
+    "en": "spoon",
+    "sentence": "Tôi cần một cái muỗng.",
+    "translation": "我需要一個湯匙。"
+  },
+  {
+    "vn": "chai",
+    "zh": "瓶子",
+    "en": "bottle, bottles",
+    "sentence": "Mua một chai nước.",
+    "translation": "買一瓶水。"
+  },
+  {
+    "vn": "giường",
+    "zh": "床",
+    "en": "bed",
+    "sentence": "Tôi muốn đi ngủ.",
+    "translation": "我想去睡覺。"
+  },
+  {
+    "vn": "đứng",
+    "zh": "站立",
+    "en": "stand, stands, stand/stands",
+    "sentence": "Đứng lên đi.",
+    "translation": "站起來。"
+  },
+  {
+    "vn": "ngồi",
+    "zh": "坐",
+    "en": "sit, sits, sitting",
+    "sentence": "Ngồi xuống đây.",
+    "translation": "坐在這裡。"
+  },
+  {
+    "vn": "để",
+    "zh": "為了、讓",
+    "en": "for, let, lets",
+    "sentence": "Để tôi giúp bạn.",
+    "translation": "讓我幫你。"
+  },
+  {
+    "vn": "nhảy",
+    "zh": "跳、舞蹈",
+    "en": "jump, dance, jumps",
+    "sentence": "Cô ấy nhảy rất đẹp.",
+    "translation": "她跳得很漂亮。"
+  },
+  {
+    "vn": "bắt đầu",
+    "zh": "開始",
+    "en": "begin, start, starts",
+    "sentence": "Chúng ta bắt đầu thôi.",
+    "translation": "我們開始吧。"
+  },
+  {
+    "vn": "nghĩ",
+    "zh": "想",
+    "en": "think, thinks",
+    "sentence": "Tôi nghĩ rằng bạn đúng.",
+    "translation": "我認為你是對的。"
+  },
+  {
+    "vn": "múa",
+    "zh": "舞蹈",
+    "en": "dance, dances, dance/dances (verb)",
+    "sentence": "Cô ấy múa rất đẹp.",
+    "translation": "她跳舞很漂亮。"
+  },
+  {
+    "vn": "hát",
+    "zh": "唱歌",
+    "en": "sing, sings, singing",
+    "sentence": "Anh ấy hát rất hay.",
+    "translation": "他唱得很好。"
+  },
+  {
+    "vn": "ủng hộ",
+    "zh": "支持",
+    "en": "supports, support",
+    "sentence": "Tôi ủng hộ bạn.",
+    "translation": "我支持你。"
+  },
+  {
+    "vn": "xem",
+    "zh": "看",
+    "en": "watching, look at, watched",
+    "sentence": "Tôi đang xem phim.",
+    "translation": "我在看電影。"
+  },
+  {
+    "vn": "chạy",
+    "zh": "跑",
+    "en": "run, runs, running",
+    "sentence": "Anh ấy chạy rất nhanh.",
+    "translation": "他跑得很快。"
+  },
+  {
+    "vn": "việc",
+    "zh": "工作、業務",
+    "en": "work, business, job",
+    "sentence": "Tôi có nhiều việc phải làm.",
+    "translation": "我有很多工作要做。"
+  },
+  {
+    "vn": "làm",
+    "zh": "做",
+    "en": "to be, has worked as, do on",
+    "sentence": "Tôi làm việc ở đây.",
+    "translation": "我在這裡工作。"
+  },
+  {
+    "vn": "lấy",
+    "zh": "拿、取",
+    "en": "takes, take, get",
+    "sentence": "Lấy cho tôi cái này.",
+    "translation": "拿這個給我。"
+  },
+  {
+    "vn": "tìm",
+    "zh": "找",
+    "en": "looking for, find, look for",
+    "sentence": "Tôi đang tìm chìa khóa.",
+    "translation": "我在找鑰匙。"
+  },
+  {
+    "vn": "bơi",
+    "zh": "游泳",
+    "en": "swim, swims, swimming",
+    "sentence": "Tôi thích bơi lội.",
+    "translation": "我喜歡游泳。"
+  },
+  {
+    "vn": "giúp",
+    "zh": "幫助",
+    "en": "help, helps",
+    "sentence": "Giúp tôi với.",
+    "translation": "幫幫我。"
+  },
+  {
+    "vn": "mở",
+    "zh": "打開",
+    "en": "open, opens, turn on",
+    "sentence": "Mở cửa ra.",
+    "translation": "打開門。"
+  },
+  {
+    "vn": "đỡ",
+    "zh": "幫助",
+    "en": "help",
+    "sentence": "Anh ấy đỡ tôi khi tôi ngã.",
+    "translation": "我跌倒時他幫了我。"
+  },
+  {
+    "vn": "chơi",
+    "zh": "玩",
+    "en": "play, plays, playing",
+    "sentence": "Tôi thích chơi bóng đá.",
+    "translation": "我喜歡踢足球。"
+  },
+  {
+    "vn": "luyện",
+    "zh": "練習",
+    "en": "practices, practice",
+    "sentence": "Tôi luyện tập mỗi ngày.",
+    "translation": "我每天練習。"
+  },
+  {
+    "vn": "bộ",
+    "zh": "（衣服的量詞）、（套裝的量詞）、董事會",
+    "en": "(classifier for clothes), (classifier for sets), board",
+    "sentence": "Tôi có một bộ quần áo mới.",
+    "translation": "我有一套新衣服。"
+  },
+  {
+    "vn": "bán",
+    "zh": "賣",
+    "en": "sell, sells",
+    "sentence": "Tôi muốn bán cái này.",
+    "translation": "我想賣這個。"
+  },
+  {
+    "vn": "lắng nghe",
+    "zh": "聽",
+    "en": "listen, listens, listening",
+    "sentence": "Lắng nghe tôi nói.",
+    "translation": "聽我說。"
+  },
+  {
+    "vn": "dùng",
+    "zh": "使用",
+    "en": "use, using, uses",
+    "sentence": "Tôi dùng máy tính để làm việc.",
+    "translation": "我用電腦工作。"
+  },
+  {
+    "vn": "cười",
+    "zh": "笑",
+    "en": "smile, smile/smiles, laugh/laughs",
+    "sentence": "Cô ấy cười rất tươi.",
+    "translation": "她笑得很開心。"
+  },
+  {
+    "vn": "khóc",
+    "zh": "哭",
+    "en": "crying, cries, cry/cries",
+    "sentence": "Em bé đang khóc.",
+    "translation": "嬰兒在哭。"
+  },
+  {
+    "vn": "ngủ",
+    "zh": "睡覺",
+    "en": "sleep, slept, sleeps",
+    "sentence": "Tôi muốn đi ngủ.",
+    "translation": "我想去睡覺。"
+  },
+  {
+    "vn": "thử",
+    "zh": "試",
+    "en": "try, tries, try (sth) on",
+    "sentence": "Tôi muốn thử cái này.",
+    "translation": "我想試試這個。"
+  },
+  {
+    "vn": "viết",
+    "zh": "寫",
+    "en": "write, writes",
+    "sentence": "Tôi viết thư cho bạn.",
+    "translation": "我給你寫信。"
+  },
+  {
+    "vn": "nghe",
+    "zh": "聽",
+    "en": "listen, hear/hears, listens",
+    "sentence": "Tôi nghe nhạc mỗi ngày.",
+    "translation": "我每天聽音樂。"
+  },
+  {
+    "vn": "thấy",
+    "zh": "看見",
+    "en": "see, find (limited context), sees",
+    "sentence": "Tôi thấy bạn ở đó.",
+    "translation": "我看到你在那裡。"
+  },
+  {
+    "vn": "gì",
+    "zh": "什麼",
+    "en": "what, what are, what is",
+    "sentence": "Bạn muốn gì?",
+    "translation": "你想要什麼？"
+  },
+  {
+    "vn": "khi",
+    "zh": "當、在",
+    "en": "when, as, on",
+    "sentence": "Khi nào bạn đến?",
+    "translation": "你什麼時候來？"
+  },
+  {
+    "vn": "sao",
+    "zh": "為什麼",
+    "en": "what, what do, why",
+    "sentence": "Tại sao bạn làm điều đó?",
+    "translation": "你為什麼要這樣做？"
+  },
+  {
+    "vn": "tại",
+    "zh": "在",
+    "en": "at, in",
+    "sentence": "Tôi đang ở nhà.",
+    "translation": "我在家。"
+  },
+  {
+    "vn": "vì",
+    "zh": "因為",
+    "en": "because, for, because of",
+    "sentence": "Tôi làm điều đó vì bạn.",
+    "translation": "我為你做這件事。"
+  },
+  {
+    "vn": "nào",
+    "zh": "哪個",
+    "en": "let's, any, what kind of",
+    "sentence": "Bạn muốn cái nào?",
+    "translation": "你想要哪個？"
+  },
+  {
+    "vn": "ai",
+    "zh": "誰",
+    "en": "whom, who, anyone",
+    "sentence": "Ai đang gọi tôi?",
+    "translation": "誰在叫我？"
+  },
+  {
+    "vn": "trứng",
+    "zh": "蛋",
+    "en": "egg",
+    "sentence": "Tôi ăn trứng vào buổi sáng.",
+    "translation": "我早上吃雞蛋。"
+  },
+  {
+    "vn": "chay",
+    "zh": "素食",
+    "en": "vegetarian, vegan",
+    "sentence": "Tôi ăn chay.",
+    "translation": "我吃素。"
+  },
+  {
+    "vn": "mì ý",
+    "zh": "意大利麵",
+    "en": "pasta",
+    "sentence": "Tôi thích ăn mì ý.",
+    "translation": "我喜歡吃意大利麵。"
+  },
+  {
+    "vn": "cà chua",
+    "zh": "番茄",
+    "en": "tomato, tomatoes",
+    "sentence": "Cà chua rất ngon.",
+    "translation": "番茄很好吃。"
+  },
+  {
+    "vn": "khoai tây chiên",
+    "zh": "薯條",
+    "en": "chips, French fries",
+    "sentence": "Tôi thích ăn khoai tây chiên.",
+    "translation": "我喜歡吃薯條。"
+  },
+  {
+    "vn": "thịt",
+    "zh": "肉",
+    "en": "meat",
+    "sentence": "Tôi không ăn thịt.",
+    "translation": "我不吃肉。"
+  },
+  {
+    "vn": "mì ăn liền",
+    "zh": "方便麵",
+    "en": "instant noodles",
+    "sentence": "Mì ăn liền rất tiện lợi.",
+    "translation": "方便麵很方便。"
+  },
+  {
+    "vn": "muối",
+    "zh": "鹽",
+    "en": "salt, salty",
+    "sentence": "Thêm muối vào món ăn.",
+    "translation": "在菜裡加鹽。"
+  },
+  {
+    "vn": "nấm",
+    "zh": "蘑菇",
+    "en": "mushroom",
+    "sentence": "Nấm rất ngon.",
+    "translation": "蘑菇很好吃。"
+  },
+  {
+    "vn": "ớt",
+    "zh": "辣椒",
+    "en": "chili, peppers, chilli",
+    "sentence": "Tôi thích ăn ớt.",
+    "translation": "我喜歡吃辣椒。"
+  },
+  {
+    "vn": "rau",
+    "zh": "蔬菜",
+    "en": "vegetable, vegetables",
+    "sentence": "Rau rất tốt cho sức khỏe.",
+    "translation": "蔬菜對健康有益。"
+  },
+  {
+    "vn": "bữa",
+    "zh": "餐",
+    "en": "meals, meal",
+    "sentence": "Tôi ăn ba bữa mỗi ngày.",
+    "translation": "我每天吃三餐。"
+  },
+  {
+    "vn": "trưa",
+    "zh": "中午",
+    "en": "noon",
+    "sentence": "Tôi ăn trưa lúc 12 giờ.",
+    "translation": "我中午12點吃午飯。"
+  },
+  {
+    "vn": "chanh",
+    "zh": "檸檬",
+    "en": "lemon",
+    "sentence": "Tôi thích uống nước chanh.",
+    "translation": "我喜歡喝檸檬水。"
+  },
+  {
+    "vn": "chuối",
+    "zh": "香蕉",
+    "en": "banana, bananas",
+    "sentence": "Chuối rất ngon.",
+    "translation": "香蕉很好吃。"
+  },
+  {
+    "vn": "trái cây",
+    "zh": "水果",
+    "en": "fruit",
+    "sentence": "Tôi thích ăn trái cây.",
+    "translation": "我喜歡吃水果。"
+  },
+  {
+    "vn": "tối",
+    "zh": "晚上",
+    "en": "dark, evening, night",
+    "sentence": "Tôi đi ngủ vào buổi tối.",
+    "translation": "我晚上睡覺。"
+  },
+  {
+    "vn": "canh",
+    "zh": "湯",
+    "en": "soup",
+    "sentence": "Tôi thích ăn canh.",
+    "translation": "我喜歡喝湯。"
+  },
+  {
+    "vn": "thức ăn",
+    "zh": "食物",
+    "en": "food",
+    "sentence": "Thức ăn rất ngon.",
+    "translation": "食物很好吃。"
+  },
+  {
+    "vn": "dầu ăn",
+    "zh": "食用油",
+    "en": "cooking oil",
+    "sentence": "Dầu ăn rất cần thiết.",
+    "translation": "食用油很必要。"
+  },
+  {
+    "vn": "rượu",
+    "zh": "酒",
+    "en": "alcohol, wine",
+    "sentence": "Tôi không uống rượu.",
+    "translation": "我不喝酒。"
+  },
+  {
+    "vn": "thắt lưng",
+    "zh": "腰帶",
+    "en": "belt",
+    "sentence": "Tôi cần một cái thắt lưng mới.",
+    "translation": "我需要一條新腰帶。"
+  },
+  {
+    "vn": "áo lạnh",
+    "zh": "毛衣",
+    "en": "sweater",
+    "sentence": "Tôi mặc áo lạnh khi trời lạnh.",
+    "translation": "天冷時我穿毛衣。"
+  },
+  {
+    "vn": "khăn quàng",
+    "zh": "圍巾",
+    "en": "scarf, scarves",
+    "sentence": "Tôi đeo khăn quàng cổ.",
+    "translation": "我戴圍巾。"
+  },
+  {
+    "vn": "tất",
+    "zh": "襪子",
+    "en": "socks",
+    "sentence": "Tôi cần một đôi tất mới.",
+    "translation": "我需要一雙新襪子。"
+  },
+  {
+    "vn": "ủng",
+    "zh": "靴子",
+    "en": "boots",
+    "sentence": "Tôi mang ủng khi trời mưa.",
+    "translation": "下雨時我穿靴子。"
+  },
+  {
+    "vn": "đôi",
+    "zh": "兩個、一對",
+    "en": "two, pair of, pairs",
+    "sentence": "Tôi có một đôi giày mới.",
+    "translation": "我有一雙新鞋。"
+  },
+  {
+    "vn": "giày",
+    "zh": "鞋子",
+    "en": "shoes, shoe, the shoes",
+    "sentence": "Tôi cần một đôi giày mới.",
+    "translation": "我需要一雙新鞋。"
+  },
+  {
+    "vn": "đội",
+    "zh": "穿戴、隊伍",
+    "en": "wears, the team, team",
+    "sentence": "Tôi đội mũ khi ra ngoài.",
+    "translation": "我出門時戴帽子。"
+  },
+  {
+    "vn": "quần",
+    "zh": "褲子",
+    "en": "pants, trousers",
+    "sentence": "Tôi cần một cái quần mới.",
+    "translation": "我需要一條新褲子。"
+  },
+  {
+    "vn": "mang",
+    "zh": "穿戴、攜帶",
+    "en": "is, wears, carrying",
+    "sentence": "Tôi mang giày mới.",
+    "translation": "我穿新鞋。"
+  },
+  {
+    "vn": "mũ",
+    "zh": "帽子",
+    "en": "hat",
+    "sentence": "Tôi đội mũ khi ra ngoài.",
+    "translation": "我出門時戴帽子。"
+  },
+  {
+    "vn": "váy",
+    "zh": "裙子",
+    "en": "skirt",
+    "sentence": "Tôi thích mặc váy.",
+    "translation": "我喜歡穿裙子。"
+  },
+  {
+    "vn": "cởi",
+    "zh": "脫掉",
+    "en": "take off",
+    "sentence": "Cởi áo khoác ra.",
+    "translation": "脫掉外套。"
+  },
+  {
+    "vn": "khoác",
+    "zh": "外套",
+    "en": "coat, coats",
+    "sentence": "Tôi mặc áo khoác khi trời lạnh.",
+    "translation": "天冷時我穿外套。"
+  },
+  {
+    "vn": "mặc",
+    "zh": "穿",
+    "en": "wear, wears",
+    "sentence": "Tôi mặc áo sơ mi.",
+    "translation": "我穿襯衫。"
+  },
+  {
+    "vn": "áo",
+    "zh": "襯衫",
+    "en": "shirt",
+    "sentence": "Tôi cần một cái áo mới.",
+    "translation": "我需要一件新襯衫。"
+  },
+  {
+    "vn": "đầm",
+    "zh": "連衣裙",
+    "en": "dress",
+    "sentence": "Tôi thích mặc đầm.",
+    "translation": "我喜歡穿連衣裙。"
+  },
+  {
+    "vn": "khỉ",
+    "zh": "猴子",
+    "en": "monkey",
+    "sentence": "Khỉ rất thông minh.",
+    "translation": "猴子很聰明。"
+  },
+  {
+    "vn": "voi",
+    "zh": "大象",
+    "en": "elephant",
+    "sentence": "Voi rất lớn.",
+    "translation": "大象很大。"
+  },
+  {
+    "vn": "chuột",
+    "zh": "老鼠",
+    "en": "mouse",
+    "sentence": "Chuột rất nhỏ.",
+    "translation": "老鼠很小。"
+  },
+  {
+    "vn": "ngựa",
+    "zh": "馬",
+    "en": "horse",
+    "sentence": "Ngựa chạy rất nhanh.",
+    "translation": "馬跑得很快。"
+  },
+  {
+    "vn": "trâu",
+    "zh": "水牛",
+    "en": "buffalo",
+    "sentence": "Trâu rất mạnh.",
+    "translation": "水牛很強壯。"
+  },
+  {
+    "vn": "heo",
+    "zh": "豬",
+    "en": "pig",
+    "sentence": "Heo rất mập.",
+    "translation": "豬很胖。"
+  },
+  {
+    "vn": "rùa",
+    "zh": "烏龜",
+    "en": "turtle, tortoise",
+    "sentence": "Rùa đi rất chậm.",
+    "translation": "烏龜走得很慢。"
+  },
+  {
+    "vn": "rồng",
+    "zh": "龍",
+    "en": "dragon",
+    "sentence": "Rồng là loài vật huyền thoại.",
+    "translation": "龍是傳說中的動物。"
+  },
+  {
+    "vn": "cá sấu",
+    "zh": "鱷魚",
+    "en": "alligator",
+    "sentence": "Cá sấu rất nguy hiểm.",
+    "translation": "鱷魚很危險。"
+  },
+  {
+    "vn": "chim",
+    "zh": "鳥",
+    "en": "bird",
+    "sentence": "Chim có thể bay.",
+    "translation": "鳥會飛。"
+  },
+  {
+    "vn": "chuồn chuồn",
+    "zh": "蜻蜓",
+    "en": "dragonfly",
+    "sentence": "Chuồn chuồn bay rất nhanh.",
+    "translation": "蜻蜓飛得很快。"
+  },
+  {
+    "vn": "thỏ",
+    "zh": "兔子",
+    "en": "rabbit, rabbits, bunny",
+    "sentence": "Thỏ rất dễ thương.",
+    "translation": "兔子很可愛。"
+  },
+  {
+    "vn": "gấu",
+    "zh": "熊",
+    "en": "bear",
+    "sentence": "Gấu rất mạnh.",
+    "translation": "熊很強壯。"
+  },
+  {
+    "vn": "rắn",
+    "zh": "蛇",
+    "en": "snake",
+    "sentence": "Rắn rất nguy hiểm.",
+    "translation": "蛇很危險。"
+  },
+  {
+    "vn": "bò",
+    "zh": "牛",
+    "en": "ox, cow, bull",
+    "sentence": "Bò rất mạnh.",
+    "translation": "牛很強壯。"
+  },
+  {
+    "vn": "vịt",
+    "zh": "鴨子",
+    "en": "duck",
+    "sentence": "Vịt bơi rất giỏi.",
+    "translation": "鴨子游泳很厲害。"
+  },
+  {
+    "vn": "động vật",
+    "zh": "動物",
+    "en": "animals, animal",
+    "sentence": "Tôi yêu động vật.",
+    "translation": "我愛動物。"
+  },
+  {
+    "vn": "sở thú",
+    "zh": "動物園",
+    "en": "zoo",
+    "sentence": "Tôi thích đi sở thú.",
+    "translation": "我喜歡去動物園。"
+  },
+  {
+    "vn": "trái",
+    "zh": "（水果的量詞）、左",
+    "en": "(classifier for fruits), the, left",
+    "sentence": "Tôi ăn một trái táo.",
+    "translation": "我吃了一個蘋果。"
+  },
+  {
+    "vn": "quả",
+    "zh": "（量詞）、水果",
+    "en": "(classifier), fruit",
+    "sentence": "Tôi ăn một quả cam.",
+    "translation": "我吃了一個橙子。"
+  },
+  {
+    "vn": "tờ",
+    "zh": "張",
+    "en": "sheet",
+    "sentence": "Tôi cần một tờ giấy.",
+    "translation": "我需要一張紙。"
+  },
+  {
+    "vn": "cuốn",
+    "zh": "（文件和故事的量詞）、卷",
+    "en": "classifier of documents and stories, the, roll",
+    "sentence": "Tôi đọc một cuốn sách.",
+    "translation": "我讀了一本書。"
+  },
+  {
+    "vn": "hẹn gặp lại",
+    "zh": "再見",
+    "en": "see you later, see you again, see you",
+    "sentence": "Hẹn gặp lại bạn.",
+    "translation": "再見。"
+  },
+  {
+    "vn": "lặp lại",
+    "zh": "重複",
+    "en": "repeat, repeats",
+    "sentence": "Lặp lại câu này.",
+    "translation": "重複這句話。"
+  },
+  {
+    "vn": "cẩn thận",
+    "zh": "小心",
+    "en": "be careful, look out, carefully",
+    "sentence": "Hãy cẩn thận khi lái xe.",
+    "translation": "開車時要小心。"
+  },
+  {
+    "vn": "cứ tự nhiên",
+    "zh": "隨便",
+    "en": "help yourself",
+    "sentence": "Cứ tự nhiên như ở nhà.",
+    "translation": "就像在家一樣隨便。"
+  },
+  {
+    "vn": "làm ơn",
+    "zh": "請",
+    "en": "please",
+    "sentence": "Làm ơn giúp tôi.",
+    "translation": "請幫幫我。"
+  },
+  {
+    "vn": "việt",
+    "zh": "越南",
+    "en": "Vietnamese",
+    "sentence": "Tôi là người Việt.",
+    "translation": "我是越南人。"
+  },
+  {
+    "vn": "bình thường",
+    "zh": "正常",
+    "en": "normal, usual",
+    "sentence": "Mọi thứ đều bình thường.",
+    "translation": "一切都很正常。"
+  },
+  {
+    "vn": "buổi",
+    "zh": "會議",
+    "en": "the, session",
+    "sentence": "Chúng ta có một buổi họp.",
+    "translation": "我們有一個會議。"
+  },
+  {
+    "vn": "vẫn",
+    "zh": "仍然",
+    "en": "yet, still",
+    "sentence": "Tôi vẫn đang chờ.",
+    "translation": "我還在等。"
+  },
+  {
+    "vn": "ổn",
+    "zh": "好",
+    "en": "fine",
+    "sentence": "Mọi thứ đều ổn.",
+    "translation": "一切都很好。"
+  },
+  {
+    "vn": "chào mừng",
+    "zh": "歡迎",
+    "en": "welcome",
+    "sentence": "Chào mừng bạn đến với chúng tôi.",
+    "translation": "歡迎你加入我們。"
+  },
+  {
+    "vn": "tên",
+    "zh": "名字",
+    "en": "name, first name, title",
+    "sentence": "Tên của tôi là An.",
+    "translation": "我的名字是安。"
+  },
+  {
+    "vn": "tạm biệt",
+    "zh": "再見",
+    "en": "goodbye, bye",
+    "sentence": "Tạm biệt bạn.",
+    "translation": "再見。"
+  },
+  {
+    "vn": "không phải là",
+    "zh": "不是",
+    "en": "not, wasn't, am not",
+    "sentence": "Tôi không phải là giáo viên.",
+    "translation": "我不是老師。"
+  },
+  {
+    "vn": "cam",
+    "zh": "橙子",
+    "en": "orange",
+    "sentence": "Tôi thích ăn cam.",
+    "translation": "我喜歡吃橙子。"
+  },
+  {
+    "vn": "nó",
+    "zh": "他、它",
+    "en": "he, it's, it",
+    "sentence": "Nó là con chó của tôi.",
+    "translation": "它是我的狗。"
+  },
+  {
+    "vn": "việt nam",
+    "zh": "越南",
+    "en": "Vietnam, Vietnamese",
+    "sentence": "Tôi đến từ Việt Nam.",
+    "translation": "我來自越南。"
+  },
+  {
+    "vn": "hay",
+    "zh": "好、或者",
+    "en": "well, in ... or, interesting",
+    "sentence": "Bạn muốn uống trà hay cà phê?",
+    "translation": "你想喝茶還是咖啡？"
+  },
+  {
+    "vn": "ly",
+    "zh": "杯子",
+    "en": "cup, cups, glass",
+    "sentence": "Tôi cần một ly nước.",
+    "translation": "我需要一杯水。"
+  },
+  {
+    "vn": "gọi",
+    "zh": "叫、點",
+    "en": "orders, call, order (food)",
+    "sentence": "Tôi gọi món ăn.",
+    "translation": "我點了菜。"
+  },
+  {
+    "vn": "cơm",
+    "zh": "米飯",
+    "en": "rice",
+    "sentence": "Tôi ăn cơm mỗi ngày.",
+    "translation": "我每天吃米飯。"
+  },
+  {
+    "vn": "tạp chí",
+    "zh": "雜誌",
+    "en": "magazine",
+    "sentence": "Tôi đọc tạp chí.",
+    "translation": "我讀雜誌。"
+  },
+  {
+    "vn": "đĩa",
+    "zh": "盤子",
+    "en": "dish, plate",
+    "sentence": "Tôi cần một cái đĩa.",
+    "translation": "我需要一個盤子。"
+  },
+  {
+    "vn": "họ",
+    "zh": "他們",
+    "en": "they, they are, they're",
+    "sentence": "Họ là bạn của tôi.",
+    "translation": "他們是我的朋友。"
+  },
+  {
+    "vn": "thực đơn",
+    "zh": "菜單",
+    "en": "menu",
+    "sentence": "Cho tôi xem thực đơn.",
+    "translation": "給我看菜單。"
+  },
+  {
+    "vn": "bánh",
+    "zh": "蛋糕、餅乾、派",
+    "en": "cake, cookie, pie",
+    "sentence": "Tôi thích ăn bánh.",
+    "translation": "我喜歡吃蛋糕。"
+  },
+  {
+    "vn": "báo",
+    "zh": "報紙",
+    "en": "newspaper, journal, paper",
+    "sentence": "Tôi đọc báo mỗi ngày.",
+    "translation": "我每天讀報紙。"
+  },
+  {
+    "vn": "đọc",
+    "zh": "讀",
+    "en": "read, reads",
+    "sentence": "Tôi thích đọc sách.",
+    "translation": "我喜歡讀書。"
+  },
+  {
+    "vn": "tập",
+    "zh": "練習",
+    "en": "practice",
+    "sentence": "Tôi tập thể dục mỗi ngày.",
+    "translation": "我每天鍛煉。"
+  },
+  {
+    "vn": "ngã",
+    "zh": "跌倒",
+    "en": "fall",
+    "sentence": "Tôi bị ngã khi chạy.",
+    "translation": "我跑步時跌倒了。"
+  },
+  {
+    "vn": "vĩnh viễn",
+    "zh": "永遠",
+    "en": "forever",
+    "sentence": "Tôi sẽ yêu bạn vĩnh viễn.",
+    "translation": "我會永遠愛你。"
+  },
+  {
+    "vn": "vẽ",
+    "zh": "畫",
+    "en": "draw, draws, drawing",
+    "sentence": "Tôi thích vẽ tranh.",
+    "translation": "我喜歡畫畫。"
+  },
+  {
+    "vn": "mẫu giáo",
+    "zh": "幼兒園",
+    "en": "kindergarten",
+    "sentence": "Con tôi học mẫu giáo.",
+    "translation": "我的孩子上幼兒園。"
+  },
+  {
+    "vn": "dũng cảm",
+    "zh": "勇敢",
+    "en": "brave, courageous",
+    "sentence": "Anh ấy rất dũng cảm.",
+    "translation": "他很勇敢。"
+  },
+  {
+    "vn": "giàu",
+    "zh": "富有",
+    "en": "rich",
+    "sentence": "Anh ấy rất giàu.",
+    "translation": "他很富有。"
+  },
+  {
+    "vn": "sợi dây",
+    "zh": "繩子",
+    "en": "string",
+    "sentence": "Tôi cần một sợi dây.",
+    "translation": "我需要一根繩子。"
+  },
+  {
+    "vn": "thư",
+    "zh": "信",
+    "en": "letter",
+    "sentence": "Tôi viết thư cho bạn.",
+    "translation": "我給你寫信。"
+  },
+  {
+    "vn": "tờ giấy",
+    "zh": "紙",
+    "en": "paper",
+    "sentence": "Tôi cần một tờ giấy.",
+    "translation": "我需要一張紙。"
+  },
+  {
+    "vn": "giấu",
+    "zh": "藏",
+    "en": "hide",
+    "sentence": "Tôi giấu chìa khóa.",
+    "translation": "我藏了鑰匙。"
+  },
+  {
+    "vn": "phòng",
+    "zh": "房間",
+    "en": "room",
+    "sentence": "Tôi ở trong phòng.",
+    "translation": "我在房間裡。"
+  },
+  {
+    "vn": "ghế",
+    "zh": "椅子",
+    "en": "chair",
+    "sentence": "Tôi cần một cái ghế.",
+    "translation": "我需要一把椅子。"
+  },
+  {
+    "vn": "ghi âm",
+    "zh": "錄音",
+    "en": "record, records",
+    "sentence": "Tôi ghi âm bài hát.",
+    "translation": "我錄了一首歌。"
+  },
+  {
+    "vn": "phường",
+    "zh": "區",
+    "en": "ward",
+    "sentence": "Tôi sống ở phường này.",
+    "translation": "我住在這個區。"
+  },
+  {
+    "vn": "phà",
+    "zh": "渡輪",
+    "en": "ferry",
+    "sentence": "Tôi đi phà qua sông.",
+    "translation": "我坐渡輪過河。"
+  },
+  {
+    "vn": "mây",
+    "zh": "雲",
+    "en": "cloud",
+    "sentence": "Trời có nhiều mây.",
+    "translation": "天上有很多雲。"
+  },
+  {
+    "vn": "chim sẻ",
+    "zh": "麻雀",
+    "en": "sparrow",
+    "sentence": "Chim sẻ rất nhỏ.",
+    "translation": "麻雀很小。"
+  },
+  {
+    "vn": "chia sẻ",
+    "zh": "分享",
+    "en": "share",
+    "sentence": "Tôi muốn chia sẻ với bạn.",
+    "translation": "我想和你分享。"
+  },
+  {
+    "vn": "sấm sét",
+    "zh": "雷",
+    "en": "thunder",
+    "sentence": "Trời có sấm sét.",
+    "translation": "天上有雷。"
+  },
+  {
+    "vn": "đom đóm",
+    "zh": "螢火蟲",
+    "en": "firefly",
+    "sentence": "Đom đóm phát sáng vào ban đêm.",
+    "translation": "螢火蟲在夜晚發光。"
+  },
+  {
+    "vn": "xe đạp",
+    "zh": "自行車",
+    "en": "bike, bicycle",
+    "sentence": "Tôi đi xe đạp đến trường.",
+    "translation": "我騎自行車上學。"
+  },
+  {
+    "vn": "cây tre",
+    "zh": "竹子",
+    "en": "bamboo",
+    "sentence": "Cây tre rất cao.",
+    "translation": "竹子很高。"
+  },
+  {
+    "vn": "đu đủ",
+    "zh": "木瓜",
+    "en": "papaya",
+    "sentence": "Tôi thích ăn đu đủ.",
+    "translation": "我喜歡吃木瓜。"
+  },
+  {
+    "vn": "dì",
+    "zh": "阿姨",
+    "en": "aunt",
+    "sentence": "Dì của tôi rất tốt.",
+    "translation": "我的阿姨很好。"
+  },
+  {
+    "vn": "dê",
+    "zh": "山羊",
+    "en": "goat",
+    "sentence": "Dê rất dễ thương.",
+    "translation": "山羊很可愛。"
+  },
+  {
+    "vn": "đu quay",
+    "zh": "摩天輪",
+    "en": "ferris wheel",
+    "sentence": "Tôi thích đi đu quay.",
+    "translation": "我喜歡坐摩天輪。"
+  },
+  {
+    "vn": "ô",
+    "zh": "雨傘",
+    "en": "umbrella",
+    "sentence": "Tôi mang ô khi trời mưa.",
+    "translation": "下雨時我帶雨傘。"
+  },
+  {
+    "vn": "nhà ga",
+    "zh": "火車站",
+    "en": "train station",
+    "sentence": "Tôi đến nhà ga để đón bạn.",
+    "translation": "我去火車站接你。"
+  },
+  {
+    "vn": "găng tay",
+    "zh": "手套",
+    "en": "glove",
+    "sentence": "Tôi đeo găng tay khi trời lạnh.",
+    "translation": "天冷時我戴手套。"
+  },
+  {
+    "vn": "dơ",
+    "zh": "髒",
+    "en": "dirty",
+    "sentence": "Quần áo của tôi rất dơ.",
+    "translation": "我的衣服很髒。"
+  },
+  {
+    "vn": "dơi",
+    "zh": "蝙蝠",
+    "en": "bat",
+    "sentence": "Dơi bay vào ban đêm.",
+    "translation": "蝙蝠在夜晚飛行。"
+  },
+  {
+    "vn": "an",
+    "zh": "安（名字）",
+    "en": "An (proper name)",
+    "sentence": "Tên của tôi là An.",
+    "translation": "我的名字是安。"
+  },
+  {
+    "vn": "cắn",
+    "zh": "咬",
+    "en": "bite",
+    "sentence": "Con chó cắn tôi.",
+    "translation": "狗咬了我。"
+  },
+  {
+    "vn": "gà",
+    "zh": "雞",
+    "en": "chicken",
+    "sentence": "Gà rất ngon.",
+    "translation": "雞肉很好吃。"
+  },
+  {
+    "vn": "ong",
+    "zh": "蜜蜂",
+    "en": "bee",
+    "sentence": "Ong làm mật.",
+    "translation": "蜜蜂製造蜂蜜。"
+  },
+  {
+    "vn": "cá",
+    "zh": "魚",
+    "en": "fish",
+    "sentence": "Tôi thích ăn cá.",
+    "translation": "我喜歡吃魚。"
+  },
+  {
+    "vn": "ca",
+    "zh": "杯子、班次",
+    "en": "mug, shift",
+    "sentence": "Tôi uống nước bằng ca.",
+    "translation": "我用杯子喝水。"
+  },
+  {
+    "vn": "cái",
+    "zh": "（量詞）",
+    "en": "the, a, (classifier)",
+    "sentence": "Tôi cần một cái bút.",
+    "translation": "我需要一支筆。"
+  },
+  {
+    "vn": "các",
+    "zh": "（表示複數）",
+    "en": "(indicates plurality)",
+    "sentence": "Các bạn của tôi rất tốt.",
+    "translation": "我的朋友們很好。"
+  },
+  {
+    "vn": "mình",
+    "zh": "我、自己",
+    "en": "I'm, I, herself",
+    "sentence": "Mình rất vui.",
+    "translation": "我很高興。"
+  },
+  {
+    "vn": "kia",
+    "zh": "那個",
+    "en": "that, those, other",
+    "sentence": "Cái kia là của tôi.",
+    "translation": "那個是我的。"
+  },
+  {
+    "vn": "cô gái",
+    "zh": "女孩",
+    "en": "the girl, girl, girls",
+    "sentence": "Cô gái đó rất đẹp.",
+    "translation": "那個女孩很漂亮。"
+  },
+  {
+    "vn": "cậu bé",
+    "zh": "男孩",
+    "en": "boy, The boy",
+    "sentence": "Cậu bé đó rất thông minh.",
+    "translation": "那個男孩很聰明。"
+  },
+  {
+    "vn": "bé gái",
+    "zh": "女孩",
+    "en": "girl",
+    "sentence": "Bé gái đó rất dễ thương.",
+    "translation": "那個女孩很可愛。"
+  },
+  {
+    "vn": "táo",
+    "zh": "蘋果",
+    "en": "apple",
+    "sentence": "Tôi thích ăn táo.",
+    "translation": "我喜歡吃蘋果。"
+  },
+  {
+    "vn": "uống",
+    "zh": "喝",
+    "en": "drink, has, drinks",
+    "sentence": "Tôi uống nước mỗi ngày.",
+    "translation": "我每天喝水。"
+  },
+  {
+    "vn": "nước ép",
+    "zh": "果汁",
+    "en": "juice",
+    "sentence": "Tôi thích uống nước ép.",
+    "translation": "我喜歡喝果汁。"
+  },
+  {
+    "vn": "đàn ông",
+    "zh": "男人",
+    "en": "men, man",
+    "sentence": "Đàn ông đó rất mạnh.",
+    "translation": "那個男人很強壯。"
+  },
+  {
+    "vn": "phụ nữ",
+    "zh": "女人",
+    "en": "woman, women, female",
+    "sentence": "Phụ nữ đó rất đẹp.",
+    "translation": "那個女人很漂亮。"
+  },
+  {
+    "vn": "đứa trẻ",
+    "zh": "孩子",
+    "en": "kid, child",
+    "sentence": "Đứa trẻ đó rất dễ thương.",
+    "translation": "那個孩子很可愛。"
+  },
+  {
+    "vn": "bánh mì",
+    "zh": "麵包",
+    "en": "bread",
+    "sentence": "Tôi ăn bánh mì mỗi ngày.",
+    "translation": "我每天吃麵包。"
+  },
+  {
+    "vn": "gia đình",
+    "zh": "家庭",
+    "en": "family",
+    "sentence": "Gia đình tôi rất hạnh phúc.",
+    "translation": "我的家庭很幸福。"
+  },
+  {
+    "vn": "mèo",
+    "zh": "貓",
+    "en": "cat",
+    "sentence": "Mèo của tôi rất dễ thương.",
+    "translation": "我的貓很可愛。"
+  },
+  {
+    "vn": "chó",
+    "zh": "狗",
+    "en": "dog",
+    "sentence": "Chó của tôi rất thông minh.",
+    "translation": "我的狗很聰明。"
+  },
+  {
+    "vn": "con",
+    "zh": "小、孩子",
+    "en": "little, kid, child",
+    "sentence": "Con của tôi rất dễ thương.",
+    "translation": "我的孩子很可愛。"
+  },
+  {
+    "vn": "ghét",
+    "zh": "討厭",
+    "en": "hate, hates, hated",
+    "sentence": "Tôi ghét ăn rau.",
+    "translation": "我討厭吃蔬菜。"
+  },
+  {
+    "vn": "con gái",
+    "zh": "女兒",
+    "en": "daughter, girl",
+    "sentence": "Con gái của tôi rất thông minh.",
+    "translation": "我的女兒很聰明。"
+  },
+  {
+    "vn": "vợ",
+    "zh": "妻子",
+    "en": "wife, spouse",
+    "sentence": "Vợ của tôi rất đẹp.",
+    "translation": "我的妻子很漂亮。"
+  },
+  {
+    "vn": "chồng",
+    "zh": "丈夫",
+    "en": "husband, husbands",
+    "sentence": "Chồng của tôi rất mạnh.",
+    "translation": "我的丈夫很強壯。"
+  },
+  {
+    "vn": "con trai",
+    "zh": "兒子",
+    "en": "son, boy",
+    "sentence": "Con trai của tôi rất thông minh.",
+    "translation": "我的兒子很聰明。"
+  },
+  {
+    "vn": "em gái",
+    "zh": "妹妹",
+    "en": "younger sister",
+    "sentence": "Em gái của tôi rất dễ thương.",
+    "translation": "我的妹妹很可愛。"
+  },
+  {
+    "vn": "diễn",
+    "zh": "表演",
+    "en": "show, perform, action",
+    "sentence": "Tôi thích diễn kịch.",
+    "translation": "我喜歡表演。"
+  },
+  {
+    "vn": "em trai",
+    "zh": "弟弟",
+    "en": "younger brother",
+    "sentence": "Em trai của tôi rất thông minh.",
+    "translation": "我的弟弟很聰明。"
+  },
+  {
+    "vn": "diễn viên hài",
+    "zh": "喜劇演員",
+    "en": "comedian",
+    "sentence": "Anh ấy là một diễn viên hài.",
+    "translation": "他是一個喜劇演員。"
+  },
+  {
+    "vn": "yêu",
+    "zh": "愛",
+    "en": "love, loves, loving",
+    "sentence": "Tôi yêu bạn.",
+    "translation": "我愛你。"
+  },
+  {
+    "vn": "người mẫu",
+    "zh": "模特",
+    "en": "model, models",
+    "sentence": "Cô ấy là một người mẫu.",
+    "translation": "她是一個模特。"
+  },
+  {
+    "vn": "bố mẹ",
+    "zh": "父母",
+    "en": "parents",
+    "sentence": "Bố mẹ của tôi rất tốt.",
+    "translation": "我的父母很好。"
+  },
+  {
+    "vn": "đứa con",
+    "zh": "孩子",
+    "en": "child, children, baby",
+    "sentence": "Đứa con của tôi rất dễ thương.",
+    "translation": "我的孩子很可愛。"
+  },
+  {
+    "vn": "nấu ăn",
+    "zh": "做飯",
+    "en": "cook, cooks, cooking",
+    "sentence": "Tôi thích nấu ăn.",
+    "translation": "我喜歡做飯。"
+  },
+  {
+    "vn": "sinh viên",
+    "zh": "學生",
+    "en": "student, the students, students",
+    "sentence": "Tôi là sinh viên.",
+    "translation": "我是學生。"
+  },
+  {
+    "vn": "nấu",
+    "zh": "做飯",
+    "en": "to cook, cook, cooking",
+    "sentence": "Tôi nấu ăn mỗi ngày.",
+    "translation": "我每天做飯。"
+  },
+  {
+    "vn": "trở thành",
+    "zh": "成為",
+    "en": "become, get, becoming",
+    "sentence": "Tôi muốn trở thành bác sĩ.",
+    "translation": "我想成為醫生。"
+  },
+  {
+    "vn": "đô",
+    "zh": "美元",
+    "en": "dollar",
+    "sentence": "Tôi có một đô la.",
+    "translation": "我有一美元。"
+  },
+  {
+    "vn": "trăm",
+    "zh": "百",
+    "en": "hundred",
+    "sentence": "Tôi có một trăm đô la.",
+    "translation": "我有一百美元。"
+  },
+  {
+    "vn": "mua",
+    "zh": "買",
+    "en": "buy",
+    "sentence": "Tôi muốn mua cái này.",
+    "translation": "我想買這個。"
+  },
+  {
+    "vn": "đi nào",
+    "zh": "走吧",
+    "en": "let's go",
+    "sentence": "Đi nào, chúng ta đi thôi.",
+    "translation": "走吧，我們走吧。"
+  },
+  {
+    "vn": "đồng",
+    "zh": "越南盾、銅",
+    "en": "VND, dong, bronze",
+    "sentence": "Tôi có một trăm đồng.",
+    "translation": "我有一百越南盾。"
+  },
+  {
+    "vn": "mua sắm",
+    "zh": "購物",
+    "en": "shop, shopping",
+    "sentence": "Tôi thích mua sắm.",
+    "translation": "我喜歡購物。"
+  },
+  {
+    "vn": "mươi",
+    "zh": "三十",
+    "en": "thirty",
+    "sentence": "Tôi có ba mươi đồng.",
+    "translation": "我有三十越南盾。"
+  },
+  {
+    "vn": "đi",
+    "zh": "旅行、穿（指鞋子）、去",
+    "en": "travel, wear (refers to shoes), to go",
+    "sentence": "Tôi đi du lịch mỗi năm.",
+    "translation": "我每年旅行。"
+  },
+  {
+    "vn": "nghìn",
+    "zh": "千",
+    "en": "thousand, thousands, 1000",
+    "sentence": "Tôi có một nghìn đồng.",
+    "translation": "我有一千越南盾。"
+  },
+  {
+    "vn": "chiếc váy",
+    "zh": "裙子",
+    "en": "skirt",
+    "sentence": "Tôi thích chiếc váy này.",
+    "translation": "我喜歡這條裙子。"
+  },
+  {
+    "vn": "đẹp",
+    "zh": "漂亮",
+    "en": "beautiful, pretty",
+    "sentence": "Cô ấy rất đẹp.",
+    "translation": "她很漂亮。"
+  },
+  {
+    "vn": "chiếc áo",
+    "zh": "襯衫",
+    "en": "shirt",
+    "sentence": "Tôi thích chiếc áo này.",
+    "translation": "我喜歡這件襯衫。"
+  },
+  {
+    "vn": "rẻ",
+    "zh": "便宜",
+    "en": "cheap",
+    "sentence": "Cái này rất rẻ.",
+    "translation": "這個很便宜。"
+  },
+  {
+    "vn": "thật",
+    "zh": "真、真的",
+    "en": "real, so, really",
+    "sentence": "Cái này thật đẹp.",
+    "translation": "這個真的很漂亮。"
+  },
+  {
+    "vn": "đắt tiền",
+    "zh": "昂貴",
+    "en": "expensive",
+    "sentence": "Cái này rất đắt tiền.",
+    "translation": "這個很貴。"
+  },
+  {
+    "vn": "cửa hàng",
+    "zh": "商店",
+    "en": "store",
+    "sentence": "Tôi đi cửa hàng mua đồ.",
+    "translation": "我去商店買東西。"
+  },
+  {
+    "vn": "quá",
+    "zh": "太、非常",
+    "en": "too, so, very",
+    "sentence": "Cái này quá đắt.",
+    "translation": "這個太貴了。"
+  },
+  {
+    "vn": "này",
+    "zh": "這個",
+    "en": "this, these, hey",
+    "sentence": "Cái này là của tôi.",
+    "translation": "這個是我的。"
+  },
+  {
+    "vn": "ga",
+    "zh": "車站、氣",
+    "en": "station, gas",
+    "sentence": "Tôi đến ga tàu.",
+    "translation": "我去火車站。"
+  },
+  {
+    "vn": "trạm",
+    "zh": "車站",
+    "en": "station, stations",
+    "sentence": "Tôi đến trạm xe buýt.",
+    "translation": "我去公交車站。"
+  },
+  {
+    "vn": "đặt chỗ",
+    "zh": "預訂",
+    "en": "make a reservation, reservation",
+    "sentence": "Tôi muốn đặt chỗ.",
+    "translation": "我想預訂。"
+  },
+  {
+    "vn": "biết",
+    "zh": "知道",
+    "en": "knows, know, knowing",
+    "sentence": "Tôi biết bạn.",
+    "translation": "我認識你。"
+  },
+  {
+    "vn": "không",
+    "zh": "不",
+    "en": "do not, no, weren't",
+    "sentence": "Tôi không biết.",
+    "translation": "我不知道。"
+  },
+  {
+    "vn": "xe buýt",
+    "zh": "公交車",
+    "en": "bus",
+    "sentence": "Tôi đi xe buýt đến trường.",
+    "translation": "我坐公交車上學。"
+  },
+  {
+    "vn": "cần",
+    "zh": "需要",
+    "en": "need, require/requires (verb), need/needs (verb)",
+    "sentence": "Tôi cần bạn giúp.",
+    "translation": "我需要你的幫助。"
+  },
+  {
+    "vn": "sân bay",
+    "zh": "機場",
+    "en": "airport, airports",
+    "sentence": "Tôi đến sân bay để đón bạn.",
+    "translation": "我去機場接你。"
+  },
+  {
+    "vn": "vé",
+    "zh": "票",
+    "en": "ticket",
+    "sentence": "Tôi cần một vé.",
+    "translation": "我需要一張票。"
+  },
+  {
+    "vn": "xe taxi",
+    "zh": "出租車",
+    "en": "taxi, taxis, (a) taxi",
+    "sentence": "Tôi đi xe taxi đến khách sạn.",
+    "translation": "我坐出租車去酒店。"
+  },
+  {
+    "vn": "tàu hoả",
+    "zh": "火車",
+    "en": "train",
+    "sentence": "Tôi đi tàu hoả đến Hà Nội.",
+    "translation": "我坐火車去河內。"
+  },
+  {
+    "vn": "máy bay",
+    "zh": "飛機",
+    "en": "airplane, plane",
+    "sentence": "Tôi đi máy bay đến Đà Nẵng.",
+    "translation": "我坐飛機去峴港。"
+  },
+  {
+    "vn": "bay",
+    "zh": "飛",
+    "en": "flies, blown, fly",
+    "sentence": "Tôi thích bay.",
+    "translation": "我喜歡飛行。"
+  },
+  {
+    "vn": "bằng",
+    "zh": "用、等於",
+    "en": "with, as, equals",
+    "sentence": "Tôi viết bằng bút.",
+    "translation": "我用筆寫字。"
+  },
+  {
+    "vn": "cảm ơn",
+    "zh": "謝謝",
+    "en": "thanks, thank you",
+    "sentence": "Cảm ơn bạn.",
+    "translation": "謝謝你。"
+  },
+  {
+    "vn": "đi du lịch",
+    "zh": "旅行",
+    "en": "travelling, traveling, travel",
+    "sentence": "Tôi thích đi du lịch.",
+    "translation": "我喜歡旅行。"
+  },
+  {
+    "vn": "từ điển",
+    "zh": "字典",
+    "en": "dictionary, dictionaries",
+    "sentence": "Tôi cần một cuốn từ điển.",
+    "translation": "我需要一本字典。"
+  },
+  {
+    "vn": "rất",
+    "zh": "非常",
+    "en": "extremely, very much, so",
+    "sentence": "Tôi rất vui.",
+    "translation": "我很高興。"
+  },
+  {
+    "vn": "vở",
+    "zh": "筆記本",
+    "en": "notebook",
+    "sentence": "Tôi cần một cuốn vở.",
+    "translation": "我需要一本筆記本。"
+  },
+  {
+    "vn": "quyển",
+    "zh": "（量詞）",
+    "en": "the, (classifier)",
+    "sentence": "Tôi đọc một quyển sách.",
+    "translation": "我讀了一本書。"
+  },
+  {
+    "vn": "sách",
+    "zh": "書",
+    "en": "book",
+    "sentence": "Tôi thích đọc sách.",
+    "translation": "我喜歡讀書。"
+  },
+  {
+    "vn": "đúng",
+    "zh": "對",
+    "en": "right",
+    "sentence": "Bạn nói đúng.",
+    "translation": "你說得對。"
+  },
+  {
+    "vn": "câu trả lời",
+    "zh": "答案",
+    "en": "answer",
+    "sentence": "Đây là câu trả lời đúng.",
+    "translation": "這是正確答案。"
+  },
+  {
+    "vn": "thông minh",
+    "zh": "聰明",
+    "en": "smart, intelligent",
+    "sentence": "Anh ấy rất thông minh.",
+    "translation": "他很聰明。"
+  },
+  {
+    "vn": "tốt",
+    "zh": "好",
+    "en": "well, fine, great",
+    "sentence": "Mọi thứ đều tốt.",
+    "translation": "一切都很好。"
+  },
+  {
+    "vn": "câu hỏi",
+    "zh": "問題",
+    "en": "question",
+    "sentence": "Tôi có một câu hỏi.",
+    "translation": "我有一個問題。"
+  },
+  {
+    "vn": "bạn học",
+    "zh": "同學",
+    "en": "classmate",
+    "sentence": "Bạn học của tôi rất tốt.",
+    "translation": "我的同學很好。"
+  },
+  {
+    "vn": "những",
+    "zh": "這些",
+    "en": "these, my, the",
+    "sentence": "Những cuốn sách này là của tôi.",
+    "translation": "這些書是我的。"
+  },
+  {
+    "vn": "bọn họ",
+    "zh": "他們",
+    "en": "they",
+    "sentence": "Bọn họ là bạn của tôi.",
+    "translation": "他們是我的朋友。"
+  },
+  {
+    "vn": "cũng",
+    "zh": "也",
+    "en": "too, also, as well",
+    "sentence": "Tôi cũng thích đọc sách.",
+    "translation": "我也喜歡讀書。"
+  },
+  {
+    "vn": "học sinh",
+    "zh": "學生",
+    "en": "student",
+    "sentence": "Tôi là học sinh.",
+    "translation": "我是學生。"
+  },
+  {
+    "vn": "ngôi trường",
+    "zh": "學校",
+    "en": "school",
+    "sentence": "Ngôi trường của tôi rất lớn.",
+    "translation": "我的學校很大。"
+  },
+  {
+    "vn": "học",
+    "zh": "學習",
+    "en": "school, take lessons, to learn",
+    "sentence": "Tôi thích học.",
+    "translation": "我喜歡學習。"
+  },
+  {
+    "vn": "khách sạn",
+    "zh": "酒店",
+    "en": "hotel, hotels",
+    "sentence": "Tôi ở khách sạn này.",
+    "translation": "我住在這家酒店。"
+  },
+  {
+    "vn": "làm việc",
+    "zh": "工作",
+    "en": "work, working, works",
+    "sentence": "Tôi làm việc ở đây.",
+    "translation": "我在這裡工作。"
+  },
+  {
+    "vn": "nhà vệ sinh",
+    "zh": "洗手間",
+    "en": "bathroom",
+    "sentence": "Nhà vệ sinh ở đâu?",
+    "translation": "洗手間在哪裡？"
+  },
+  {
+    "vn": "món",
+    "zh": "菜、種類",
+    "en": "dish, kind, (indicates item of food)",
+    "sentence": "Tôi thích món này.",
+    "translation": "我喜歡這道菜。"
+  },
+  {
+    "vn": "ngân hàng",
+    "zh": "銀行",
+    "en": "bank",
+    "sentence": "Tôi đến ngân hàng để rút tiền.",
+    "translation": "我去銀行取錢。"
+  },
+  {
+    "vn": "nổi",
+    "zh": "有名",
+    "en": "famous",
+    "sentence": "Anh ấy rất nổi tiếng.",
+    "translation": "他很有名。"
+  },
+  {
+    "vn": "nổi tiếng",
+    "zh": "有名、受歡迎",
+    "en": "famous, popular",
+    "sentence": "Cô ấy rất nổi tiếng.",
+    "translation": "她很有名。"
+  },
+  {
+    "vn": "đó",
+    "zh": "那個",
+    "en": "that, those, there",
+    "sentence": "Cái đó là của tôi.",
+    "translation": "那個是我的。"
+  },
+  {
+    "vn": "cho tôi hỏi",
+    "zh": "請問",
+    "en": "excuse me",
+    "sentence": "Cho tôi hỏi đường đến nhà ga.",
+    "translation": "請問去火車站怎麼走？"
+  },
+  {
+    "vn": "nhà hàng",
+    "zh": "餐廳",
+    "en": "restaurant",
+    "sentence": "Tôi ăn tối ở nhà hàng.",
+    "translation": "我在餐廳吃晚飯。"
+  },
+  {
+    "vn": "đâu",
+    "zh": "哪裡",
+    "en": "where, where is ... ?, which",
+    "sentence": "Bạn ở đâu?",
+    "translation": "你在哪裡？"
+  },
+  {
+    "vn": "ở đâu",
+    "zh": "在哪裡",
+    "en": "where, where does ... ?, where is ... ?",
+    "sentence": "Nhà vệ sinh ở đâu?",
+    "translation": "洗手間在哪裡？"
+  },
+  {
+    "vn": "căn nhà",
+    "zh": "房子",
+    "en": "house",
+    "sentence": "Căn nhà của tôi rất lớn.",
+    "translation": "我的房子很大。"
+  },
+  {
+    "vn": "sống",
+    "zh": "活著、住",
+    "en": "alive, live, living",
+    "sentence": "Tôi sống ở đây.",
+    "translation": "我住在這裡。"
+  },
+  {
+    "vn": "chiếc",
+    "zh": "（量詞）",
+    "en": "the, ones",
+    "sentence": "Tôi cần một chiếc xe mới.",
+    "translation": "我需要一輛新車。"
+  },
+  {
+    "vn": "ở",
+    "zh": "住",
+    "en": "stayed, stayed in, has stayed in",
+    "sentence": "Tôi ở khách sạn này.",
+    "translation": "我住在這家酒店。"
+  },
+  {
+    "vn": "xe ô tô",
+    "zh": "汽車",
+    "en": "car",
+    "sentence": "Tôi có một chiếc xe ô tô.",
+    "translation": "我有一輛汽車。"
+  },
+  {
+    "vn": "ăn",
+    "zh": "吃",
+    "en": "eats, ate, eating",
+    "sentence": "Tôi ăn cơm mỗi ngày.",
+    "translation": "我每天吃米飯。"
+  },
+  {
+    "vn": "súp",
+    "zh": "湯",
+    "en": "soup",
+    "sentence": "Tôi thích ăn súp.",
+    "translation": "我喜歡喝湯。"
+  },
+  {
+    "vn": "bát",
+    "zh": "碗",
+    "en": "bowl",
+    "sentence": "Tôi cần một cái bát.",
+    "translation": "我需要一個碗。"
+  },
+  {
+    "vn": "đây",
+    "zh": "這個",
+    "en": "this, is here, these",
+    "sentence": "Đây là của tôi.",
+    "translation": "這是我的。"
+  },
+  {
+    "vn": "năm",
+    "zh": "年、五",
+    "en": "years, 5, year",
+    "sentence": "Tôi có năm đồng.",
+    "translation": "我有五越南盾。"
+  },
+  {
+    "vn": "bốn",
+    "zh": "四",
+    "en": "four, 4",
+    "sentence": "Tôi có bốn đồng.",
+    "translation": "我有四越南盾。"
+  },
+  {
+    "vn": "mì",
+    "zh": "麵條",
+    "en": "noodles",
+    "sentence": "Tôi thích ăn mì.",
+    "translation": "我喜歡吃麵條。"
+  },
+  {
+    "vn": "có",
+    "zh": "有",
+    "en": "is, there are, with",
+    "sentence": "Tôi có một cái bút.",
+    "translation": "我有一支筆。"
+  },
+  {
+    "vn": "phở",
+    "zh": "越南河粉",
+    "en": "pho, phở",
+    "sentence": "Tôi thích ăn phở.",
+    "translation": "我喜歡吃越南河粉。"
+  },
+  {
+    "vn": "thích",
+    "zh": "喜歡",
+    "en": "like, likes",
+    "sentence": "Tôi thích bạn.",
+    "translation": "我喜歡你。"
+  },
+  {
+    "vn": "ba",
+    "zh": "第三、爸爸",
+    "en": "third, father, dad",
+    "sentence": "Ba của tôi rất tốt.",
+    "translation": "我的爸爸很好。"
+  },
+  {
+    "vn": "bàn",
+    "zh": "桌子",
+    "en": "the table, table, the desk",
+    "sentence": "Tôi cần một cái bàn.",
+    "translation": "我需要一張桌子。"
+  },
+  {
+    "vn": "bạn",
+    "zh": "朋友、你",
+    "en": "friends, you, friendship",
+    "sentence": "Bạn của tôi rất tốt.",
+    "translation": "我的朋友很好。"
+  },
+  {
+    "vn": "hai",
+    "zh": "二",
+    "en": "two",
+    "sentence": "Tôi có hai đồng.",
+    "translation": "我有兩越南盾。"
+  },
+  {
+    "vn": "chúng tôi",
+    "zh": "我們",
+    "en": "we, us",
+    "sentence": "Chúng tôi là bạn.",
+    "translation": "我們是朋友。"
+  },
+  {
+    "vn": "phải không",
+    "zh": "是嗎",
+    "en": "is there ... ?, do ... ?, were ... ?",
+    "sentence": "Bạn là giáo viên phải không?",
+    "translation": "你是老師嗎？"
+  },
+  {
+    "vn": "đến",
+    "zh": "到、來",
+    "en": "is, arrives, go",
+    "sentence": "Tôi đến trường.",
+    "translation": "我去學校。"
+  },
+  {
+    "vn": "đến từ",
+    "zh": "來自",
+    "en": "are from, comes from, come from",
+    "sentence": "Tôi đến từ Việt Nam.",
+    "translation": "我來自越南。"
+  },
+  {
+    "vn": "chị gái",
+    "zh": "姐姐",
+    "en": "older sister",
+    "sentence": "Chị gái của tôi rất tốt.",
+    "translation": "我的姐姐很好。"
+  },
+  {
+    "vn": "mẹ",
+    "zh": "媽媽",
+    "en": "mom",
+    "sentence": "Mẹ của tôi rất tốt.",
+    "translation": "我的媽媽很好。"
+  },
+  {
+    "vn": "nhật",
+    "zh": "日本",
+    "en": "Japan",
+    "sentence": "Tôi đến từ Nhật Bản.",
+    "translation": "我來自日本。"
+  },
+  {
+    "vn": "không phải",
+    "zh": "不是",
+    "en": "not, is not, are not",
+    "sentence": "Tôi không phải là giáo viên.",
+    "translation": "我不是老師。"
+  },
+  {
+    "vn": "anh",
+    "zh": "英國",
+    "en": "English, the United Kingdom, England",
+    "sentence": "Tôi đến từ Anh.",
+    "translation": "我來自英國。"
+  },
+  {
+    "vn": "anh trai",
+    "zh": "哥哥",
+    "en": "older brother, elder brother",
+    "sentence": "Anh trai của tôi rất tốt.",
+    "translation": "我的哥哥很好。"
+  },
+  {
+    "vn": "bố",
+    "zh": "爸爸",
+    "en": "dad, father",
+    "sentence": "Bố của tôi rất tốt.",
+    "translation": "我的爸爸很好。"
+  },
+  {
+    "vn": "của",
+    "zh": "的",
+    "en": "de, 's, of",
+    "sentence": "Đây là của tôi.",
+    "translation": "這是我的。"
+  },
+  {
+    "vn": "bác sĩ",
+    "zh": "醫生",
+    "en": "doctor",
+    "sentence": "Tôi muốn trở thành bác sĩ.",
+    "translation": "我想成為醫生。"
+  },
+  {
+    "vn": "anh ấy",
+    "zh": "他",
+    "en": "he, him",
+    "sentence": "Anh ấy là bạn của tôi.",
+    "translation": "他是我的朋友。"
+  },
+  {
+    "vn": "cô ấy",
+    "zh": "她",
+    "en": "she, her",
+    "sentence": "Cô ấy là bạn của tôi.",
+    "translation": "她是我的朋友。"
+  },
+  {
+    "vn": "tiếng",
+    "zh": "小時、語言的量詞",
+    "en": "hour, hours, classifier for languages",
+    "sentence": "Tôi học tiếng Anh.",
+    "translation": "我學英語。"
+  },
+  {
+    "vn": "nói",
+    "zh": "說",
+    "en": "spoken, speaks, to say",
+    "sentence": "Tôi nói tiếng Việt.",
+    "translation": "我說越南語。"
+  },
+  {
+    "vn": "giáo viên",
+    "zh": "老師",
+    "en": "teacher",
+    "sentence": "Tôi là giáo viên.",
+    "translation": "我是老師。"
+  },
+  {
+    "vn": "chúc ngủ ngon",
+    "zh": "晚安",
+    "en": "good night",
+    "sentence": "Chúc ngủ ngon.",
+    "translation": "晚安。"
+  },
+  {
+    "vn": "gặp lại sau",
+    "zh": "再見",
+    "en": "see you later",
+    "sentence": "Hẹn gặp lại sau.",
+    "translation": "再見。"
+  },
+  {
+    "vn": "chào tạm biệt",
+    "zh": "再見",
+    "en": "bye, goodbye",
+    "sentence": "Chào tạm biệt.",
+    "translation": "再見。"
+  },
+  {
+    "vn": "buổi tối",
+    "zh": "晚上",
+    "en": "evening, night",
+    "sentence": "Tôi đi ngủ vào buổi tối.",
+    "translation": "我晚上睡覺。"
+  },
+  {
+    "vn": "gặp",
+    "zh": "遇到",
+    "en": "encountered, dealing, meeting",
+    "sentence": "Tôi gặp bạn ở trường.",
+    "translation": "我在學校遇見你。"
+  },
+  {
+    "vn": "khoẻ",
+    "zh": "好、強壯",
+    "en": "well, strong, fine",
+    "sentence": "Tôi rất khoẻ.",
+    "translation": "我很健康。"
+  },
+  {
+    "vn": "dạo này bạn thế nào",
+    "zh": "最近怎麼樣",
+    "en": "what's up, how are you doing",
+    "sentence": "Dạo này bạn thế nào?",
+    "translation": "最近怎麼樣？"
+  },
+  {
+    "vn": "đói",
+    "zh": "餓",
+    "en": "hungry",
+    "sentence": "Tôi rất đói.",
+    "translation": "我很餓。"
+  },
+  {
+    "vn": "mọi người",
+    "zh": "大家",
+    "en": "everybody, everyone, people",
+    "sentence": "Mọi người đều rất tốt.",
+    "translation": "大家都很好。"
+  },
+  {
+    "vn": "buổi sáng",
+    "zh": "早上",
+    "en": "morning",
+    "sentence": "Tôi thức dậy vào buổi sáng.",
+    "translation": "我早上起床。"
+  },
+  {
+    "vn": "sáng",
+    "zh": "早上、明亮",
+    "en": "morning, bright, light",
+    "sentence": "Trời rất sáng.",
+    "translation": "天很亮。"
+  },
+  {
+    "vn": "xin chào",
+    "zh": "你好",
+    "en": "hello, hi",
+    "sentence": "Xin chào bạn.",
+    "translation": "你好。"
+  },
+  {
+    "vn": "muốn",
+    "zh": "想要",
+    "en": "want",
+    "sentence": "Tôi muốn ăn cơm.",
+    "translation": "我想吃飯。"
+  },
+  {
+    "vn": "đường",
+    "zh": "糖",
+    "en": "sugar",
+    "sentence": "Tôi cần thêm đường.",
+    "translation": "我需要更多的糖。"
+  },
+  {
+    "vn": "với",
+    "zh": "和、加",
+    "en": "with, plus, at",
+    "sentence": "Tôi uống cà phê với sữa.",
+    "translation": "我喝咖啡加牛奶。"
+  },
+  {
+    "vn": "sữa",
+    "zh": "牛奶",
+    "en": "milk",
+    "sentence": "Tôi thích uống sữa.",
+    "translation": "我喜歡喝牛奶。"
+  },
+  {
+    "vn": "đá",
+    "zh": "冰",
+    "en": "ice",
+    "sentence": "Tôi thích uống nước đá.",
+    "translation": "我喜歡喝冰水。"
+  },
+  {
+    "vn": "nóng",
+    "zh": "熱",
+    "en": "hot",
+    "sentence": "Trời rất nóng.",
+    "translation": "天氣很熱。"
+  },
+  {
+    "vn": "và",
+    "zh": "和",
+    "en": "and",
+    "sentence": "Tôi thích ăn cơm và uống nước.",
+    "translation": "我喜歡吃飯和喝水。"
+  },
+  {
+    "vn": "một",
+    "zh": "一",
+    "en": "an, a, first",
+    "sentence": "Tôi có một cái bút.",
+    "translation": "我有一支筆。"
+  },
+  {
+    "vn": "tách",
+    "zh": "杯子",
+    "en": "cup",
+    "sentence": "Tôi cần một tách cà phê.",
+    "translation": "我需要一杯咖啡。"
+  },
+  {
+    "vn": "trà",
+    "zh": "茶",
+    "en": "tea",
+    "sentence": "Tôi thích uống trà.",
+    "translation": "我喜歡喝茶。"
+  },
+  {
+    "vn": "vui lòng cho",
+    "zh": "請",
+    "en": "please",
+    "sentence": "Vui lòng cho tôi một ly nước.",
+    "translation": "請給我一杯水。"
+  },
+  {
+    "vn": "cho",
+    "zh": "給、讓",
+    "en": "for, let, lets",
+    "sentence": "Cho tôi một cái bút.",
+    "translation": "給我一支筆。"
+  },
+  {
+    "vn": "cà phê",
+    "zh": "咖啡",
+    "en": "coffee",
+    "sentence": "Tôi thích uống cà phê.",
+    "translation": "我喜歡喝咖啡。"
+  },
+  {
+    "vn": "hay là",
+    "zh": "或者",
+    "en": "or",
+    "sentence": "Bạn muốn uống trà hay là cà phê?",
+    "translation": "你想喝茶還是咖啡？"
+  },
+  {
+    "vn": "xin lỗi",
+    "zh": "對不起",
+    "en": "apologize, sorry, excuse me",
+    "sentence": "Xin lỗi, tôi đến trễ.",
+    "translation": "對不起，我遲到了。"
+  },
+  {
+    "vn": "vâng",
+    "zh": "是",
+    "en": "yes, (politely)",
+    "sentence": "Vâng, tôi đồng ý.",
+    "translation": "是的，我同意。"
+  },
+  {
+    "vn": "xin",
+    "zh": "請、求",
+    "en": "beg, ask for, please",
+    "sentence": "Xin vui lòng giúp tôi.",
+    "translation": "請幫幫我。"
+  },
+  {
+    "vn": "hộ chiếu",
+    "zh": "護照",
+    "en": "passport",
+    "sentence": "Tôi cần hộ chiếu để đi du lịch.",
+    "translation": "我需要護照去旅行。"
+  },
+  {
+    "vn": "nước",
+    "zh": "水、國家",
+    "en": "water, country, countries",
+    "sentence": "Tôi cần một ly nước.",
+    "translation": "我需要一杯水。"
+  },
+  {
+    "vn": "người",
+    "zh": "人",
+    "en": "people, (classifier for human), the",
+    "sentence": "Người đó là bạn của tôi.",
+    "translation": "那個人是我的朋友。"
+  },
+  {
+    "vn": "tôi",
+    "zh": "我",
+    "en": "I",
+    "sentence": "Tôi là học sinh.",
+    "translation": "我是學生。"
+  },
+  {
+    "vn": "là",
+    "zh": "是",
+    "en": "is, am, being",
+    "sentence": "Tôi là giáo viên.",
+    "translation": "我是老師。"
+  },
+  {
+    "vn": "chào",
+    "zh": "問候、你好",
+    "en": "greet, hello, greets",
+    "sentence": "Chào bạn.",
+    "translation": "你好。"
+  }
+]

@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  height: 30px;
+}
+
+.search-container {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  z-index: 100;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.word-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.word-item {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 10px;
+  width: 100%;
+}
+
+.word-item .voice {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #007bff;
+  margin-right: 12px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.word-content {
+  flex: 1;
+}
+
+.word-content .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.word-content .vn {
+  font-weight: bold;
+  min-width: 70px;
+}
+
+.word-content .zh,
+.word-content .en,
+.word-content .sentence,
+.word-content .translation {
+  color: #333;
+  flex: 1;
+}
