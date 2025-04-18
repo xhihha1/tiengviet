@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Available Speech Voices</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 1em;
+      line-height: 1.6;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      background-color: #f5f5f5;
+    }
+    .highlight {
+      background-color: #ffffcc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Available Speech Synthesis Voices</h1>
+  <p>This page lists all voices available in <code>speechSynthesis.getVoices()</code>.</p>
+  <table id="voiceTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Language</th>
+        <th>Default</th>
+        <th>Local Service</th>
+        <th>Sample</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    function listVoices() {
+      const voices = speechSynthesis.getVoices();
+      const tbody = document.querySelector("#voiceTable tbody");
+      tbody.innerHTML = "";
+      voices.forEach((voice, i) => {
+        const row = document.createElement("tr");
+        if (voice.lang.toLowerCase().startsWith("vi")) {
+          row.classList.add("highlight");
+        }
+        row.innerHTML = `
+          <td>${i + 1}</td>
+          <td>${voice.name}</td>
+          <td>${voice.lang}</td>
+          <td>${voice.default ? "✅" : ""}</td>
+          <td>${voice.localService ? "✅" : "❌"}</td>
+          <td><button onclick="speakSample('${voice.name}', '${voice.lang}')">🔊</button></td>
+        `;
+        tbody.appendChild(row);
+      });
+    }
+
+    function speakSample(name, lang) {
+      const utterance = new SpeechSynthesisUtterance("Xin chào. Tôi là giọng nói tiếng Việt.");
+      utterance.voice = speechSynthesis.getVoices().find(v => v.name === name && v.lang === lang);
+      utterance.lang = lang;
+      speechSynthesis.speak(utterance);
+    }
+
+    if (typeof speechSynthesis !== "undefined") {
+      window.speechSynthesis.onvoiceschanged = listVoices;
+      listVoices(); // Also call directly just in case
+    } else {
+      alert("Speech Synthesis is not supported on this browser.");
+    }
+  </script>
+</body>
+</html>
