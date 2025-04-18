@@ -32,6 +32,17 @@
           speechSynthesis.speak(utterance);
         });
       });
+
+      document.querySelectorAll('.sentence').forEach(button => {
+        button.addEventListener('click', function () {
+          const text = this.textContent.trim();
+
+          const utterance = new SpeechSynthesisUtterance(text);
+          utterance.lang = 'vi-VN'; // 設定為越南語發音
+
+          speechSynthesis.speak(utterance);
+        });
+      });
     }
 
     // 動態載入 lang.json 並生成 li
