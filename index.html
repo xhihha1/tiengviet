@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- 📱 iOS 全螢幕支援 -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -37,13 +37,17 @@
   </ul>
   <script>
     function toggleVoice() {
+      const voices = speechSynthesis.getVoices();
+      const viVoice = voices.find(v => v.lang === 'vi-VN');
+
       document.querySelectorAll('.voice').forEach(button => {
         button.addEventListener('click', function () {
           const li = this.closest('li.word-item');
           const text = li.querySelector('h3.vn').textContent.trim();
 
           const utterance = new SpeechSynthesisUtterance(text);
-          utterance.lang = 'vi-VN'; // 設定為越南語發音
+          utterance.lang = 'vi-VN';
+          if (viVoice) utterance.voice = viVoice;
 
           speechSynthesis.speak(utterance);
         });
@@ -54,12 +58,14 @@
           const text = this.textContent.trim();
 
           const utterance = new SpeechSynthesisUtterance(text);
-          utterance.lang = 'vi-VN'; // 設定為越南語發音
+          utterance.lang = 'vi-VN';
+          if (viVoice) utterance.voice = viVoice;
 
           speechSynthesis.speak(utterance);
         });
       });
     }
+
 
     // 動態載入 lang.json 並生成 li
     fetch('lang.json')
@@ -89,7 +95,13 @@
           wordList.appendChild(li);
         });
 
-        toggleVoice();
+        if (typeof speechSynthesis !== 'undefined') {
+          if (speechSynthesis.getVoices().length === 0) {
+            speechSynthesis.addEventListener('voiceschanged', toggleVoice);
+          } else {
+            toggleVoice();
+          }
+        }
       })
       .catch(error => console.error('Error loading lang.json:', error));
 
