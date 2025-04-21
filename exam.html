@@ -1,369 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>越南語單字練習</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="common.css">
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        
-        .word-container {
-            background-color: white;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 80px;
-        }
-        
-        .vn-word {
-            font-size: 2rem;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #2c3e50;
-        }
-        
-        .voice-btn {
-            background: none;
-            border: none;
-            color: #3498db;
-            font-size: 1.5rem;
-            cursor: pointer;
-            margin-left: 10px;
-            vertical-align: middle;
-        }
-        
-        .options-container {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 15px;
-        }
-        
-        @media (min-width: 600px) {
-            .options-container {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-        
-        .option-btn {
-            padding: 15px;
-            border: 2px solid #3498db;
-            border-radius: 8px;
-            background-color: white;
-            cursor: pointer;
-            transition: all 0.3s;
-            text-align: left;
-        }
-        
-        .option-btn:hover {
-            background-color: #f0f8ff;
-        }
-        
-        .option-btn.correct {
-            background-color: #2ecc71;
-            color: white;
-            border-color: #27ae60;
-        }
-        
-        .option-btn.incorrect {
-            background-color: #e74c3c;
-            color: white;
-            border-color: #c0392b;
-        }
-        
-        .zh-text {
-            font-size: 1.2rem;
-            margin-bottom: 5px;
-        }
-        
-        .en-text {
-            font-size: 0.9rem;
-            color: #7f8c8d;
-        }
-        
-        .option-btn.correct .en-text,
-        .option-btn.incorrect .en-text {
-            color: rgba(255, 255, 255, 0.8);
-        }
-        
-        .next-btn {
-            display: block;
-            margin: 30px auto 0;
-            padding: 12px 25px;
-            background-color: #3498db;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        
-        .next-btn:hover {
-            background-color: #2980b9;
-        }
-        
-        .feedback {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 1.1rem;
-            min-height: 25px;
-        }
-        
-        .try-again {
-            color: #e74c3c;
-        }
-        
-        .example-sentence {
-            margin-top: 30px;
-            padding: 15px;
-            background-color: #eaf7fd;
-            border-radius: 8px;
-            font-style: italic;
-        }
-        
-        .sentence-vn {
-            margin-bottom: 10px;
-        }
-        
-        .sentence-translation {
-            color: #7f8c8d;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 📱 iOS 全螢幕支援 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="越南語學習">
+
+  <!-- ✅ Android Chrome 全螢幕支援 -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Optional: 可以加入自訂 icon -->
+  <link rel="apple-touch-icon" href="icon-512.png">
+  <!-- favicon fallback -->
+  <link rel="icon" type="image/png" href="icon-512.png">
+  <title>Language Selection</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="common.css">
+  <!-- PWA manifest -->
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .word-container {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 80px;
+    }
+
+    .vn-word {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    .voice-btn {
+      background: none;
+      border: none;
+      color: #3498db;
+      font-size: 1.5rem;
+      cursor: pointer;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+
+    .options-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+
+    @media (min-width: 600px) {
+      .options-container {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .option-btn {
+      padding: 15px;
+      border: 2px solid #3498db;
+      border-radius: 8px;
+      background-color: white;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-align: left;
+    }
+
+    .option-btn:hover {
+      background-color: #f0f8ff;
+    }
+
+    .option-btn.correct {
+      background-color: #2ecc71;
+      color: white;
+      border-color: #27ae60;
+    }
+
+    .option-btn.incorrect {
+      background-color: #e74c3c;
+      color: white;
+      border-color: #c0392b;
+    }
+
+    .zh-text {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+
+    .en-text {
+      font-size: 0.9rem;
+      color: #7f8c8d;
+    }
+
+    .option-btn.correct .en-text,
+    .option-btn.incorrect .en-text {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .next-btn {
+      display: block;
+      margin: 30px auto 0;
+      padding: 12px 25px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .next-btn:hover {
+      background-color: #2980b9;
+    }
+
+    .feedback {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1.1rem;
+      min-height: 25px;
+    }
+
+    .try-again {
+      color: #e74c3c;
+    }
+
+    .example-sentence {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #eaf7fd;
+      border-radius: 8px;
+      font-style: italic;
+    }
+
+    .sentence-vn {
+      margin-bottom: 10px;
+    }
+
+    .sentence-translation {
+      color: #7f8c8d;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="header">
-        <h1>越南語單字練習</h1>
+  <div class="header">
+    <h1>越南語單字練習</h1>
+  </div>
+
+  <div class="word-container">
+    <div class="vn-word">
+      <span id="current-word"></span>
+      <button class="voice-btn" id="voice-btn">
+        <i class="fas fa-volume-high"></i>
+      </button>
     </div>
-    
-    <div class="word-container">
-        <div class="vn-word">
-            <span id="current-word"></span>
-            <button class="voice-btn" id="voice-btn">
-                <i class="fas fa-volume-high"></i>
-            </button>
-        </div>
-        
-        <div class="options-container" id="options-container">
-            <!-- 選項將由JavaScript動態生成 -->
-        </div>
-        
-        <div class="feedback" id="feedback"></div>
-        
-        <button class="next-btn" id="next-btn" style="display: none;">Next</button>
-        
-        <div class="example-sentence" id="example-sentence" style="display: none;">
-            <div class="sentence-vn" id="sentence-vn"></div>
-            <div class="sentence-translation" id="sentence-translation"></div>
-        </div>
+
+    <div class="options-container" id="options-container">
+      <!-- 選項將由JavaScript動態生成 -->
     </div>
-    
-    <script>
-        // 示例數據 - 實際使用時應該從lang.json加載
-        let wordList = [];
-        // let wordList = [
-        //     {
-        //         "vn": "trưởng thành",
-        //         "zh": "成熟的、成年的",
-        //         "en": "mature, adult",
-        //         "sentence": "Anh ấy rất trưởng thành trong cách suy nghĩ.",
-        //         "translation": "他的想法非常成熟。"
-        //     },
-        //     {
-        //         "vn": "tiện lợi",
-        //         "zh": "便利的",
-        //         "en": "convenient",
-        //         "sentence": "Cửa hàng này rất tiện lợi vì gần nhà tôi.",
-        //         "translation": "這家店很方便，因為靠近我家。"
-        //     },
-        //     {
-        //         "vn": "xinh đẹp",
-        //         "zh": "美麗的",
-        //         "en": "beautiful",
-        //         "sentence": "Cô ấy rất xinh đẹp và thông minh.",
-        //         "translation": "她既美麗又聰明。"
-        //     },
-        //     {
-        //         "vn": "thông minh",
-        //         "zh": "聰明的",
-        //         "en": "intelligent",
-        //         "sentence": "Đứa bé này rất thông minh.",
-        //         "translation": "這個小孩很聰明。"
-        //     },
-        //     {
-        //         "vn": "vui vẻ",
-        //         "zh": "快樂的",
-        //         "en": "happy, cheerful",
-        //         "sentence": "Mọi người đều vui vẻ trong bữa tiệc.",
-        //         "translation": "每個人在派對上都很快樂。"
-        //     }
-        // ];
-        
-        // 實際應用中應該使用fetch加載JSON文件
-        
-        fetch('lang.json')
-            .then(response => response.json())
-            .then(data => {
-                wordList = data;
-                initApp();
-            })
-            .catch(error => console.error('Error loading word list:', error));
-        
-        
-        let currentWord = null;
-        let correctAnswer = null;
-        let selectedOption = null;
-        let options = [];
-        let isAnswered = false;
-        
-        // 初始化應用
-        function initApp() {
-            if (wordList.length < 4) {
-                console.error('需要至少3個單字才能進行練習');
-                return;
-            }
-            
-            nextWord();
-            
-            // 語音按鈕事件
-            document.getElementById('voice-btn').addEventListener('click', speakWord);
-            
-            // Next按鈕事件
-            document.getElementById('next-btn').addEventListener('click', nextWord);
-        }
-        
-        // 獲取下一個單字
-        function nextWord() {
-            // 重置狀態
-            document.getElementById('feedback').textContent = '';
-            document.getElementById('next-btn').style.display = 'none';
-            document.getElementById('example-sentence').style.display = 'none';
-            selectedOption = null;
-            isAnswered = false;
-            
-            // 隨機選擇當前單字
-            const randomIndex = Math.floor(Math.random() * wordList.length);
-            currentWord = wordList[randomIndex];
-            
-            // 顯示當前單字
-            document.getElementById('current-word').textContent = currentWord.vn;
-            
-            // 生成選項
-            generateOptions(currentWord);
-        }
-        
-        // 生成選項
-        function generateOptions(correctWord) {
-            const optionsContainer = document.getElementById('options-container');
-            optionsContainer.innerHTML = '';
-            
-            // 收集所有可能的選項（除了正確答案）
-            const otherWords = wordList.filter(word => word.vn !== correctWord.vn);
-            
-            // 隨機選擇2個錯誤選項
-            const wrongOptions = [];
-            while (wrongOptions.length < 3 && otherWords.length > 0) {
-                const randomIndex = Math.floor(Math.random() * otherWords.length);
-                wrongOptions.push(otherWords[randomIndex]);
-                otherWords.splice(randomIndex, 1);
-            }
-            
-            // 創建選項數組（1正確 + 2錯誤）
-            options = [correctWord, ...wrongOptions];
-            
-            // 打亂選項順序
-            options.sort(() => Math.random() - 0.5);
-            
-            // 記錄正確答案的索引
-            correctAnswer = options.findIndex(option => option.vn === correctWord.vn);
-            
-            // 生成選項按鈕
-            options.forEach((option, index) => {
-                const button = document.createElement('button');
-                button.className = 'option-btn';
-                button.innerHTML = `
+
+    <div class="feedback" id="feedback"></div>
+
+    <button class="next-btn" id="next-btn" style="display: none;">Next</button>
+
+    <div class="example-sentence" id="example-sentence" style="display: none;">
+      <div class="sentence-vn" id="sentence-vn"></div>
+      <div class="sentence-translation" id="sentence-translation"></div>
+    </div>
+  </div>
+
+  <script>
+    // 示例數據 - 實際使用時應該從lang.json加載
+    let wordList = [];
+    // let wordList = [
+    //     {
+    //         "vn": "trưởng thành",
+    //         "zh": "成熟的、成年的",
+    //         "en": "mature, adult",
+    //         "sentence": "Anh ấy rất trưởng thành trong cách suy nghĩ.",
+    //         "translation": "他的想法非常成熟。"
+    //     },
+    //     {
+    //         "vn": "tiện lợi",
+    //         "zh": "便利的",
+    //         "en": "convenient",
+    //         "sentence": "Cửa hàng này rất tiện lợi vì gần nhà tôi.",
+    //         "translation": "這家店很方便，因為靠近我家。"
+    //     },
+    //     {
+    //         "vn": "xinh đẹp",
+    //         "zh": "美麗的",
+    //         "en": "beautiful",
+    //         "sentence": "Cô ấy rất xinh đẹp và thông minh.",
+    //         "translation": "她既美麗又聰明。"
+    //     },
+    //     {
+    //         "vn": "thông minh",
+    //         "zh": "聰明的",
+    //         "en": "intelligent",
+    //         "sentence": "Đứa bé này rất thông minh.",
+    //         "translation": "這個小孩很聰明。"
+    //     },
+    //     {
+    //         "vn": "vui vẻ",
+    //         "zh": "快樂的",
+    //         "en": "happy, cheerful",
+    //         "sentence": "Mọi người đều vui vẻ trong bữa tiệc.",
+    //         "translation": "每個人在派對上都很快樂。"
+    //     }
+    // ];
+
+    // 實際應用中應該使用fetch加載JSON文件
+
+    fetch('lang.json')
+      .then(response => response.json())
+      .then(data => {
+        wordList = data;
+        initApp();
+      })
+      .catch(error => console.error('Error loading word list:', error));
+
+
+    let currentWord = null;
+    let correctAnswer = null;
+    let selectedOption = null;
+    let options = [];
+    let isAnswered = false;
+
+    // 初始化應用
+    function initApp() {
+      if (wordList.length < 4) {
+        console.error('需要至少3個單字才能進行練習');
+        return;
+      }
+
+      nextWord();
+
+      // 語音按鈕事件
+      document.getElementById('voice-btn').addEventListener('click', speakWord);
+
+      // Next按鈕事件
+      document.getElementById('next-btn').addEventListener('click', nextWord);
+    }
+
+    // 獲取下一個單字
+    function nextWord() {
+      // 重置狀態
+      document.getElementById('feedback').textContent = '';
+      document.getElementById('next-btn').style.display = 'none';
+      document.getElementById('example-sentence').style.display = 'none';
+      selectedOption = null;
+      isAnswered = false;
+
+      // 隨機選擇當前單字
+      const randomIndex = Math.floor(Math.random() * wordList.length);
+      currentWord = wordList[randomIndex];
+
+      // 顯示當前單字
+      document.getElementById('current-word').textContent = currentWord.vn;
+
+      // 生成選項
+      generateOptions(currentWord);
+    }
+
+    // 生成選項
+    function generateOptions(correctWord) {
+      const optionsContainer = document.getElementById('options-container');
+      optionsContainer.innerHTML = '';
+
+      // 收集所有可能的選項（除了正確答案）
+      const otherWords = wordList.filter(word => word.vn !== correctWord.vn);
+
+      // 隨機選擇2個錯誤選項
+      const wrongOptions = [];
+      while (wrongOptions.length < 3 && otherWords.length > 0) {
+        const randomIndex = Math.floor(Math.random() * otherWords.length);
+        wrongOptions.push(otherWords[randomIndex]);
+        otherWords.splice(randomIndex, 1);
+      }
+
+      // 創建選項數組（1正確 + 2錯誤）
+      options = [correctWord, ...wrongOptions];
+
+      // 打亂選項順序
+      options.sort(() => Math.random() - 0.5);
+
+      // 記錄正確答案的索引
+      correctAnswer = options.findIndex(option => option.vn === correctWord.vn);
+
+      // 生成選項按鈕
+      options.forEach((option, index) => {
+        const button = document.createElement('button');
+        button.className = 'option-btn';
+        button.innerHTML = `
                     <div class="zh-text">${option.zh}</div>
                     <div class="en-text">${option.en}</div>
                 `;
-                
-                button.addEventListener('click', () => selectOption(index));
-                optionsContainer.appendChild(button);
-            });
-        }
-        
-        // 選擇選項
-        function selectOption(index) {
-            if (isAnswered) return; // 防止已回答後再次選擇
-            
-            isAnswered = true;
-            selectedOption = index;
-            const buttons = document.querySelectorAll('.option-btn');
-            const feedback = document.getElementById('feedback');
-            
-            if (index === correctAnswer) {
-                // 正確答案
-                buttons[index].classList.add('correct');
-                feedback.textContent = '正確!';
-                feedback.style.color = '#2ecc71';
-                
-                // 顯示例句
-                document.getElementById('sentence-vn').textContent = currentWord.sentence;
-                document.getElementById('sentence-translation').textContent = currentWord.translation;
-                document.getElementById('example-sentence').style.display = 'block';
-                
-                // 顯示Next按鈕
-                document.getElementById('next-btn').style.display = 'block';
-            } else {
-                // 錯誤答案
-                buttons[index].classList.add('incorrect');
-                buttons[correctAnswer].classList.add('correct');
-                feedback.textContent = '不正確，請再試一次';
-                feedback.style.color = '#e74c3c';
-                feedback.classList.add('try-again');
-                
-                // 顯示Next按鈕（即使答錯也允許繼續）
-                document.getElementById('next-btn').style.display = 'block';
-            }
-        }
-        
-        // 語音朗讀
-        function speakWord() {
-            if (!currentWord) return;
-            
-            if ('speechSynthesis' in window) {
-                const utterance = new SpeechSynthesisUtterance(currentWord.vn);
-                utterance.lang = 'vi-VN'; // 設置為越南語
-                speechSynthesis.speak(utterance);
-            } else {
-                alert('您的瀏覽器不支持語音合成功能');
-            }
-        }
-        
-        // 初始化應用
-        // document.addEventListener('DOMContentLoaded', initApp);
-    </script>
-    <!-- 添加底部導航欄 -->
-    <nav class="bottom-nav">
-        <a href="index.html" class="nav-item">
-            <i class="fa-solid fa-list"></i>
-            <span>List</span>
-        </a>
-        <a href="exam.html" class="nav-item active">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <span>Exam</span>
-        </a>
-    </nav>
+
+        button.addEventListener('click', () => selectOption(index));
+        optionsContainer.appendChild(button);
+      });
+    }
+
+    // 選擇選項
+    function selectOption(index) {
+      if (isAnswered) return; // 防止已回答後再次選擇
+
+      isAnswered = true;
+      selectedOption = index;
+      const buttons = document.querySelectorAll('.option-btn');
+      const feedback = document.getElementById('feedback');
+
+      if (index === correctAnswer) {
+        // 正確答案
+        buttons[index].classList.add('correct');
+        feedback.textContent = '正確!';
+        feedback.style.color = '#2ecc71';
+
+        // 顯示例句
+        document.getElementById('sentence-vn').textContent = currentWord.sentence;
+        document.getElementById('sentence-translation').textContent = currentWord.translation;
+        document.getElementById('example-sentence').style.display = 'block';
+
+        // 顯示Next按鈕
+        document.getElementById('next-btn').style.display = 'block';
+      } else {
+        // 錯誤答案
+        buttons[index].classList.add('incorrect');
+        buttons[correctAnswer].classList.add('correct');
+        feedback.textContent = '不正確，請再試一次';
+        feedback.style.color = '#e74c3c';
+        feedback.classList.add('try-again');
+
+        // 顯示Next按鈕（即使答錯也允許繼續）
+        document.getElementById('next-btn').style.display = 'block';
+      }
+    }
+
+    // 語音朗讀
+    function speakWord() {
+      if (!currentWord) return;
+
+      if ('speechSynthesis' in window) {
+        const utterance = new SpeechSynthesisUtterance(currentWord.vn);
+        utterance.lang = 'vi-VN'; // 設置為越南語
+        speechSynthesis.speak(utterance);
+      } else {
+        alert('您的瀏覽器不支持語音合成功能');
+      }
+    }
+
+    // 初始化應用
+    // document.addEventListener('DOMContentLoaded', initApp);
+  </script>
+  <!-- 添加底部導航欄 -->
+  <nav class="bottom-nav">
+    <a href="index.html" class="nav-item">
+      <i class="fa-solid fa-list"></i>
+      <span>List</span>
+    </a>
+    <a href="exam.html" class="nav-item active">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <span>Exam</span>
+    </a>
+  </nav>
 </body>
+
 </html>
