@@ -1,5 +1,138 @@
 [
   {
+    "vn": "mới",
+    "zh": "新的",
+    "en": "new",
+    "sentence": "Tôi vừa mua một chiếc điện thoại mới.",
+    "translation": "我剛買了一支新手機。"
+  },
+  {
+    "vn": "cũ",
+    "zh": "舊的、以前的",
+    "en": "are old, old, former",
+    "sentence": "Cái áo này đã cũ rồi.",
+    "translation": "這件衣服已經舊了。"
+  },
+  {
+    "vn": "cần thiết",
+    "zh": "必要的",
+    "en": "necessary",
+    "sentence": "Nước là điều cần thiết cho cuộc sống.",
+    "translation": "水對生命來說是必要的。"
+  },
+  {
+    "vn": "kiên nhẫn",
+    "zh": "有耐心的",
+    "en": "patient",
+    "sentence": "Bạn cần kiên nhẫn khi học một ngôn ngữ mới.",
+    "translation": "學習新語言時需要有耐心。"
+  },
+  {
+    "vn": "đắt",
+    "zh": "昂貴的",
+    "en": "expensive",
+    "sentence": "Chiếc đồng hồ này rất đắt.",
+    "translation": "這支手錶很貴。"
+  },
+  {
+    "vn": "trung thực",
+    "zh": "誠實的",
+    "en": "honest",
+    "sentence": "Anh ấy là một người rất trung thực.",
+    "translation": "他是一個非常誠實的人。"
+  },
+  {
+    "vn": "quan trọng",
+    "zh": "重要的",
+    "en": "is important, important, was important",
+    "sentence": "Giáo dục rất quan trọng đối với tương lai.",
+    "translation": "教育對未來非常重要。"
+  },
+  {
+    "vn": "hài hước",
+    "zh": "幽默的、有趣的",
+    "en": "humorous, funny",
+    "sentence": "Anh ấy kể chuyện rất hài hước.",
+    "translation": "他講的故事很幽默。"
+  },
+  {
+    "vn": "chậm",
+    "zh": "慢的、遲到的",
+    "en": "slow, slowly (when placed after verb), late",
+    "sentence": "Tàu đến chậm 10 phút.",
+    "translation": "火車晚了10分鐘。"
+  },
+  {
+    "vn": "hạnh phúc",
+    "zh": "幸福、快樂",
+    "en": "happiness, happy",
+    "sentence": "Tôi cảm thấy rất hạnh phúc bên gia đình.",
+    "translation": "我和家人在一起時感到非常幸福。"
+  },
+  {
+    "vn": "đơn giản",
+    "zh": "簡單的",
+    "en": "simple",
+    "sentence": "Bài toán này rất đơn giản.",
+    "translation": "這道數學題很簡單。"
+  },
+  {
+    "vn": "nhanh",
+    "zh": "快的、迅速地",
+    "en": "fast, (can be adjective or adverb)",
+    "sentence": "Anh ấy chạy rất nhanh.",
+    "translation": "他跑得非常快。"
+  },
+  {
+    "vn": "phức tạp",
+    "zh": "複雜的",
+    "en": "complicated",
+    "sentence": "Vấn đề này khá phức tạp.",
+    "translation": "這個問題相當複雜。"
+  },
+  {
+    "vn": "nhỏ",
+    "zh": "小的",
+    "en": "small, little",
+    "sentence": "Căn phòng này khá nhỏ.",
+    "translation": "這間房間相當小。"
+  },
+  {
+    "vn": "lớn",
+    "zh": "大的、偉大的",
+    "en": "large, big, great",
+    "sentence": "Thành phố này rất lớn.",
+    "translation": "這座城市很大。"
+  },
+  {
+    "vn": "dễ",
+    "zh": "容易的",
+    "en": "easy",
+    "sentence": "Bài kiểm tra này rất dễ.",
+    "translation": "這次測驗很簡單。"
+  },
+  {
+    "vn": "đặc biệt",
+    "zh": "特別的",
+    "en": "special, especially",
+    "sentence": "Đây là một ngày đặc biệt đối với tôi.",
+    "translation": "今天對我來說是特別的一天。"
+  },
+  {
+    "vn": "ngon",
+    "zh": "好吃的、美味的",
+    "en": "delicious, deliciously",
+    "sentence": "Món này rất ngon.",
+    "translation": "這道菜很好吃。"
+  },
+  {
+    "vn": "khó",
+    "zh": "困難的",
+    "en": "hard, difficult",
+    "sentence": "Câu hỏi này rất khó.",
+    "translation": "這個問題很難。"
+  },
+  {
     "vn": "đậm",
     "zh": "深的（顏色）",
     "en": "dark, deep",
