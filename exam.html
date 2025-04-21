@@ -33,6 +33,9 @@
 <body>
   <div class="header">
     <h1>越南語單字練習</h1>
+    <button id="langToggle" class="lang-toggle">
+      <i class="fa-solid fa-language"></i>
+    </button>
   </div>
 
   <div class="word-container">
@@ -80,6 +83,7 @@
     let selectedOption = null;
     let options = [];
     let isAnswered = false;
+    let isReversed = false;  // 控制測驗模式
 
     // 初始化應用
     function initApp() {
@@ -95,6 +99,12 @@
 
       // Next按鈕事件
       document.getElementById('next-btn').addEventListener('click', nextWord);
+
+      // 添加語言切換事件
+      document.getElementById('langToggle').addEventListener('click', () => {
+        isReversed = !isReversed;
+        nextWord();
+      });
     }
 
     // 獲取下一個單字
@@ -111,7 +121,8 @@
       currentWord = wordList[randomIndex];
 
       // 顯示當前單字
-      document.getElementById('current-word').textContent = currentWord.vn;
+      document.getElementById('current-word').textContent = 
+        isReversed ? currentWord.zh : currentWord.vn;
 
       // 生成選項
       generateOptions(currentWord);
@@ -146,10 +157,11 @@
       options.forEach((option, index) => {
         const button = document.createElement('button');
         button.className = 'option-btn';
-        button.innerHTML = `
-                    <div class="zh-text">${option.zh}</div>
-                    <div class="en-text">${option.en}</div>
-                `;
+        // 根據模式顯示不同的內容
+        button.innerHTML = isReversed 
+          ? `<div class="vn-text">${option.vn}</div>`
+          : `<div class="zh-text">${option.zh}</div>
+             <div class="en-text">${option.en}</div>`;
 
         button.addEventListener('click', () => selectOption(index));
         optionsContainer.appendChild(button);
