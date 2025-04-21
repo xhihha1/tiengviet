@@ -1,0 +1,134 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.word-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 80px;
+}
+
+.vn-word {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.voice-btn {
+  background: none;
+  border: none;
+  color: #3498db;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.options-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+@media (min-width: 600px) {
+  .options-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.option-btn {
+  padding: 15px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+}
+
+.option-btn:hover {
+  background-color: #f0f8ff;
+}
+
+.option-btn.correct {
+  background-color: #2ecc71;
+  color: white;
+  border-color: #27ae60;
+}
+
+.option-btn.incorrect {
+  background-color: #e74c3c;
+  color: white;
+  border-color: #c0392b;
+}
+
+.zh-text {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.en-text {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.option-btn.correct .en-text,
+.option-btn.incorrect .en-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.next-btn {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 25px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-btn:hover {
+  background-color: #2980b9;
+}
+
+.feedback {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  min-height: 25px;
+}
+
+.try-again {
+  color: #e74c3c;
+}
+
+.example-sentence {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #eaf7fd;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.sentence-vn {
+  margin-bottom: 10px;
+}
+
+.sentence-translation {
+  color: #7f8c8d;
+}
