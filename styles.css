@@ -60,6 +60,7 @@ button {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 60px;
 }
 
 .word-item {
@@ -104,3 +105,4 @@ button {
   color: #333;
   flex: 1;
 }
+
