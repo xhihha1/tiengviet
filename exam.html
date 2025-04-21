@@ -60,6 +60,7 @@
   <script>
     const voices = speechSynthesis.getVoices();
     const viVoice = voices.find(v => v.lang === 'vi-VN');
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     // 示例數據 - 實際使用時應該從lang.json加載
     let wordList = [];
 
@@ -165,6 +166,7 @@
       const feedback = document.getElementById('feedback');
 
       if (index === correctAnswer) {
+        playCorrect();
         // 正確答案
         buttons[index].classList.add('correct');
         feedback.textContent = '正確!';
@@ -178,6 +180,7 @@
         // 顯示Next按鈕
         document.getElementById('next-btn').style.display = 'block';
       } else {
+        playWrong();
         // 錯誤答案
         buttons[index].classList.add('incorrect');
         buttons[correctAnswer].classList.add('correct');
@@ -203,6 +206,40 @@
         alert('您的瀏覽器不支持語音合成功能');
       }
     }
+
+    
+
+    function playTone(frequency, duration, type = 'sine') {
+      const oscillator = audioCtx.createOscillator();
+      const gainNode = audioCtx.createGain();
+
+      oscillator.type = type;
+      oscillator.frequency.setValueAtTime(frequency, audioCtx.currentTime);
+
+      oscillator.connect(gainNode);
+      gainNode.connect(audioCtx.destination);
+
+      oscillator.start();
+
+      // 音量淡出
+      gainNode.gain.setValueAtTime(1, audioCtx.currentTime);
+      gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+
+      oscillator.stop(audioCtx.currentTime + duration);
+    }
+
+    function playCorrect() {
+      // 產生一個「升高」的音階
+      playTone(440, 0.15);  // A4
+      setTimeout(() => playTone(660, 0.15), 150);  // E5
+    }
+
+    function playWrong() {
+      // 產生一個「下降」的錯誤音階
+      playTone(660, 0.15, 'square');  // E5
+      setTimeout(() => playTone(440, 0.15, 'square'), 150);  // A4
+    }
+
 
     // 初始化應用
     // document.addEventListener('DOMContentLoaded', initApp);
