@@ -1,5 +1,159 @@
 [
   {
+    "vn": "trưởng thành",
+    "zh": "成熟的、成年的",
+    "en": "mature, adult",
+    "sentence": "Anh ấy rất trưởng thành trong cách suy nghĩ.",
+    "translation": "他的想法非常成熟。"
+  },
+  {
+    "vn": "tiện lợi",
+    "zh": "便利的",
+    "en": "convenient",
+    "sentence": "Cửa hàng này rất tiện lợi vì gần nhà tôi.",
+    "translation": "這家店很方便，因為靠近我家。"
+  },
+  {
+    "vn": "ích kỷ",
+    "zh": "自私的",
+    "en": "selfish",
+    "sentence": "Đừng ích kỷ, hãy nghĩ cho người khác nữa.",
+    "translation": "別自私，想想別人吧。"
+  },
+  {
+    "vn": "nặng",
+    "zh": "重的",
+    "en": "heavy",
+    "sentence": "Chiếc vali này quá nặng để tôi mang một mình.",
+    "translation": "這個行李太重，我一個人拿不起來。"
+  },
+  {
+    "vn": "thân thiện",
+    "zh": "友善的",
+    "en": "friendly",
+    "sentence": "Nhân viên ở đây rất thân thiện và dễ gần.",
+    "translation": "這裡的員工非常友善又容易親近。"
+  },
+  {
+    "vn": "lịch sự",
+    "zh": "有禮貌的",
+    "en": "polite",
+    "sentence": "Bạn nên lịch sự khi nói chuyện với người lớn.",
+    "translation": "和長輩說話時應該有禮貌。"
+  },
+  {
+    "vn": "tệ",
+    "zh": "糟的、差的",
+    "en": "bad",
+    "sentence": "Thời tiết hôm nay thật tệ.",
+    "translation": "今天天氣真的很差。"
+  },
+  {
+    "vn": "truyền thống",
+    "zh": "傳統的、傳統",
+    "en": "traditional, tradition",
+    "sentence": "Tết là một ngày lễ truyền thống ở Việt Nam.",
+    "translation": "過年是越南的傳統節日。"
+  },
+  {
+    "vn": "sai",
+    "zh": "錯的",
+    "en": "wrong",
+    "sentence": "Tôi đã chọn sai câu trả lời.",
+    "translation": "我選錯答案了。"
+  },
+  {
+    "vn": "buồn",
+    "zh": "難過的、悲傷的",
+    "en": "are sad, sorry, was sad",
+    "sentence": "Tôi cảm thấy rất buồn khi nghe tin đó.",
+    "translation": "聽到那個消息時我感到很難過。"
+  },
+  {
+    "vn": "bướng bỉnh",
+    "zh": "固執的",
+    "en": "stubborn",
+    "sentence": "Con bé rất bướng bỉnh, không nghe lời ai cả.",
+    "translation": "那孩子很固執，不聽任何人的話。"
+  },
+  {
+    "vn": "nghiêm túc",
+    "zh": "認真的、嚴肅的",
+    "en": "serious",
+    "sentence": "Anh ấy là người làm việc rất nghiêm túc.",
+    "translation": "他是一個工作很認真的人。"
+  },
+  {
+    "vn": "tích cực",
+    "zh": "積極的",
+    "en": "positive",
+    "sentence": "Cô ấy luôn có thái độ tích cực trong mọi việc.",
+    "translation": "她對所有事情都保持積極態度。"
+  },
+  {
+    "vn": "lạc quan",
+    "zh": "樂觀的",
+    "en": "optimistic",
+    "sentence": "Dù gặp khó khăn, anh ấy vẫn lạc quan.",
+    "translation": "即使遇到困難，他仍然很樂觀。"
+  },
+  {
+    "vn": "dài",
+    "zh": "長的",
+    "en": "long",
+    "sentence": "Chiếc váy này quá dài với tôi.",
+    "translation": "這條裙子對我來說太長了。"
+  },
+  {
+    "vn": "ngắn",
+    "zh": "短的",
+    "en": "short",
+    "sentence": "Bài văn này quá ngắn để đạt điểm cao.",
+    "translation": "這篇作文太短，難以得高分。"
+  },
+  {
+    "vn": "hiện đại",
+    "zh": "現代的",
+    "en": "modern",
+    "sentence": "Ngôi nhà này được thiết kế rất hiện đại.",
+    "translation": "這棟房子設計得非常現代。"
+  },
+  {
+    "vn": "hoàn hảo",
+    "zh": "完美的",
+    "en": "perfect",
+    "sentence": "Mọi thứ trong bữa tiệc đều hoàn hảo.",
+    "translation": "宴會裡的一切都很完美。"
+  },
+  {
+    "vn": "độc lập",
+    "zh": "獨立的、獨立",
+    "en": "independent, independence",
+    "sentence": "Cô ấy sống một mình và rất độc lập.",
+    "translation": "她自己生活，非常獨立。"
+  },
+  {
+    "vn": "nghèo",
+    "zh": "貧窮的",
+    "en": "poor",
+    "sentence": "Gia đình anh ấy rất nghèo nhưng hạnh phúc.",
+    "translation": "他們家雖然貧窮，但很幸福。"
+  },
+  {
+    "vn": "nguy hiểm",
+    "zh": "危險的",
+    "en": "dangerous",
+    "sentence": "Lái xe nhanh trong mưa rất nguy hiểm.",
+    "translation": "下雨時開快車非常危險。"
+  },
+  {
+    "vn": "xa xỉ",
+    "zh": "奢侈的",
+    "en": "luxurious",
+    "sentence": "Cô ấy thích những món đồ xa xỉ.",
+    "translation": "她喜歡奢侈的東西。"
+  },
+  {
     "vn": "mới",
     "zh": "新的",
     "en": "new",
