@@ -58,6 +58,8 @@
   </div>
 
   <script>
+    const voices = speechSynthesis.getVoices();
+    const viVoice = voices.find(v => v.lang === 'vi-VN');
     // 示例數據 - 實際使用時應該從lang.json加載
     let wordList = [];
 
@@ -195,6 +197,7 @@
       if ('speechSynthesis' in window) {
         const utterance = new SpeechSynthesisUtterance(currentWord.vn);
         utterance.lang = 'vi-VN'; // 設置為越南語
+        if (viVoice) utterance.voice = viVoice;
         speechSynthesis.speak(utterance);
       } else {
         alert('您的瀏覽器不支持語音合成功能');
