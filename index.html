@@ -31,7 +31,10 @@
 <body>
   <!-- 搜尋欄位 -->
   <div class="search-container">
-    <input type="text" id="searchInput" placeholder="搜尋越南語、中文或英文...">
+    <div class="search-wrapper">
+      <input type="text" id="searchInput" placeholder="搜尋越南語、中文或英文...">
+      <button id="clearSearch" class="clear-button"><i class="fa-solid fa-xmark"></i></button>
+    </div>
   </div>
   <ul class="word-list" id="wordList">
   </ul>
@@ -110,7 +113,11 @@
 
     // Search functionality
     const searchInput = document.getElementById('searchInput');
+    const clearButton = document.getElementById('clearSearch');
+
+    // Show/hide clear button based on input content
     searchInput.addEventListener('input', function () {
+      clearButton.style.display = this.value ? 'block' : 'none';
       const searchTerm = this.value.toLowerCase();
       const listItems = document.querySelectorAll('.word-item');
 
@@ -123,6 +130,14 @@
 
         item.style.display = matched ? 'block' : 'none';
       });
+    });
+
+    // Clear input when button is clicked
+    clearButton.addEventListener('click', function() {
+      searchInput.value = '';
+      clearButton.style.display = 'none';
+      // Trigger input event to update search results
+      searchInput.dispatchEvent(new Event('input'));
     });
   </script>
 </body>
