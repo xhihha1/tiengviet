@@ -35,6 +35,9 @@
     <div class="search-wrapper">
       <input type="text" id="searchInput" placeholder="搜尋越南語、中文或英文...">
       <button id="clearSearch" class="clear-button"><i class="fa-solid fa-xmark"></i></button>
+      <button id="sortBtn" class="sort-button">
+        <i class="fa-solid fa-arrow-down-a-z"></i>
+      </button>
     </div>
   </div>
   <ul class="word-list" id="wordList">
@@ -88,6 +91,13 @@
       .then(response => response.json())
       .then(data => {
         const wordList = document.getElementById('wordList');
+        originalOrder = data.map(word => ({ // 儲存原始資料而不是DOM元素
+          vn: word.vn,
+          zh: word.zh,
+          en: word.en,
+          sentence: word.sentence,
+          translation: word.translation
+        }));
 
         data.forEach(word => {
           const li = document.createElement('li');
@@ -151,6 +161,63 @@
       clearButton.style.display = 'none';
       // Trigger input event to update search results
       searchInput.dispatchEvent(new Event('input'));
+    });
+
+    // Add sorting functionality
+    let sortState = 0; // 0: 原序, 1: 升序, 2: 降序
+    let originalOrder = []; // 移到全域變數
+    const sortBtn = document.getElementById('sortBtn');
+    
+    sortBtn.addEventListener('click', function() {
+      sortState = (sortState + 1) % 3;
+      
+      // 更新按鈕圖標
+      const icon = sortBtn.querySelector('i');
+      icon.className = sortState === 0 
+        ? 'fa-solid fa-bars' 
+        : sortState === 1 
+          ? 'fa-solid fa-arrow-down-a-z' 
+          : 'fa-solid fa-arrow-up-z-a';
+      
+      const wordList = document.getElementById('wordList');
+      
+      if (sortState === 0) {
+        // 恢復原序
+        wordList.innerHTML = '';
+        originalOrder.forEach(word => {
+          const li = document.createElement('li');
+          li.classList.add('word-item');
+          li.innerHTML = `
+            <button class="voice"><i class="fa-solid fa-volume-high"></i></button>
+            <div class="word-content">
+              <div class="row">
+                <h3 class="vn">${word.vn}</h3>
+                <p class="zh">${word.zh}</p>
+                <p class="en">${word.en}</p>
+              </div>
+              <div class="row">
+                <p class="sentence">${word.sentence}</p>
+                <p class="translation">${word.translation}</p>
+              </div>
+            </div>
+          `;
+          wordList.appendChild(li);
+        });
+        toggleVoice(); // 重新綁定語音事件
+      } else {
+        // 排序
+        const wordItems = Array.from(document.querySelectorAll('.word-item'));
+        wordItems.sort((a, b) => {
+          const textA = a.querySelector('h3.vn').textContent.toLowerCase();
+          const textB = b.querySelector('h3.vn').textContent.toLowerCase();
+          return sortState === 1 
+            ? textA.localeCompare(textB) 
+            : textB.localeCompare(textA);
+        });
+        
+        wordList.innerHTML = '';
+        wordItems.forEach(item => wordList.appendChild(item));
+      }
     });
   </script>
 </body>

@@ -46,6 +46,26 @@ button {
   color: #333;
 }
 
+.sort-button {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.sort-button.active {
+  color: #007bff;
+}
+
+.sort-button:hover {
+  color: #333;
+}
+
 #searchInput {
   width: 100%;
   padding: 8px 12px;
@@ -53,7 +73,7 @@ button {
   border: 1px solid #aaa;
   border-radius: 6px;
   box-sizing: border-box;
-  padding-right: 40px;
+  padding-right: 80px;
 }
 
 .word-list {
