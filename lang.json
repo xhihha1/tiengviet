@@ -1,5 +1,117 @@
 [
   {
+    "vn": "tổng cộng",
+    "zh": "總共",
+    "en": "totally, in total",
+    "sentence": "Tổng cộng có 20 người tham gia cuộc họp.",
+    "translation": "總共有20人參加了會議。"
+  },
+  {
+    "vn": "số",
+    "zh": "數字",
+    "en": "number",
+    "sentence": "Số điện thoại của tôi là 0987654321.",
+    "translation": "我的電話號碼是0987654321。"
+  },
+  {
+    "vn": "nửa",
+    "zh": "一半",
+    "en": "half",
+    "sentence": "Tôi đã ăn hết nửa cái bánh.",
+    "translation": "我已經吃掉了半個蛋糕。"
+  },
+  {
+    "vn": "đủ",
+    "zh": "足夠",
+    "en": "enough",
+    "sentence": "Tôi không có đủ tiền để mua chiếc xe đó.",
+    "translation": "我沒有足夠的錢來買那輛車。"
+  },
+  {
+    "vn": "tỷ",
+    "zh": "十億",
+    "en": "billion",
+    "sentence": "Dân số thế giới đã vượt qua 8 tỷ người.",
+    "translation": "世界人口已超過80億人。"
+  },
+  {
+    "vn": "triệu",
+    "zh": "百萬",
+    "en": "million, millions",
+    "sentence": "Anh ấy đã trúng thưởng một triệu đồng.",
+    "translation": "他中了100萬越南盾的獎金。"
+  },
+  {
+    "vn": "lẻ",
+    "zh": "零",
+    "en": "(used at hundred level)",
+    "sentence": "Số 105 được đọc là một trăm lẻ năm.",
+    "translation": "數字105讀作一百零五。"
+  },
+  {
+    "vn": "mốt",
+    "zh": "一（用於21或更高）",
+    "en": "one (for 21 or higher), vogue, one",
+    "sentence": "Số 21 được đọc là hai mươi mốt.",
+    "translation": "數字21讀作二十一。"
+  },
+  {
+    "vn": "lăm",
+    "zh": "五（用於15或更高）",
+    "en": "five (for 15 or higher), five",
+    "sentence": "Số 15 được đọc là mười lăm.",
+    "translation": "數字15讀作十五。"
+  },
+  {
+    "vn": "nhiều",
+    "zh": "很多",
+    "en": "lots, many, various",
+    "sentence": "Cô ấy có nhiều bạn bè.",
+    "translation": "她有很多朋友。"
+  },
+  {
+    "vn": "tư",
+    "zh": "四（用於24或更高）",
+    "en": "private, four (for 24 or higher), four",
+    "sentence": "Số 24 được đọc là hai mươi tư.",
+    "translation": "數字24讀作二十四。"
+  },
+  {
+    "vn": "mười",
+    "zh": "十",
+    "en": "ten",
+    "sentence": "Tôi có mười quyển sách.",
+    "translation": "我有十本書。"
+  },
+  {
+    "vn": "chín",
+    "zh": "九",
+    "en": "nine, 9",
+    "sentence": "Anh ấy đã chờ tôi suốt chín giờ.",
+    "translation": "他已經等了我九個小時。"
+  },
+  {
+    "vn": "tám",
+    "zh": "八",
+    "en": "eight",
+    "sentence": "Tôi thức dậy lúc tám giờ sáng.",
+    "translation": "我早上八點起床。"
+  },
+  {
+    "vn": "bảy",
+    "zh": "七",
+    "en": "seven",
+    "sentence": "Tuần này tôi làm việc bảy ngày.",
+    "translation": "這週我工作了七天。"
+  },
+  {
+    "vn": "sáu",
+    "zh": "六",
+    "en": "six, sixth",
+    "sentence": "Cô ấy có sáu con mèo.",
+    "translation": "她有六隻貓。"
+  },
+  {
     "vn": "trưởng thành",
     "zh": "成熟的、成年的",
     "en": "mature, adult",
