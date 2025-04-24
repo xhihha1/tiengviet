@@ -2188,7 +2188,7 @@
     "zh": "車站",
     "en": "station, stations",
     "sentence": "Tôi đến trạm xe buýt.",
-    "translation": "我去公交車站。"
+    "translation": "我去公車站。"
   },
   {
     "vn": "đặt chỗ",
@@ -2213,10 +2213,10 @@
   },
   {
     "vn": "xe buýt",
-    "zh": "公交車",
+    "zh": "公車",
     "en": "bus",
     "sentence": "Tôi đi xe buýt đến trường.",
-    "translation": "我坐公交車上學。"
+    "translation": "我坐公車上學。"
   },
   {
     "vn": "cần",
