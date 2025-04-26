@@ -1,5 +1,96 @@
 [
   {
+    "vn": "nên",
+    "zh": "所以、應該",
+    "en": "ought, then, so",
+    "sentence": "Trời mưa nên tôi ở nhà.",
+    "translation": "因為下雨，所以我待在家裡。"
+  },
+  {
+    "vn": "trước",
+    "zh": "之前、前面",
+    "en": "ago, in front of, before",
+    "sentence": "Tôi đã gặp cô ấy ba ngày trước.",
+    "translation": "我在三天前見過她。"
+  },
+  {
+    "vn": "nhưng",
+    "zh": "但是",
+    "en": "but, however",
+    "sentence": "Tôi muốn đi chơi nhưng trời mưa.",
+    "translation": "我想出門玩，但下雨了。"
+  },
+  {
+    "vn": "mà còn",
+    "zh": "而且、還有",
+    "en": "not only... but also, but also",
+    "sentence": "Cô ấy không chỉ thông minh mà còn xinh đẹp.",
+    "translation": "她不僅聰明，而且漂亮。"
+  },
+  {
+    "vn": "đều",
+    "zh": "都、全部",
+    "en": "both of, all, both",
+    "sentence": "Cả hai chúng tôi đều thích cà phê.",
+    "translation": "我們兩個都喜歡咖啡。"
+  },
+  {
+    "vn": "cả",
+    "zh": "全部、整個",
+    "en": "all, both, all over",
+    "sentence": "Cả lớp đều đi học đúng giờ.",
+    "translation": "全班都準時上學。"
+  },
+  {
+    "vn": "tuy",
+    "zh": "雖然",
+    "en": "although, however, despite",
+    "sentence": "Tuy trời mưa, tôi vẫn đi học.",
+    "translation": "雖然下雨，我還是去上學了。"
+  },
+  {
+    "vn": "nếu",
+    "zh": "如果",
+    "en": "if",
+    "sentence": "Nếu bạn rảnh, chúng ta đi uống cà phê nhé.",
+    "translation": "如果你有空，我們去喝咖啡吧。"
+  },
+  {
+    "vn": "trong khi",
+    "zh": "在...的時候",
+    "en": "while",
+    "sentence": "Tôi đọc sách trong khi chờ xe buýt.",
+    "translation": "我在等公車的時候讀書。"
+  },
+  {
+    "vn": "thì",
+    "zh": "那麼、就",
+    "en": "is, am, then",
+    "sentence": "Nếu trời nắng thì chúng ta sẽ đi bơi.",
+    "translation": "如果天氣晴朗，我們就去游泳。"
+  },
+  {
+    "vn": "khi nào",
+    "zh": "什麼時候",
+    "en": "when, when does, when are",
+    "sentence": "Bạn đi du lịch khi nào?",
+    "translation": "你什麼時候去旅行？"
+  },
+  {
+    "vn": "hoặc",
+    "zh": "或者、或是",
+    "en": "or, either...or",
+    "sentence": "Bạn muốn uống trà hoặc cà phê?",
+    "translation": "你想喝茶還是咖啡？"
+  },
+  {
+    "vn": "bởi vì",
+    "zh": "因為",
+    "en": "because",
+    "sentence": "Tôi không đi học bởi vì bị ốm.",
+    "translation": "我沒去上學，因為生病了。"
+  },
+  {
     "vn": "tổng cộng",
     "zh": "總共",
     "en": "totally, in total",
