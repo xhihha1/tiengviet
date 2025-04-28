@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>發音練習</title>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="style-speak.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>發音練習</h1>
+  </div>
+
+  <div class="control-panel">
+    <div class="checkboxes">
+      <label><input type="checkbox" name="readOption" value="vn" checked> 越南語</label>
+      <label><input type="checkbox" name="readOption" value="zh"> 中文</label>
+      <label><input type="checkbox" name="readOption" value="en"> 英文</label>
+      <label><input type="checkbox" name="readOption" value="sentence"> 例句</label>
+      <label><input type="checkbox" name="readOption" value="translation"> 翻譯</label>
+    </div>
+    <div class="control-buttons">
+      <button id="playBtn" class="play-btn">
+        <i class="fa-solid fa-play"></i>
+      </button>
+      <button id="pauseBtn" class="control-btn" style="display: none;">
+        <i class="fa-solid fa-pause"></i>
+      </button>
+      <button id="resumeBtn" class="control-btn" style="display: none;">
+        <i class="fa-solid fa-play"></i>
+      </button>
+      <button id="stopBtn" class="control-btn" style="display: none;">
+        <i class="fa-solid fa-stop"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="display-area">
+    <div id="currentText" class="current-text"></div>
+  </div>
+
+  <nav class="bottom-nav">
+    <a href="index.html" class="nav-item">
+      <i class="fa-solid fa-list"></i>
+      <span>List</span>
+    </a>
+    <a href="exam.html" class="nav-item">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <span>Exam</span>
+    </a>
+    <a href="more.html" class="nav-item">
+      <i class="fa-solid fa-ellipsis"></i>
+      <span>More</span>
+    </a>
+  </nav>
+
+  <script>
+    let wordList = [];
+    let isPlaying = false;
+    let currentIndex = 0;
+    let playSequence = [];
+    let isSpeaking = false;
+    let currentTimeout = null;
+    let speechQueue = [];
+    let isQueueProcessing = false;
+    let isPaused = false;
+    let resumeTimeout = null;
+
+    let voices = [];
+    let viVoice = null;
+    let zhVoice = null;
+    let enVoice = null;
+
+    // 初始化語音
+    function initVoices() {
+      voices = speechSynthesis.getVoices();
+      if (!voices.length) {
+        // 語音尚未載入，延遲再嘗試
+        setTimeout(initVoices, 200);
+        return;
+      }
+      viVoice = voices.find(v => v.lang.includes('vi'));
+      zhVoice = voices.find(v => v.lang.includes('zh'));
+      enVoice = voices.find(v => v.lang.includes('en'));
+      console.log('Voices loaded:', {
+        viVoice,
+        zhVoice,
+        enVoice
+      });
+    }
+
+    if (speechSynthesis.onvoiceschanged !== undefined) {
+      speechSynthesis.onvoiceschanged = initVoices;
+    }
+    initVoices();
+
+    // 載入單字資料
+    fetch('lang.json')
+      .then(response => response.json())
+      .then(data => {
+        wordList = data;
+      });
+
+    const playBtn = document.getElementById('playBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+    const resumeBtn = document.getElementById('resumeBtn');
+    const stopBtn = document.getElementById('stopBtn');
+    const currentText = document.getElementById('currentText');
+
+    playBtn.addEventListener('click', startPlaying);
+    pauseBtn.addEventListener('click', pausePlaying);
+    resumeBtn.addEventListener('click', resumePlaying);
+    stopBtn.addEventListener('click', stopPlaying);
+
+    function updateButtons(state) {
+      playBtn.style.display = state === 'initial' ? 'block' : 'none';
+      pauseBtn.style.display = state === 'playing' ? 'block' : 'none';
+      resumeBtn.style.display = state === 'paused' ? 'block' : 'none';
+      stopBtn.style.display = (state === 'playing' || state === 'paused') ? 'block' : 'none';
+    }
+
+    function startPlaying() {
+      if (!viVoice || !zhVoice || !enVoice) {
+        alert('語音尚未初始化完成，請稍候再播放。');
+        return;
+      }
+      isPlaying = true;
+      isPaused = false;
+      currentIndex = 0;
+      updateButtons('playing');
+      generatePlaySequence();
+      speechQueue = [];
+      processSpeechQueue();
+      playNext();
+    }
+
+    function pausePlaying() {
+      isPaused = true;
+      if (currentTimeout) {
+        clearTimeout(currentTimeout);
+        currentTimeout = null;
+      }
+      speechSynthesis.cancel();
+      updateButtons('paused');
+    }
+
+    function resumePlaying() {
+      isPaused = false;
+      updateButtons('playing');
+      if (currentIndex < playSequence.length) {
+        playNext();
+      }
+    }
+
+    function stopPlaying() {
+      isPlaying = false;
+      isPaused = false;
+      isSpeaking = false;
+
+      if (currentTimeout) {
+        clearTimeout(currentTimeout);
+        currentTimeout = null;
+      }
+      if (resumeTimeout) {
+        clearTimeout(resumeTimeout);
+        resumeTimeout = null;
+      }
+
+      speechQueue = [];
+      isQueueProcessing = false;
+
+      updateButtons('initial');
+      currentText.textContent = '';
+
+      try {
+        speechSynthesis.cancel();
+      } catch (error) {
+        console.warn('Error canceling speech:', error);
+      }
+    }
+
+    function generatePlaySequence() {
+      playSequence = [];
+      const selectedOptions = Array.from(document.querySelectorAll('input[name="readOption"]:checked'))
+        .map(cb => cb.value);
+
+      wordList.forEach(word => {
+        selectedOptions.forEach(option => {
+          playSequence.push({
+            text: word[option],
+            type: option,
+            word: word
+          });
+        });
+      });
+    }
+
+    function enqueueUtterance(utterance) {
+      speechQueue.push(utterance);
+      if (!isQueueProcessing) {
+        processSpeechQueue();
+      }
+    }
+
+    function processSpeechQueue() {
+      if (isQueueProcessing || speechQueue.length === 0) return;
+
+      isQueueProcessing = true;
+      const utterance = speechQueue.shift();
+
+      const cleanText = utterance.text.replace(/,/g, '');
+      utterance.text = cleanText;
+
+      const type = utterance.customData?.type;
+      let selectedVoice = null;
+      let extraDelay = 0;
+
+      switch (type) {
+        case 'vn':
+        case 'sentence':
+          utterance.lang = 'vi-VN';
+          selectedVoice = viVoice;
+          break;
+        case 'zh':
+        case 'translation':
+          utterance.lang = 'zh-TW';
+          selectedVoice = zhVoice;
+          break;
+        case 'en':
+          utterance.lang = 'en-US';
+          selectedVoice = enVoice;
+          utterance.rate = 1.0; // 更穩定
+          extraDelay = 500; // 英文語音額外延遲避免過快
+          break;
+      }
+
+      if (!selectedVoice) {
+        console.warn(`No voice found for type: ${type}`);
+        finishUtterance();
+        return;
+      }
+
+      utterance.voice = selectedVoice;
+
+      const baseTimeout = 3000;
+      const charTimeout = 100;
+      const minTimeout = 1000;
+      const maxSpeakingTime = Math.max(baseTimeout + (cleanText.length * charTimeout), minTimeout) + extraDelay;
+
+      currentTimeout = setTimeout(() => {
+        console.warn('Speech timeout for:', utterance.text, 'after', maxSpeakingTime, 'ms');
+        finishUtterance();
+      }, maxSpeakingTime);
+
+      utterance.onend = finishUtterance;
+      utterance.onerror = (e) => {
+        console.error('Speech error:', e, 'for utterance:', utterance.text);
+        finishUtterance();
+      };
+
+      try {
+        isSpeaking = true;
+        speechSynthesis.speak(utterance);
+      } catch (error) {
+        console.error('Speech synthesis error:', error);
+        finishUtterance();
+      }
+    };
+
+    function finishUtterance() {
+      isSpeaking = false;
+      isQueueProcessing = false;
+      if (currentTimeout) {
+        clearTimeout(currentTimeout);
+        currentTimeout = null;
+      }
+
+      if (!isPaused && isPlaying) {
+        currentIndex++;
+        if (currentIndex < playSequence.length) {
+          resumeTimeout = setTimeout(playNext, 200);
+        } else {
+          stopPlaying();
+        }
+      }
+    }
+
+    function playNext() {
+      if (!isPlaying || isPaused || currentIndex >= playSequence.length) {
+        if (!isPlaying) stopPlaying();
+        return;
+      }
+
+      speechSynthesis.cancel();
+      const item = playSequence[currentIndex];
+      currentText.innerHTML = formatDisplayText(item.word, item.type);
+
+      if (!voices.length) {
+        voices = speechSynthesis.getVoices();
+      }
+
+      const utterance = new SpeechSynthesisUtterance(item.text);
+      utterance.customData = {
+        type: item.type
+      };
+
+      enqueueUtterance(utterance);
+    }
+
+    function formatDisplayText(word, currentType) {
+      const types = ['vn', 'zh', 'en', 'sentence', 'translation'];
+      return types.map(type => {
+        const text = word[type];
+        const isCurrentType = type === currentType;
+        return `<div class="${type} ${isCurrentType ? 'active' : ''}">${text}</div>`;
+      }).filter(Boolean).join('');
+    }
+  </script>
+</body>
+
+</html>

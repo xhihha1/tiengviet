@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>句型練習</title>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="style-speak.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .search-box {
+      padding: 10px;
+      margin: 10px;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .sentence-list {
+      padding: 10px;
+    }
+    .sentence-item {
+      padding: 15px;
+      margin: 10px 0;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .sentence-vn {
+      font-size: 1.1em;
+      margin-bottom: 5px;
+    }
+    .sentence-zh {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>句型練習</h1>
+  </div>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="搜尋句型...">
+  </div>
+
+  <div id="sentenceList" class="sentence-list"></div>
+
+  <nav class="bottom-nav">
+    <a href="index.html" class="nav-item">
+      <i class="fa-solid fa-list"></i>
+      <span>List</span>
+    </a>
+    <a href="exam.html" class="nav-item">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <span>Exam</span>
+    </a>
+    <a href="more.html" class="nav-item">
+      <i class="fa-solid fa-ellipsis"></i>
+      <span>More</span>
+    </a>
+  </nav>
+
+  <script>
+    let sentences = [];
+    let voices = [];
+    let viVoice = null;
+
+    // 初始化語音
+    function initVoices() {
+      voices = speechSynthesis.getVoices();
+      if (!voices.length) {
+        setTimeout(initVoices, 200);
+        return;
+      }
+      viVoice = voices.find(v => v.lang.includes('vi'));
+    }
+
+    if (speechSynthesis.onvoiceschanged !== undefined) {
+      speechSynthesis.onvoiceschanged = initVoices;
+    }
+    initVoices();
+
+    // 載入句型資料
+    fetch('sentence.json')
+      .then(response => response.json())
+      .then(data => {
+        sentences = data;
+        renderSentences(sentences);
+      });
+
+    // 渲染句型列表
+    function renderSentences(sentenceList) {
+      const container = document.getElementById('sentenceList');
+      container.innerHTML = sentenceList.map(sentence => `
+        <div class="sentence-item" onclick="speakSentence('${sentence.vn}')">
+          <div class="sentence-vn">${sentence.vn}</div>
+          <div class="sentence-zh">${sentence.zh}</div>
+        </div>
+      `).join('');
+    }
+
+    // 發音功能
+    function speakSentence(text) {
+      if (!viVoice) {
+        alert('語音尚未初始化完成，請稍候再試。');
+        return;
+      }
+      
+      speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.voice = viVoice;
+      utterance.lang = 'vi-VN';
+      speechSynthesis.speak(utterance);
+    }
+
+    // 搜尋功能
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      const searchText = e.target.value.toLowerCase();
+      const filtered = sentences.filter(sentence => 
+        sentence.vn.toLowerCase().includes(searchText) ||
+        sentence.zh.toLowerCase().includes(searchText)
+      );
+      renderSentences(filtered);
+    });
+  </script>
+</body>
+</html>

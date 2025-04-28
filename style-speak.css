@@ -1,0 +1,85 @@
+.control-panel {
+  padding: 20px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkboxes {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.play-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-btn:hover {
+  background: #0056b3;
+}
+
+.display-area {
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.current-text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.current-text div {
+  margin: 5px 0;
+  opacity: 0.6;
+}
+
+.current-text .active {
+  opacity: 1;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.vn { font-size: 20px; }
+.zh { font-size: 18px; }
+.en { font-size: 16px; }
+.sentence { font-size: 16px; }
+.translation { font-size: 16px; }
+
+.control-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.control-btn,
+.play-btn {
+  padding: 10px;
+  font-size: 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 60px;
+}
+
+.control-btn:hover,
+.play-btn:hover {
+  background: #0056b3;
+}
+
+#stopBtn {
+  background: #dc3545;
+}
+
+#stopBtn:hover {
+  background: #c82333;
+}
