@@ -1,5 +1,75 @@
 [
   {
+    "vn": "tìm hiểu",
+    "zh": "了解、探索",
+    "en": "learn about, get to know, learn",
+    "sentence": "Chúng tôi đang tìm hiểu về văn hóa Việt Nam.",
+    "translation": "我們正在了解越南文化。"
+  },
+  {
+    "vn": "đưa",
+    "zh": "交給、遞給、帶去",
+    "en": "handing, handed, take",
+    "sentence": "Anh ấy đưa cho tôi một cuốn sách.",
+    "translation": "他遞給我一本書。"
+  },
+  {
+    "vn": "hy vọng",
+    "zh": "希望",
+    "en": "hope, hopes",
+    "sentence": "Tôi hy vọng bạn sẽ thành công.",
+    "translation": "我希望你會成功。"
+  },
+  {
+    "vn": "xuất bản",
+    "zh": "出版",
+    "en": "publish, publishing",
+    "sentence": "Cuốn sách này sẽ được xuất bản vào tháng tới.",
+    "translation": "這本書將在下個月出版。"
+  },
+  {
+    "vn": "trở về",
+    "zh": "返回、回來",
+    "en": "return, get back",
+    "sentence": "Anh ấy sẽ trở về nhà vào tối nay.",
+    "translation": "他今晚會回家。"
+  },
+  {
+    "vn": "giao tiếp",
+    "zh": "溝通、交流",
+    "en": "communicate, communicating",
+    "sentence": "Học sinh cần học cách giao tiếp hiệu quả.",
+    "translation": "學生需要學習如何有效溝通。"
+  },
+  {
+    "vn": "hôn",
+    "zh": "親吻",
+    "en": "kiss",
+    "sentence": "Cô ấy hôn đứa con của mình trước khi đi làm.",
+    "translation": "她在上班前親吻了自己的孩子。"
+  },
+  {
+    "vn": "thảo luận",
+    "zh": "討論",
+    "en": "discuss, discusses, discussing",
+    "sentence": "Chúng ta cần thảo luận về kế hoạch này.",
+    "translation": "我們需要討論這個計劃。"
+  },
+  {
+    "vn": "thử thách",
+    "zh": "挑戰",
+    "en": "challenge, challenges",
+    "sentence": "Cuộc thi này là một thử thách lớn cho tôi.",
+    "translation": "這場比賽對我來說是一大挑戰。"
+  },
+  {
+    "vn": "ôm",
+    "zh": "擁抱",
+    "en": "hug",
+    "sentence": "Cô bé ôm chặt mẹ mình.",
+    "translation": "小女孩緊緊地擁抱著媽媽。"
+  },
+  {
     "vn": "bật",
     "zh": "打開、開啟",
     "en": "turn on, on",
