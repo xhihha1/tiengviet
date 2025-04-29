@@ -1,5 +1,68 @@
 [
   {
+    "vn": "cuối cùng",
+    "zh": "最後、最終",
+    "en": "finally, last, final",
+    "sentence": "Cuối cùng thì chúng tôi cũng đến nơi.",
+    "translation": "我們最終也到達了目的地。"
+  },
+  {
+    "vn": "đầu tiên",
+    "zh": "第一、最先",
+    "en": "first",
+    "sentence": "Người đầu tiên đến là Lan.",
+    "translation": "第一個到的是蘭。"
+  },
+  {
+    "vn": "thứ",
+    "zh": "第、順序、事物",
+    "en": "things, th, thing",
+    "sentence": "Đây là lần thứ hai tôi gặp anh ấy.",
+    "translation": "這是我第二次見到他。"
+  },
+  {
+    "vn": "lần",
+    "zh": "次、回",
+    "en": "time, times, turns",
+    "sentence": "Tôi đi Hà Nội ba lần rồi.",
+    "translation": "我已經去過河內三次了。"
+  },
+  {
+    "vn": "vào",
+    "zh": "進入、在（某時間）",
+    "en": "to go into, for, into",
+    "sentence": "Tôi học vào buổi tối.",
+    "translation": "我在晚上學習。"
+  },
+  {
+    "vn": "đang",
+    "zh": "正在",
+    "en": "is, am, (action is taking place)",
+    "sentence": "Tôi đang ăn cơm.",
+    "translation": "我正在吃飯。"
+  },
+  {
+    "vn": "lúc này",
+    "zh": "此刻、現在",
+    "en": "now, this moment, right now",
+    "sentence": "Lúc này tôi đang bận.",
+    "translation": "此刻我正忙著。"
+  },
+  {
+    "vn": "bây giờ",
+    "zh": "現在",
+    "en": "now, moment, it",
+    "sentence": "Bây giờ tôi không muốn đi đâu cả.",
+    "translation": "我現在哪裡都不想去。"
+  },
+  {
+    "vn": "hiện tại",
+    "zh": "目前、當下",
+    "en": "now, moment, currently",
+    "sentence": "Hiện tại tôi đang sống ở TP. Hồ Chí Minh.",
+    "translation": "目前我住在胡志明市。"
+  },
+  {
     "vn": "nên",
     "zh": "所以、應該",
     "en": "ought, then, so",
