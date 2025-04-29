@@ -1,5 +1,145 @@
 [
   {
+    "vn": "bật",
+    "zh": "打開、開啟",
+    "en": "turn on, on",
+    "sentence": "Anh ấy bật đèn lên khi trời tối.",
+    "translation": "天黑時他打開了燈。"
+  },
+  {
+    "vn": "tắt",
+    "zh": "關掉、關閉",
+    "en": "off, turn off, close",
+    "sentence": "Xin hãy tắt điện thoại trước khi vào phòng họp.",
+    "translation": "請在進入會議室前關掉手機。"
+  },
+  {
+    "vn": "dừng",
+    "zh": "停止、停下",
+    "en": "stop, stops",
+    "sentence": "Xe buýt đã dừng trước trường học.",
+    "translation": "公車在學校前停下來了。"
+  },
+  {
+    "vn": "sản xuất",
+    "zh": "生產、製造",
+    "en": "produce, producing, produces",
+    "sentence": "Nhà máy này sản xuất ô tô.",
+    "translation": "這間工廠生產汽車。"
+  },
+  {
+    "vn": "nhìn",
+    "zh": "看、注視",
+    "en": "look",
+    "sentence": "Hãy nhìn kìa, trời đang mưa!",
+    "translation": "快看，正在下雨！"
+  },
+  {
+    "vn": "bảo vệ",
+    "zh": "保護",
+    "en": "protect, protects",
+    "sentence": "Chúng ta cần bảo vệ môi trường.",
+    "translation": "我們需要保護環境。"
+  },
+  {
+    "vn": "phát minh",
+    "zh": "發明",
+    "en": "invent, invention, invents",
+    "sentence": "Anh ấy đã phát minh ra một thiết bị mới.",
+    "translation": "他發明了一個新裝置。"
+  },
+  {
+    "vn": "phân biệt",
+    "zh": "區分、辨別",
+    "en": "distinguish",
+    "sentence": "Cần phân biệt rõ ràng giữa hai khái niệm này.",
+    "translation": "需要清楚區分這兩個概念。"
+  },
+  {
+    "vn": "hiểu",
+    "zh": "理解、明白",
+    "en": "understand, understood, understands",
+    "sentence": "Tôi hiểu bạn đang nói gì.",
+    "translation": "我了解你在說什麼。"
+  },
+  {
+    "vn": "gửi",
+    "zh": "寄送、發送",
+    "en": "send, sends",
+    "sentence": "Tôi sẽ gửi email cho bạn ngay.",
+    "translation": "我會馬上寄電子郵件給你。"
+  },
+  {
+    "vn": "tặng",
+    "zh": "贈送、送禮",
+    "en": "gifts, gift, gift (verb)",
+    "sentence": "Tôi tặng bạn một món quà nhỏ.",
+    "translation": "我送你一個小禮物。"
+  },
+  {
+    "vn": "tin",
+    "zh": "相信、信任",
+    "en": "believe, trust",
+    "sentence": "Tôi tin bạn sẽ làm được.",
+    "translation": "我相信你可以做到。"
+  },
+  {
+    "vn": "cố gắng",
+    "zh": "努力、嘗試",
+    "en": "try, try (+ to infinitive), tries",
+    "sentence": "Chúng ta phải cố gắng học tập.",
+    "translation": "我們必須努力學習。"
+  },
+  {
+    "vn": "thắng",
+    "zh": "勝利、打敗",
+    "en": "win, defeat, wins",
+    "sentence": "Đội của tôi đã thắng trận đấu.",
+    "translation": "我的隊伍贏得了比賽。"
+  },
+  {
+    "vn": "thành công",
+    "zh": "成功",
+    "en": "successful, succeed, success",
+    "sentence": "Anh ấy đã thành công trong công việc.",
+    "translation": "他在工作上取得了成功。"
+  },
+  {
+    "vn": "thất bại",
+    "zh": "失敗",
+    "en": "fail, failure",
+    "sentence": "Chúng ta không nên sợ thất bại.",
+    "translation": "我們不應該害怕失敗。"
+  },
+  {
+    "vn": "đồng ý",
+    "zh": "同意",
+    "en": "agree, agrees",
+    "sentence": "Tôi đồng ý với ý kiến của bạn.",
+    "translation": "我同意你的意見。"
+  },
+  {
+    "vn": "thay đổi",
+    "zh": "改變、變化",
+    "en": "change, changes",
+    "sentence": "Chúng ta cần thay đổi kế hoạch.",
+    "translation": "我們需要改變計劃。"
+  },
+  {
+    "vn": "tồn tại",
+    "zh": "存在",
+    "en": "exist, exists, existing",
+    "sentence": "Sự thật luôn tồn tại.",
+    "translation": "事實永遠存在。"
+  },
+  {
+    "vn": "cho phép",
+    "zh": "允許、准許",
+    "en": "allow, allows, let",
+    "sentence": "Giáo viên cho phép chúng tôi nghỉ sớm.",
+    "translation": "老師允許我們提早下課。"
+  },
+  {
     "vn": "cuối cùng",
     "zh": "最後、最終",
     "en": "finally, last, final",
