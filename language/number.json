@@ -1,0 +1,162 @@
+[{
+    "vn": "Không",
+    "zh": "零",
+    "en": "zero",
+    "sentence": "Tôi có không đồng.",
+    "translation": "我有零元。"
+  },
+  {
+    "vn": "Một",
+    "zh": "一",
+    "en": "one",
+    "sentence": "Tôi có một quyển sách.",
+    "translation": "我有一本書。"
+  },
+  {
+    "vn": "Hai",
+    "zh": "二",
+    "en": "two",
+    "sentence": "Tôi có hai cái bánh.",
+    "translation": "我有兩個蛋糕。"
+  },
+  {
+    "vn": "Ba",
+    "zh": "三",
+    "en": "three",
+    "sentence": "Tôi có ba con mèo.",
+    "translation": "我有三隻貓。"
+  },
+  {
+    "vn": "Bốn",
+    "zh": "四",
+    "en": "four",
+    "sentence": "Tôi có bốn chiếc xe.",
+    "translation": "我有四台車。"
+  },
+  {
+    "vn": "Năm",
+    "zh": "五",
+    "en": "five",
+    "sentence": "Tôi có năm người bạn.",
+    "translation": "我有五個朋友。"
+  },
+  {
+    "vn": "Sáu",
+    "zh": "六",
+    "en": "six",
+    "sentence": "Tôi học sáu môn học.",
+    "translation": "我學六門課。"
+  },
+  {
+    "vn": "Bảy",
+    "zh": "七",
+    "en": "seven",
+    "sentence": "Tôi dậy lúc bảy giờ.",
+    "translation": "我七點起床。"
+  },
+  {
+    "vn": "Tám",
+    "zh": "八",
+    "en": "eight",
+    "sentence": "Tôi đi học lúc tám giờ.",
+    "translation": "我八點去上學。"
+  },
+  {
+    "vn": "Chín",
+    "zh": "九",
+    "en": "nine",
+    "sentence": "Buổi học kết thúc lúc chín giờ.",
+    "translation": "課程在九點結束。"
+  },
+  {
+    "vn": "Mười",
+    "zh": "十",
+    "en": "ten",
+    "sentence": "Có mười học sinh trong lớp.",
+    "translation": "班上有十位學生。"
+  },
+  {
+    "vn": "mốt",
+    "zh": "一（用於二十一以上的1）",
+    "en": "one (used for 1 in 21–91)",
+    "sentence": "Hai mốt là hai mươi mốt (21).",
+    "translation": "Hai mốt 就是二十一。"
+  },
+  {
+    "vn": "lăm",
+    "zh": "五（用於十五以上的5）",
+    "en": "five (used for 5 in 15–95)",
+    "sentence": "Ba lăm là ba mươi lăm (35).",
+    "translation": "Ba lăm 就是三十五。"
+  },
+  {
+    "vn": "mươi",
+    "zh": "十（用於20~90的十位數）",
+    "en": "ten (used for 20–90)",
+    "sentence": "Năm mươi là năm mươi (50).",
+    "translation": "Năm mươi 就是五十。"
+  },
+  {
+    "vn": "tư",
+    "zh": "四（可用於24～94中的4）",
+    "en": "four (used as variant for 4 in 24–94)",
+    "sentence": "Bốn tư cũng là bốn mươi bốn (44).",
+    "translation": "Bốn tư 也是四十四。"
+  },
+  {
+    "vn": "linh / lẻ",
+    "zh": "零（用於百位數之後的零）",
+    "en": "zero (used in hundreds after the hundred digit)",
+    "sentence": "Một trăm linh một là 101.",
+    "translation": "Một trăm linh một 是一百零一。"
+  },
+  {
+    "vn": "nghìn / ngàn",
+    "zh": "千（同義詞）",
+    "en": "thousand (interchangeable words)",
+    "sentence": "Một nghìn và một ngàn đều có nghĩa là 1,000.",
+    "translation": "Một nghìn 與 Một ngàn 都是 1,000。"
+  },
+  {
+    "vn": "một trăm",
+    "zh": "一百",
+    "en": "one hundred",
+    "sentence": "Tôi có một trăm nghìn đồng.",
+    "translation": "我有十萬越南盾。"
+  },
+  {
+    "vn": "một ngàn / một nghìn",
+    "zh": "一千",
+    "en": "one thousand",
+    "sentence": "Anh ấy tiết kiệm được một nghìn đồng.",
+    "translation": "他存了一千越南盾。"
+  },
+  {
+    "vn": "mười ngàn",
+    "zh": "萬（十個千）",
+    "en": "ten thousand",
+    "sentence": "Tổng số tiền là mười ngàn đồng.",
+    "translation": "總金額是一萬越南盾。"
+  },
+  {
+    "vn": "một trăm ngàn",
+    "zh": "十萬",
+    "en": "one hundred thousand",
+    "sentence": "Tôi cần một trăm ngàn để mua xe máy.",
+    "translation": "我需要十萬越南盾來買機車。"
+  },
+  {
+    "vn": "một triệu",
+    "zh": "百萬",
+    "en": "one million",
+    "sentence": "Cô ấy trúng thưởng một triệu đồng.",
+    "translation": "她中了獎金一百萬越南盾。"
+  },
+  {
+    "vn": "một tỷ",
+    "zh": "十億",
+    "en": "one billion",
+    "sentence": "Giá trị công ty là một tỷ đồng.",
+    "translation": "這間公司的價值是一十億越南盾。"
+  }
+]
