@@ -26,16 +26,32 @@
   <!-- PWA manifest -->
   <link rel="manifest" href="manifest.json">
   <style>
-    
+
   </style>
 </head>
 
 <body>
   <div class="header">
     <h1>越南語單字練習</h1>
-    <button id="langToggle" class="lang-toggle">
-      <i class="fa-solid fa-language"></i>
-    </button>
+    <div class="header-buttons">
+        <button id="fileSelect" class="lang-toggle-book">
+            <i class="fa-solid fa-book"></i>
+        </button>
+        <button id="langToggle" class="lang-toggle-book">
+            <i class="fa-solid fa-language"></i>
+        </button>
+    </div>
+  </div>
+
+  <!-- Add modal dialog -->
+  <div id="fileModal" class="modal">
+      <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <h2>選擇單字檔</h2>
+          <button class="file-option" data-file="./lang.json">一般單字</button>
+          <button class="file-option" data-file="./language/direction.json">方向詞彙</button>
+          <button class="file-option" data-file="./language/number.json">數字詞彙</button>
+      </div>
   </div>
 
   <div class="word-container">
@@ -67,23 +83,71 @@
     // 示例數據 - 實際使用時應該從lang.json加載
     let wordList = [];
 
-    // 實際應用中應該使用fetch加載JSON文件
-
-    fetch('lang.json')
-      .then(response => response.json())
-      .then(data => {
-        wordList = data;
-        initApp();
-      })
-      .catch(error => console.error('Error loading word list:', error));
-
-
     let currentWord = null;
     let correctAnswer = null;
     let selectedOption = null;
     let options = [];
     let isAnswered = false;
     let isReversed = false;  // 控制測驗模式
+    let isInit = false;  // 控制是否已初始化
+
+    // 實際應用中應該使用fetch加載JSON文件
+
+    let currentFile = 'lang.json';
+
+    // Add file selection functionality
+    const modal = document.getElementById('fileModal');
+    const fileSelectBtn = document.getElementById('fileSelect');
+    const closeModal = document.querySelector('.close-modal');
+    const fileOptions = document.querySelectorAll('.file-option');
+
+    fileSelectBtn.onclick = () => {
+        modal.style.display = 'block';
+    }
+
+    closeModal.onclick = () => {
+        modal.style.display = 'none';
+    }
+
+    window.onclick = (event) => {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+
+    fileOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            const newFile = option.dataset.file;
+            if (newFile !== currentFile) {
+                currentFile = newFile;
+                loadWordList(currentFile);
+            }
+            modal.style.display = 'none';
+        });
+    });
+
+    function loadWordList(filename) {
+        fetch(filename)
+            .then(response => response.json())
+            .then(data => {
+                wordList = data;
+                if(!isInit) {
+                    initApp();
+                    isInit = true;
+                } else {
+                    nextWord();
+                }
+                // initApp();
+                // nextWord();
+            })
+            .catch(error => console.error('Error loading word list:', error));
+    }
+
+    // Replace the existing fetch call with loadWordList
+    loadWordList(currentFile);
+    
+
+    
 
     // 初始化應用
     function initApp() {
@@ -91,7 +155,7 @@
         console.error('需要至少3個單字才能進行練習');
         return;
       }
-
+      
       nextWord();
 
       // 語音按鈕事件
@@ -102,6 +166,7 @@
 
       // 添加語言切換事件
       document.getElementById('langToggle').addEventListener('click', () => {
+        console.log('Language toggled!');
         isReversed = !isReversed;
         nextWord();
       });
@@ -255,6 +320,7 @@
 
     // 初始化應用
     // document.addEventListener('DOMContentLoaded', initApp);
+    
   </script>
   <!-- 添加底部導航欄 -->
   <nav class="bottom-nav">

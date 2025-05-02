@@ -1,0 +1,58 @@
+[
+  {
+    "vn": "trên",
+    "zh": "上",
+    "en": "up",
+    "sentence": "Con mèo đang ở trên bàn.",
+    "translation": "貓在桌子上。"
+  },
+  {
+    "vn": "dưới",
+    "zh": "下",
+    "en": "down",
+    "sentence": "Đôi giày ở dưới gầm giường.",
+    "translation": "鞋子在床底下。"
+  },
+  {
+    "vn": "trái",
+    "zh": "左",
+    "en": "left",
+    "sentence": "Rẽ trái ở ngã tư.",
+    "translation": "在十字路口左轉。"
+  },
+  {
+    "vn": "phải",
+    "zh": "右",
+    "en": "right",
+    "sentence": "Quẹo phải sau đèn đỏ.",
+    "translation": "紅綠燈後右轉。"
+  },
+  {
+    "vn": "trước",
+    "zh": "前",
+    "en": "front",
+    "sentence": "Xe buýt đang đến từ phía trước.",
+    "translation": "公車從前面開過來。"
+  },
+  {
+    "vn": "sau",
+    "zh": "後",
+    "en": "back",
+    "sentence": "Anh ấy đứng sau tôi.",
+    "translation": "他站在我後面。"
+  },
+  {
+    "vn": "xa",
+    "zh": "遠",
+    "en": "far",
+    "sentence": "Nhà tôi xa trường học.",
+    "translation": "我家離學校很遠。"
+  },
+  {
+    "vn": "gần",
+    "zh": "近",
+    "en": "near",
+    "sentence": "Nhà bạn gần chợ.",
+    "translation": "你家靠近市場。"
+  }
+]
