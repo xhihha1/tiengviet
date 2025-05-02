@@ -34,6 +34,9 @@
   <div class="search-container">
     <div class="search-wrapper">
       <input type="text" id="searchInput" placeholder="搜尋越南語、中文或英文...">
+      <button id="wordListBtn" class="word-list-button">
+        <i class="fa-solid fa-book"></i>
+      </button>
       <button id="clearSearch" class="clear-button"><i class="fa-solid fa-xmark"></i></button>
       <button id="sortBtn" class="sort-button">
         <i class="fa-solid fa-arrow-down-a-z"></i>
@@ -58,6 +61,18 @@
       <span>More</span>
     </a>
   </nav>
+
+  <!-- Add Modal for word list selection -->
+  <div id="fileModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>選擇單字檔</h2>
+        <button class="file-option" data-file="./lang.json">一般單字</button>
+        <button class="file-option" data-file="./language/direction.json">方向詞彙</button>
+        <button class="file-option" data-file="./language/number.json">數字詞彙</button>
+    </div>
+  </div> 
+
   <script>
     function toggleVoice() {
       const voices = speechSynthesis.getVoices();
@@ -223,6 +238,85 @@
         wordItems.forEach(item => wordList.appendChild(item));
       }
     });
+
+    // Add word list modal functionality
+    const modal = document.getElementById("fileModal");
+    const wordListBtn = document.getElementById("wordListBtn");
+    const closeModal = document.querySelector('.close-modal');
+    // const wordListSelect = document.getElementById("wordListSelect");
+    const fileOptions = document.querySelectorAll('.file-option');
+    let currentFile = 'lang.json';
+
+    wordListBtn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    closeModal.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    function loadWordList (filename) {
+      const selectedFile = filename;
+      modal.style.display = "none";
+      
+      // Clear existing word list
+      const wordList = document.getElementById('wordList');
+      wordList.innerHTML = '';
+      
+      // Load new word list
+      fetch(selectedFile)
+        .then(response => response.json())
+        .then(data => {
+          originalOrder = data.map(word => ({
+            vn: word.vn,
+            zh: word.zh,
+            en: word.en,
+            sentence: word.sentence,
+            translation: word.translation
+          }));
+
+          data.forEach(word => {
+            const li = document.createElement('li');
+            li.classList.add('word-item');
+            li.innerHTML = `
+              <button class="voice"><i class="fa-solid fa-volume-high"></i></button>
+              <div class="word-content">
+                <div class="row">
+                  <h3 class="vn">${word.vn}</h3>
+                  <p class="zh">${word.zh}</p>
+                  <p class="en">${word.en}</p>
+                </div>
+                <div class="row">
+                  <p class="sentence">${word.sentence}</p>
+                  <p class="translation">${word.translation}</p>
+                </div>
+              </div>
+            `;
+            wordList.appendChild(li);
+          });
+          
+          toggleVoice();
+        })
+        .catch(error => console.error('Error loading word list:', error));
+    }
+
+    fileOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            const newFile = option.dataset.file;
+            if (newFile !== currentFile) {
+                currentFile = newFile;
+                loadWordList(currentFile);
+            }
+            modal.style.display = 'none';
+        });
+    });
+
   </script>
 </body>
 
