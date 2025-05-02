@@ -1,5 +1,208 @@
 [
   {
+    "vn": "thế kỷ",
+    "zh": "世紀",
+    "en": "century",
+    "sentence": "Chúng ta đang sống trong thế kỷ 21.",
+    "translation": "我們正生活在21世紀。"
+  },
+  {
+    "vn": "ngày sinh",
+    "zh": "生日、出生日期",
+    "en": "birthday, date of birth",
+    "sentence": "Ngày sinh của tôi là ngày 5 tháng 5.",
+    "translation": "我的生日是5月5日。"
+  },
+  {
+    "vn": "thế hệ",
+    "zh": "世代",
+    "en": "generation",
+    "sentence": "Mỗi thế hệ có quan điểm sống khác nhau.",
+    "translation": "每一代人對生活的看法都不同。"
+  },
+  {
+    "vn": "thiên niên kỷ",
+    "zh": "千禧年、千年",
+    "en": "millennium, millenniums",
+    "sentence": "Chúng ta đã bước sang thiên niên kỷ mới.",
+    "translation": "我們已邁入新的千禧年。"
+  },
+  {
+    "vn": "thập niên",
+    "zh": "十年、年代",
+    "en": "decade",
+    "sentence": "Anh ấy đã sống ở đây hơn một thập niên.",
+    "translation": "他已經在這裡住了十年以上。"
+  },
+  {
+    "vn": "thu",
+    "zh": "秋天",
+    "en": "autumn, fall",
+    "sentence": "Tôi thích ngắm lá rơi vào mùa thu.",
+    "translation": "我喜歡在秋天欣賞落葉。"
+  },
+  {
+    "vn": "hè",
+    "zh": "夏天",
+    "en": "summer",
+    "sentence": "Chúng tôi đi biển vào mùa hè.",
+    "translation": "我們夏天去海邊。"
+  },
+  {
+    "vn": "mùa",
+    "zh": "季節、季作",
+    "en": "season, crop",
+    "sentence": "Mỗi mùa trong năm đều có vẻ đẹp riêng.",
+    "translation": "每個季節都有其獨特的美。"
+  },
+  {
+    "vn": "đông",
+    "zh": "冬天、東方、擁擠",
+    "en": "winter, East, crowded",
+    "sentence": "Trời rất lạnh vào mùa đông.",
+    "translation": "冬天非常冷。"
+  },
+  {
+    "vn": "xuân",
+    "zh": "春天",
+    "en": "spring",
+    "sentence": "Hoa nở rộ vào mùa xuân.",
+    "translation": "春天百花盛開。"
+  },
+  {
+    "vn": "tháng một",
+    "zh": "一月",
+    "en": "january",
+    "sentence": "Tết thường rơi vào tháng một hoặc tháng hai.",
+    "translation": "越南新年通常在一月或二月。"
+  },
+  {
+    "vn": "tháng tư",
+    "zh": "四月",
+    "en": "april",
+    "sentence": "Lễ hội diễn ra vào tháng tư.",
+    "translation": "節慶在四月舉行。"
+  },
+  {
+    "vn": "phút",
+    "zh": "分鐘",
+    "en": "minute, minutes",
+    "sentence": "Chờ tôi năm phút nhé.",
+    "translation": "請等我五分鐘。"
+  },
+  {
+    "vn": "tháng",
+    "zh": "月份",
+    "en": "months, month, months'",
+    "sentence": "Tôi sẽ đi du lịch vào tháng tới.",
+    "translation": "我下個月要去旅行。"
+  },
+  {
+    "vn": "giây",
+    "zh": "秒",
+    "en": "second, seconds",
+    "sentence": "Chỉ còn vài giây nữa là đến giờ.",
+    "translation": "只剩幾秒鐘就到時間了。"
+  },
+  {
+    "vn": "tuổi",
+    "zh": "年齡",
+    "en": "age",
+    "sentence": "Anh ấy bao nhiêu tuổi?",
+    "translation": "他幾歲了？"
+  },
+  {
+    "vn": "nay",
+    "zh": "現在、這",
+    "en": "this, now",
+    "sentence": "Tình hình nay đã khác.",
+    "translation": "現在情況已經不同了。"
+  },
+  {
+    "vn": "chủ nhật",
+    "zh": "星期日",
+    "en": "sunday",
+    "sentence": "Tôi thường nghỉ ngơi vào ngày chủ nhật.",
+    "translation": "我通常星期天休息。"
+  },
+  {
+    "vn": "giờ",
+    "zh": "小時、現在",
+    "en": "hour, hours, now",
+    "sentence": "Mấy giờ rồi?",
+    "translation": "現在幾點？"
+  },
+  {
+    "vn": "hôm nay",
+    "zh": "今天",
+    "en": "today",
+    "sentence": "Hôm nay trời nắng đẹp.",
+    "translation": "今天天氣晴朗。"
+  },
+  {
+    "vn": "tuần",
+    "zh": "星期、週",
+    "en": "week, weeks",
+    "sentence": "Chúng ta sẽ họp vào tuần sau.",
+    "translation": "我們下週要開會。"
+  },
+  {
+    "vn": "thứ tư",
+    "zh": "星期三、第四",
+    "en": "wednesday, fourth",
+    "sentence": "Tôi có lớp học vào thứ tư.",
+    "translation": "我星期三有課。"
+  },
+  {
+    "vn": "thời gian",
+    "zh": "時間",
+    "en": "time",
+    "sentence": "Tôi không có nhiều thời gian.",
+    "translation": "我沒有太多時間。"
+  },
+  {
+    "vn": "ngày",
+    "zh": "日子、日期",
+    "en": "day, date, st",
+    "sentence": "Hôm nay là ngày mấy?",
+    "translation": "今天幾號？"
+  },
+  {
+    "vn": "lịch",
+    "zh": "日曆、行程表",
+    "en": "calendar",
+    "sentence": "Tôi cần kiểm tra lịch làm việc.",
+    "translation": "我需要查看工作行程。"
+  },
+  {
+    "vn": "tối nay",
+    "zh": "今晚",
+    "en": "tonight",
+    "sentence": "Tối nay chúng ta đi xem phim nhé.",
+    "translation": "今晚我們去看電影吧。"
+  },
+  {
+    "vn": "mỗi",
+    "zh": "每個、每一",
+    "en": "each, per, every",
+    "sentence": "Tôi học tiếng Việt mỗi ngày.",
+    "translation": "我每天學越南語。"
+  },
+  {
+    "vn": "ngày mai",
+    "zh": "明天",
+    "en": "tomorrow",
+    "sentence": "Ngày mai tôi có cuộc họp quan trọng.",
+    "translation": "我明天有一個重要的會議。"
+  },
+  {
+    "vn": "chiều",
+    "zh": "下午",
+    "en": "afternoon",
+    "sentence": "Chúng tôi sẽ gặp nhau vào buổi chiều.",
+    "translation": "我們下午會見面。"
+  },
+  {
     "vn": "tìm hiểu",
     "zh": "了解、探索",
     "en": "learn about, get to know, learn",
