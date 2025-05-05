@@ -1,5 +1,96 @@
 [
   {
+    "vn": "ít",
+    "zh": "少",
+    "en": "little, few, some",
+    "sentence": "Tôi chỉ có ít tiền.",
+    "translation": "我只有一點錢。"
+  },
+  {
+    "vn": "nhất",
+    "zh": "最",
+    "en": "first, most, the most",
+    "sentence": "Anh ấy là người giỏi nhất.",
+    "translation": "他是最厲害的人。"
+  },
+  {
+    "vn": "hơn",
+    "zh": "比…更",
+    "en": "more, than, more than",
+    "sentence": "Tôi cao hơn bạn.",
+    "translation": "我比你高。"
+  },
+  {
+    "vn": "so sánh",
+    "zh": "比較",
+    "en": "compare",
+    "sentence": "Chúng ta hãy so sánh hai phương án.",
+    "translation": "我們來比較這兩個方案。"
+  },
+  {
+    "vn": "họ hàng",
+    "zh": "親戚",
+    "en": "relatives, relative",
+    "sentence": "Tết tôi sẽ về quê thăm họ hàng.",
+    "translation": "過年我會回老家探望親戚。"
+  },
+  {
+    "vn": "chú",
+    "zh": "叔叔",
+    "en": "uncle, you",
+    "sentence": "Chú tôi sống ở Hà Nội.",
+    "translation": "我叔叔住在河內。"
+  },
+  {
+    "vn": "hôn nhân",
+    "zh": "婚姻",
+    "en": "marriage",
+    "sentence": "Họ đang chuẩn bị cho hôn nhân.",
+    "translation": "他們正在為婚姻做準備。"
+  },
+  {
+    "vn": "ông",
+    "zh": "爺爺",
+    "en": "grandfather",
+    "sentence": "Ông tôi rất thích đọc báo.",
+    "translation": "我爺爺很喜歡看報紙。"
+  },
+  {
+    "vn": "em",
+    "zh": "弟弟／妹妹",
+    "en": "you, younger brother, younger sister",
+    "sentence": "Em tôi đang học lớp ba.",
+    "translation": "我弟弟（妹妹）正在讀三年級。"
+  },
+  {
+    "vn": "bà",
+    "zh": "奶奶／外婆",
+    "en": "grandmother",
+    "sentence": "Bà tôi nấu ăn rất ngon.",
+    "translation": "我奶奶（外婆）煮菜很好吃。"
+  },
+  {
+    "vn": "gái",
+    "zh": "女孩",
+    "en": "girl",
+    "sentence": "Cô gái đó rất dễ thương.",
+    "translation": "那個女孩很可愛。"
+  },
+  {
+    "vn": "trai",
+    "zh": "男孩",
+    "en": "boy",
+    "sentence": "Cậu trai đó đang chơi bóng.",
+    "translation": "那個男孩正在踢球。"
+  },
+  {
+    "vn": "chị",
+    "zh": "姊姊",
+    "en": "sister, older sister, older sisters",
+    "sentence": "Chị tôi làm việc ở ngân hàng.",
+    "translation": "我姊姊在銀行工作。"
+  },
+  {
     "vn": "thế kỷ",
     "zh": "世紀",
     "en": "century",
