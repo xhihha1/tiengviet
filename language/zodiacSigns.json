@@ -8,21 +8,21 @@
   },
   {
     "vn": "Tý",
-    "zh": "鼠",
+    "zh": "鼠(子)",
     "en": "Rat",
     "sentence": "Tôi tuổi Tý.",
     "translation": "我屬鼠。"
   },
   {
     "vn": "Sửu",
-    "zh": "牛",
+    "zh": "牛(丑)",
     "en": "Ox",
     "sentence": "Anh ấy sinh năm Sửu.",
     "translation": "他是牛年出生的。"
   },
   {
     "vn": "Dần",
-    "zh": "虎",
+    "zh": "虎(寅)",
     "en": "Tiger",
     "sentence": "Cô ấy tuổi Dần.",
     "translation": "她屬虎。"
@@ -36,56 +36,56 @@
   },
   {
     "vn": "Thìn",
-    "zh": "龍",
+    "zh": "龍(辰)",
     "en": "Dragon",
     "sentence": "Tôi sinh năm Thìn.",
     "translation": "我出生在龍年。"
   },
   {
     "vn": "Tỵ",
-    "zh": "蛇",
+    "zh": "蛇(巳)",
     "en": "Snake",
     "sentence": "Tỵ là con giáp thông minh.",
     "translation": "蛇是聰明的生肖。"
   },
   {
     "vn": "Ngọ",
-    "zh": "馬",
+    "zh": "馬(午)",
     "en": "Horse",
     "sentence": "Người tuổi Ngọ rất năng động.",
     "translation": "屬馬的人非常有活力。"
   },
   {
     "vn": "Mùi",
-    "zh": "羊",
+    "zh": "羊(未)",
     "en": "Goat",
     "sentence": "Tôi tuổi Mùi, thích nghệ thuật.",
     "translation": "我屬羊，喜歡藝術。"
   },
   {
     "vn": "Thân",
-    "zh": "猴",
+    "zh": "猴(申)",
     "en": "Monkey",
     "sentence": "Trẻ tuổi Thân rất lanh lợi.",
     "translation": "屬猴的小孩很聰明。"
   },
   {
     "vn": "Dậu",
-    "zh": "雞",
+    "zh": "雞(酉)",
     "en": "Rooster",
     "sentence": "Dậu là con giáp chăm chỉ.",
     "translation": "雞是勤奮的生肖。"
   },
   {
     "vn": "Tuất",
-    "zh": "狗",
+    "zh": "狗(戌)",
     "en": "Dog",
     "sentence": "Người tuổi Tuất thường trung thành.",
     "translation": "屬狗的人通常很忠誠。"
   },
   {
     "vn": "Hợi",
-    "zh": "豬",
+    "zh": "豬(亥)",
     "en": "Pig",
     "sentence": "Tôi tuổi Hợi, thích ăn ngon.",
     "translation": "我屬豬，喜歡吃好吃的東西。"
