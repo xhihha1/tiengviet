@@ -44,11 +44,25 @@
 .modal-content {
   position: relative;
   background-color: #fefefe;
-  margin: 15% auto;
+  margin: 5% auto;
   padding: 20px;
   border-radius: 8px;
   width: 80%;
   max-width: 500px;
+  max-height: 80%;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content-wrapper{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 95px);
+  max-height: '100%';
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .file-option {
