@@ -1,0 +1,93 @@
+[
+  {
+    "vn": "Cung hoàng đạo",
+    "zh": "星座",
+    "en": "Zodiac",
+    "sentence": "Tôi thích tìm hiểu về cung hoàng đạo.",
+    "translation": "我喜歡了解星座。"
+  },
+  {
+    "vn": "Bạch Dương",
+    "zh": "白羊座",
+    "en": "Aries",
+    "sentence": "Tôi thuộc cung Bạch Dương.",
+    "translation": "我屬於白羊座。"
+  },
+  {
+    "vn": "Kim Ngưu",
+    "zh": "金牛座",
+    "en": "Taurus",
+    "sentence": "Kim Ngưu rất kiên định.",
+    "translation": "金牛座的人非常堅定。"
+  },
+  {
+    "vn": "Song Tử",
+    "zh": "雙子座",
+    "en": "Gemini",
+    "sentence": "Song Tử thường hoạt bát.",
+    "translation": "雙子座的人通常很活潑。"
+  },
+  {
+    "vn": "Cự Giải",
+    "zh": "巨蟹座",
+    "en": "Cancer",
+    "sentence": "Cự Giải rất quan tâm đến gia đình.",
+    "translation": "巨蟹座非常重視家庭。"
+  },
+  {
+    "vn": "Sư Tử",
+    "zh": "獅子座",
+    "en": "Leo",
+    "sentence": "Sư Tử thích được chú ý.",
+    "translation": "獅子座喜歡成為焦點。"
+  },
+  {
+    "vn": "Xử Nữ",
+    "zh": "處女座",
+    "en": "Virgo",
+    "sentence": "Xử Nữ rất cẩn thận.",
+    "translation": "處女座非常細心。"
+  },
+  {
+    "vn": "Thiên Bình",
+    "zh": "天秤座",
+    "en": "Libra",
+    "sentence": "Thiên Bình yêu thích sự công bằng.",
+    "translation": "天秤座喜歡公平。"
+  },
+  {
+    "vn": "Bọ Cạp",
+    "zh": "天蠍座",
+    "en": "Scorpio",
+    "sentence": "Bọ Cạp rất bí ẩn.",
+    "translation": "天蠍座很神秘。"
+  },
+  {
+    "vn": "Nhân Mã",
+    "zh": "射手座",
+    "en": "Sagittarius",
+    "sentence": "Nhân Mã thích phiêu lưu.",
+    "translation": "射手座喜歡冒險。"
+  },
+  {
+    "vn": "Ma Kết",
+    "zh": "摩羯座",
+    "en": "Capricorn",
+    "sentence": "Ma Kết rất chăm chỉ.",
+    "translation": "摩羯座非常勤奮。"
+  },
+  {
+    "vn": "Bảo Bình",
+    "zh": "水瓶座",
+    "en": "Aquarius",
+    "sentence": "Bảo Bình sáng tạo và độc lập.",
+    "translation": "水瓶座很有創造力且獨立。"
+  },
+  {
+    "vn": "Song Ngư",
+    "zh": "雙魚座",
+    "en": "Pisces",
+    "sentence": "Song Ngư mơ mộng và lãng mạn.",
+    "translation": "雙魚座浪漫又愛幻想。"
+  }
+]
