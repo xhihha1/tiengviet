@@ -1,3 +1,16 @@
+/* 
+const vocabList = [];
+
+document.querySelectorAll('.vocab-box').forEach(box => {
+  const zh = box.querySelector('.vocab-box-english')?.textContent.trim() || '';
+  const vn = box.querySelector('.vocab-box-spalan')?.textContent.trim() || '';
+  vocabList.push({ zh, vn });
+});
+
+console.log(JSON.stringify(vocabList, null, 2));
+*/
+
+
 const fs = require('fs');
 const path = require('path');
 

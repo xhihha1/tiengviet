@@ -1,5 +1,12 @@
 [
   {
+    "vn":"phía",
+    "zh":"方位",
+    "en":"direction",
+    "sentence":"Phía trước có một ngôi nhà.",
+    "translation":"前面有一棟房子。"
+  },
+  {
     "vn": "trên",
     "zh": "上",
     "en": "up",

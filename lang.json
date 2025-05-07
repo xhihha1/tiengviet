@@ -1,5 +1,180 @@
 [
   {
+    "vn": "địa hình",
+    "zh": "地形",
+    "en": "terrain",
+    "sentence": "Việt Nam có địa hình đa dạng với núi, đồng bằng và biển.",
+    "translation": "越南的地形多樣，有山地、平原和海洋。"
+  },
+  {
+    "vn": "lượng mưa",
+    "zh": "降雨量",
+    "en": "precipitation, rainfall",
+    "sentence": "Lượng mưa ở miền trung thường rất cao vào mùa mưa.",
+    "translation": "中部地區在雨季的降雨量通常很高。"
+  },
+  {
+    "vn": "thung lũng",
+    "zh": "山谷",
+    "en": "valley",
+    "sentence": "Thung lũng này rất đẹp vào mùa xuân.",
+    "translation": "這個山谷在春天非常美麗。"
+  },
+  {
+    "vn": "đồng bằng",
+    "zh": "平原",
+    "en": "plain",
+    "sentence": "Đồng bằng sông Cửu Long rất màu mỡ và rộng lớn.",
+    "translation": "湄公河三角洲平原非常肥沃且廣大。"
+  },
+  {
+    "vn": "đảo",
+    "zh": "島嶼",
+    "en": "island",
+    "sentence": "Phú Quốc là một hòn đảo nổi tiếng của Việt Nam.",
+    "translation": "富國島是越南著名的島嶼之一。"
+  },
+  {
+    "vn": "la bàn",
+    "zh": "指南針",
+    "en": "compass",
+    "sentence": "Tôi dùng la bàn để xác định phương hướng khi đi rừng.",
+    "translation": "我用指南針在森林裡辨別方向。"
+  },
+  {
+    "vn": "nam",
+    "zh": "南方、男性",
+    "en": "south, male, Nam",
+    "sentence": "Thành phố Hồ Chí Minh nằm ở miền Nam Việt Nam.",
+    "translation": "胡志明市位於越南南方。"
+  },
+  {
+    "vn": "bắc",
+    "zh": "北方",
+    "en": "north",
+    "sentence": "Hà Nội là thủ đô ở miền Bắc Việt Nam.",
+    "translation": "河內是位於越南北方的首都。"
+  },
+  {
+    "vn": "hướng",
+    "zh": "方向",
+    "en": "direction, heading",
+    "sentence": "Bạn nên đi theo hướng đông để đến bãi biển.",
+    "translation": "你應該往東走才能到達海灘。"
+  },
+  {
+    "vn": "tây",
+    "zh": "西方、西邊",
+    "en": "west, western",
+    "sentence": "Mặt trời lặn ở hướng tây.",
+    "translation": "太陽在西邊落下。"
+  },
+  {
+    "vn": "châu",
+    "zh": "洲、大洲",
+    "en": "continent",
+    "sentence": "Trái đất có bảy châu lục.",
+    "translation": "地球有七大洲。"
+  },
+  {
+    "vn": "á",
+    "zh": "亞洲",
+    "en": "Asian",
+    "sentence": "Việt Nam thuộc châu Á.",
+    "translation": "越南屬於亞洲。"
+  },
+  {
+    "vn": "đại dương",
+    "zh": "大洋、海洋",
+    "en": "ocean",
+    "sentence": "Thái Bình Dương là đại dương lớn nhất.",
+    "translation": "太平洋是最大的海洋。"
+  },
+  {
+    "vn": "nam cực",
+    "zh": "南極",
+    "en": "antarctic",
+    "sentence": "Nam Cực rất lạnh và có nhiều băng.",
+    "translation": "南極非常冷，有很多冰。"
+  },
+  {
+    "vn": "phi",
+    "zh": "非洲",
+    "en": "Phi (proper name)",
+    "sentence": "Châu Phi có nhiều quốc gia đang phát triển.",
+    "translation": "非洲有許多開發中國家。"
+  },
+  {
+    "vn": "âu",
+    "zh": "歐洲",
+    "en": "Europe",
+    "sentence": "Pháp là một nước thuộc châu Âu.",
+    "translation": "法國是歐洲的一個國家。"
+  },
+  {
+    "vn": "phía trước",
+    "zh": "前方、前面",
+    "en": "in front of, up ahead",
+    "sentence": "Có một ngã rẽ phía trước.",
+    "translation": "前面有個轉彎處。"
+  },
+  {
+    "vn": "trước khi",
+    "zh": "在...之前",
+    "en": "before",
+    "sentence": "Tôi ăn sáng trước khi đi làm.",
+    "translation": "我在上班前吃早餐。"
+  },
+  {
+    "vn": "sau khi",
+    "zh": "在...之後",
+    "en": "after",
+    "sentence": "Sau khi học xong, tôi đi ngủ.",
+    "translation": "下課後，我就去睡覺了。"
+  },
+  {
+    "vn": "trong",
+    "zh": "在...裡，在...期間",
+    "en": "inside, for, at",
+    "sentence": "Tôi sống trong một căn nhà nhỏ.",
+    "translation": "我住在一間小房子裡。"
+  },
+  {
+    "vn": "phía sau",
+    "zh": "後面",
+    "en": "behind",
+    "sentence": "Chiếc xe đang đỗ phía sau nhà.",
+    "translation": "車子停在房子後面。"
+  },
+  {
+    "vn": "từ",
+    "zh": "從、字",
+    "en": "word, since, from",
+    "sentence": "Tôi học tiếng Việt từ năm ngoái.",
+    "translation": "我從去年開始學越南語。"
+  },
+  {
+    "vn": "cùng",
+    "zh": "一起、相同",
+    "en": "with, the same, together",
+    "sentence": "Chúng tôi cùng học một lớp.",
+    "translation": "我們一起上同一門課。"
+  },
+  {
+    "vn": "ngoài",
+    "zh": "在外、除了",
+    "en": "out, besides, aside",
+    "sentence": "Ngoài việc học, tôi còn đi làm thêm.",
+    "translation": "除了讀書，我還兼職打工。"
+  },
+  {
+    "vn": "về",
+    "zh": "關於、回、朝向",
+    "en": "for, toward, about",
+    "sentence": "Tôi đang viết bài về du lịch Việt Nam.",
+    "translation": "我正在寫關於越南旅遊的文章。"
+  },
+  {
     "vn": "ít",
     "zh": "少",
     "en": "little, few, some",
