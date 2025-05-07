@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 📱 iOS 全螢幕支援 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="越南語學習">
+
+  <!-- ✅ Android Chrome 全螢幕支援 -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Optional: 可以加入自訂 icon -->
+  <link rel="apple-touch-icon" href="../icon-512.png">
+  <!-- favicon fallback -->
+  <link rel="icon" type="image/png" href="../icon-512.png">
+  <title>焦點切換訓練</title>
+  <link rel="stylesheet" href="commonStyle.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #222, #111);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+    #scene {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      height: 400px;
+      overflow: hidden;
+      background: radial-gradient(ellipse at center, #333 0%, #000 100%);
+      border: 2px solid #666;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+    }
+    .ball {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 40px;
+      height: 40px;
+      background-color: #ff4444;
+      border-radius: 50%;
+      transform: translate(-50%, -50%) scale(1);
+      transition: transform 1s ease-in-out;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+    }
+    #startBtn {
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 18px;
+      background: #ff4444;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    #startBtn:hover {
+      background: #dd2222;
+    }
+    #countdown {
+      margin-top: 15px;
+      font-size: 1.5em;
+      color: #ffcc00;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>焦點切換訓練</h1>
+  <div id="scene">
+    <div class="ball" id="ball"></div>
+  </div>
+  <button id="startBtn">開始訓練</button>
+  <div id="countdown"></div>
+
+  <script>
+    const ball = document.getElementById('ball');
+    const startBtn = document.getElementById('startBtn');
+    const countdownDisplay = document.getElementById('countdown');
+
+    let isNear = true;
+    let intervalId = null;
+    let countdownId = null;
+    let totalSeconds = 60; // 預設訓練 60 秒
+    let remainingSeconds = totalSeconds;
+
+    function toggleFocus() {
+      if (isNear) {
+        ball.style.transform = 'translate(-50%, -50%) scale(2.5)'; // 近距離放大
+      } else {
+        ball.style.transform = 'translate(-50%, -50%) scale(1)'; // 遠距離縮小
+      }
+      isNear = !isNear;
+    }
+
+    function updateCountdown() {
+      countdownDisplay.textContent = `剩餘時間：${remainingSeconds} 秒`;
+      if (remainingSeconds <= 0) {
+        clearInterval(intervalId);
+        clearInterval(countdownId);
+        intervalId = null;
+        countdownId = null;
+        startBtn.textContent = '開始訓練';
+        countdownDisplay.textContent = '訓練完成！';
+      }
+      remainingSeconds--;
+    }
+
+    startBtn.addEventListener('click', () => {
+      if (intervalId) {
+        clearInterval(intervalId);
+        clearInterval(countdownId);
+        intervalId = null;
+        countdownId = null;
+        startBtn.textContent = '開始訓練';
+        countdownDisplay.textContent = '';
+      } else {
+        remainingSeconds = totalSeconds;
+        toggleFocus();
+        intervalId = setInterval(toggleFocus, 2000);
+        countdownId = setInterval(updateCountdown, 1000);
+        updateCountdown();
+        startBtn.textContent = '停止訓練';
+      }
+    });
+  </script>
+  <a href="list.html" class="back-button">返回選單</a>
+</body>
+</html>

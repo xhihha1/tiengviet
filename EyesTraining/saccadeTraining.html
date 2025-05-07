@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- 📱 iOS 全螢幕支援 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="越南語學習">
+
+  <!-- ✅ Android Chrome 全螢幕支援 -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Optional: 可以加入自訂 icon -->
+  <link rel="apple-touch-icon" href="../icon-512.png">
+  <!-- favicon fallback -->
+  <link rel="icon" type="image/png" href="../icon-512.png">
+  <title>跳視訓練（Saccade Training）</title>
+  <link rel="stylesheet" href="commonStyle.css">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #111, #000);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      height: 100%;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h1 {
+      margin: 20px 0;
+      font-size: 1.5em;
+      text-align: center;
+    }
+    #trainingArea {
+      position: relative;
+      width: 90vw;
+      max-width: 800px;
+      height: 50vh;
+      border: 2px solid #888;
+      background-color: #000;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .target {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-color: #00ffcc;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #00ffcc;
+    }
+    #controls {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    button, select {
+      padding: 10px 16px;
+      background-color: #28a745;
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover, select:hover {
+      background-color: #218838;
+    }
+    #countdown {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #ffcc00;
+    }
+    @media screen and (orientation: portrait) {
+      body::before {
+        content: "請將手機橫向以獲得最佳體驗";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        color: white;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 9999;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>跳視訓練（Saccade Training）</h1>
+  <div id="trainingArea">
+    <div class="target" id="target"></div>
+  </div>
+  <div id="controls">
+    <label for="speedSelect">選擇速度：</label>
+    <select id="speedSelect">
+      <option value="2000">慢速</option>
+      <option value="1000" selected>中速</option>
+      <option value="500">快速</option>
+    </select>
+    <button id="startBtn">開始訓練</button>
+  </div>
+  <div id="countdown"></div>
+
+  <script>
+    const target = document.getElementById('target');
+    const area = document.getElementById('trainingArea');
+    const startBtn = document.getElementById('startBtn');
+    const countdownDisplay = document.getElementById('countdown');
+    const speedSelect = document.getElementById('speedSelect');
+
+    let countdown = 60;
+    let countdownTimer;
+    let moveTimer;
+    let running = false;
+
+    function moveTarget() {
+      const areaWidth = area.clientWidth;
+      const areaHeight = area.clientHeight;
+      const targetSize = 40;
+      const padding = 10;
+
+      const x = Math.random() * (areaWidth - targetSize - padding * 2) + padding;
+      const y = Math.random() * (areaHeight - targetSize - padding * 2) + padding;
+
+      target.style.left = `${x}px`;
+      target.style.top = `${y}px`;
+    }
+
+    function startTraining() {
+      running = true;
+      countdown = 60;
+      countdownDisplay.textContent = `剩餘時間：${countdown} 秒`;
+
+      moveTarget();
+      const speed = parseInt(speedSelect.value);
+      moveTimer = setInterval(moveTarget, speed);
+
+      countdownTimer = setInterval(() => {
+        countdown--;
+        if (countdown <= 0) {
+          stopTraining();
+          countdownDisplay.textContent = '訓練完成！';
+        } else {
+          countdownDisplay.textContent = `剩餘時間：${countdown} 秒`;
+        }
+      }, 1000);
+
+      startBtn.textContent = '停止訓練';
+    }
+
+    function stopTraining() {
+      running = false;
+      clearInterval(countdownTimer);
+      clearInterval(moveTimer);
+      countdownDisplay.textContent = '';
+      target.style.left = '-100px';
+      target.style.top = '-100px';
+      startBtn.textContent = '開始訓練';
+    }
+
+    startBtn.addEventListener('click', () => {
+      if (running) {
+        stopTraining();
+      } else {
+        startTraining();
+      }
+    });
+  </script>
+  <a href="list.html" class="back-button">返回選單</a>
+</body>
+</html>

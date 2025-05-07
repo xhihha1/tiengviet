@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- 📱 iOS 全螢幕支援 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="越南語學習">
+
+  <!-- ✅ Android Chrome 全螢幕支援 -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Optional: 可以加入自訂 icon -->
+  <link rel="apple-touch-icon" href="../icon-512.png">
+  <!-- favicon fallback -->
+  <link rel="icon" type="image/png" href="../icon-512.png">
+  <title>視覺聚焦遊戲</title>
+  <link rel="stylesheet" href="commonStyle.css">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #111, #000);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      height: 100%;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h1 {
+      margin: 20px 0;
+      font-size: 1.5em;
+      text-align: center;
+    }
+    #gameArea {
+      position: relative;
+      width: 90vw;
+      max-width: 800px;
+      height: 60vh;
+      border: 2px solid #888;
+      background-color: #000;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .object {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      background-color: #ccc;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+      user-select: none;
+      cursor: pointer;
+    }
+    .blurred {
+      filter: blur(3px);
+      opacity: 0.4;
+    }
+    #controls {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    button, select {
+      padding: 10px 16px;
+      background-color: #28a745;
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover, select:hover {
+      background-color: #218838;
+    }
+    #scoreDisplay, #countdown {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #ffcc00;
+    }
+    @media screen and (orientation: portrait) {
+      body::before {
+        content: "請將手機橫向以獲得最佳體驗";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        color: white;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 9999;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>視覺聚焦遊戲</h1>
+  <div id="gameArea"></div>
+  <div id="controls">
+    <button id="startBtn">開始遊戲</button>
+  </div>
+  <div id="scoreDisplay">得分：0</div>
+  <div id="countdown"></div>
+  <audio id="correctSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_25ee2bce96.mp3?filename=correct-2-46134.mp3"></audio>
+  <script>
+    const gameArea = document.getElementById('gameArea');
+    const startBtn = document.getElementById('startBtn');
+    const scoreDisplay = document.getElementById('scoreDisplay');
+    const countdownDisplay = document.getElementById('countdown');
+    const correctSound = document.getElementById('correctSound');
+
+    let score = 0;
+    let countdown = 60;
+    let gameTimer, spawnTimer;
+
+    function createObject() {
+      const obj = document.createElement('div');
+      obj.className = 'object';
+
+      const isClear = Math.random() < 0.3; // 30% 為清晰目標
+      if (!isClear) obj.classList.add('blurred');
+
+      obj.style.left = Math.random() * (gameArea.clientWidth - 60) + 'px';
+      obj.style.top = Math.random() * (gameArea.clientHeight - 60) + 'px';
+      obj.textContent = '●';
+
+      obj.addEventListener('click', () => {
+        if (isClear) {
+          score++;
+          scoreDisplay.textContent = `得分：${score}`;
+          correctSound.currentTime = 0;
+          correctSound.play();
+        } else {
+          score = Math.max(0, score - 1);
+          scoreDisplay.textContent = `得分：${score}`;
+        }
+        obj.remove();
+      });
+
+      gameArea.appendChild(obj);
+      setTimeout(() => obj.remove(), 1500);
+    }
+
+    function startGame() {
+      score = 0;
+      countdown = 60;
+      scoreDisplay.textContent = '得分：0';
+      countdownDisplay.textContent = `剩餘時間：${countdown} 秒`;
+
+      gameTimer = setInterval(() => {
+        countdown--;
+        countdownDisplay.textContent = `剩餘時間：${countdown} 秒`;
+        if (countdown <= 0) {
+          clearInterval(gameTimer);
+          clearInterval(spawnTimer);
+          countdownDisplay.textContent = '遊戲結束！';
+        }
+      }, 1000);
+
+      spawnTimer = setInterval(() => {
+        createObject();
+        if (countdown % 15 === 0) {
+          speakInstruction();
+        }
+      }, 800);
+    }
+
+    function speakInstruction() {
+      const phrases = ['請注視近端', '請看遠處'];
+      const phrase = phrases[Math.floor(Math.random() * phrases.length)];
+      const msg = new SpeechSynthesisUtterance(phrase);
+      msg.lang = 'zh-TW';
+      window.speechSynthesis.speak(msg);
+    }
+
+    startBtn.addEventListener('click', () => {
+      startGame();
+    });
+  </script>
+  <a href="list.html" class="back-button">返回選單</a>
+</body>
+</html>

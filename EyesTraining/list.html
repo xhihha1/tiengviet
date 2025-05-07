@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 📱 iOS 全螢幕支援 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="越南語學習">
+
+  <!-- ✅ Android Chrome 全螢幕支援 -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Optional: 可以加入自訂 icon -->
+  <link rel="apple-touch-icon" href="../icon-512.png">
+  <!-- favicon fallback -->
+  <link rel="icon" type="image/png" href="../icon-512.png">
+  <title>視覺訓練選單</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #1c1c1c, #000);
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      margin-bottom: 30px;
+      font-size: 2em;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 80%;
+      max-width: 400px;
+    }
+    .menu a {
+      display: block;
+      text-align: center;
+      background-color: #007bff;
+      color: white;
+      padding: 15px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.2em;
+      transition: background-color 0.3s;
+    }
+    .menu a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>視覺訓練選單</h1>
+  <div class="menu">
+    <a href="focusSwitchTraining.html">焦點切換訓練</a>
+    <a href="saccadeTraining.html">跳視訓練（Saccade）</a>
+    <a href="smoothPursuitTraining.html">追視訓練（Smooth Pursuit）</a>
+    <a href="visualFocusGame.html">視覺聚焦遊戲</a>
+  </div>
+</body>
+</html>
