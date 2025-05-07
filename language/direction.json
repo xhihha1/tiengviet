@@ -1,5 +1,33 @@
 [
   {
+    "vn": "nam",
+    "zh": "南方、男性",
+    "en": "south, male, Nam",
+    "sentence": "Thành phố Hồ Chí Minh nằm ở miền Nam Việt Nam.",
+    "translation": "胡志明市位於越南南方。"
+  },
+  {
+    "vn": "bắc",
+    "zh": "北方",
+    "en": "north",
+    "sentence": "Hà Nội là thủ đô ở miền Bắc Việt Nam.",
+    "translation": "河內是位於越南北方的首都。"
+  },
+  {
+    "vn": "hướng",
+    "zh": "方向",
+    "en": "direction, heading",
+    "sentence": "Bạn nên đi theo hướng đông để đến bãi biển.",
+    "translation": "你應該往東走才能到達海灘。"
+  },
+  {
+    "vn": "tây",
+    "zh": "西方、西邊",
+    "en": "west, western",
+    "sentence": "Mặt trời lặn ở hướng tây.",
+    "translation": "太陽在西邊落下。"
+  },
+  {
     "vn":"phía",
     "zh":"方位",
     "en":"direction",
@@ -61,5 +89,26 @@
     "en": "near",
     "sentence": "Nhà bạn gần chợ.",
     "translation": "你家靠近市場。"
+  },
+  {
+    "vn": "trước khi",
+    "zh": "在...之前",
+    "en": "before",
+    "sentence": "Tôi ăn sáng trước khi đi làm.",
+    "translation": "我在上班前吃早餐。"
+  },
+  {
+    "vn": "sau khi",
+    "zh": "在...之後",
+    "en": "after",
+    "sentence": "Sau khi học xong, tôi đi ngủ.",
+    "translation": "下課後，我就去睡覺了。"
+  },
+  {
+    "vn": "trong",
+    "zh": "在...裡，在...期間",
+    "en": "inside, for, at",
+    "sentence": "Tôi sống trong một căn nhà nhỏ.",
+    "translation": "我住在一間小房子裡。"
   }
 ]
