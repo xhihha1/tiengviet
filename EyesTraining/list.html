@@ -17,6 +17,8 @@
   <!-- favicon fallback -->
   <link rel="icon" type="image/png" href="../icon-512.png">
   <title>視覺訓練選單</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../common.css">
   <style>
     body {
       background: linear-gradient(to right, #1c1c1c, #000);
@@ -29,6 +31,9 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
+      margin-bottom: 60px; /* 留出底部導航的空間 */
+      padding-top: 60px; /* 留出底部導航的空間 */
+      padding-bottom: 60px; /* 留出底部導航的空間 */
     }
     h1 {
       margin-bottom: 30px;
@@ -65,5 +70,19 @@
     <a href="smoothPursuitTraining.html">追視訓練（Smooth Pursuit）</a>
     <a href="visualFocusGame.html">視覺聚焦遊戲</a>
   </div>
+  <nav class="bottom-nav">
+    <a href="../index.html" class="nav-item">
+      <i class="fa-solid fa-list"></i>
+      <span>List</span>
+    </a>
+    <a href="../exam.html" class="nav-item">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <span>Exam</span>
+    </a>
+    <a href="../more.html" class="nav-item active">
+      <i class="fa-solid fa-ellipsis"></i>
+      <span>More</span>
+    </a>
+  </nav>
 </body>
 </html>
