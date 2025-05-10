@@ -1,5 +1,82 @@
 [
   {
+    "vn": "không có gì",
+    "zh": "不客氣",
+    "en": "you're welcome",
+    "sentence": "Cảm ơn bạn. – Không có gì.",
+    "translation": "謝謝你。– 不客氣。"
+  },
+  {
+    "vn": "đợi",
+    "zh": "等待",
+    "en": "wait",
+    "sentence": "Xin đợi tôi một chút.",
+    "translation": "請稍等我一下。"
+  },
+  {
+    "vn": "thật không",
+    "zh": "真的嗎",
+    "en": "really",
+    "sentence": "Bạn nói thật không?",
+    "translation": "你說的是真的嗎？"
+  },
+  {
+    "vn": "vừa mới",
+    "zh": "剛剛",
+    "en": "just",
+    "sentence": "Tôi vừa mới ăn xong.",
+    "translation": "我剛剛吃完。"
+  },
+  {
+    "vn": "nhanh lên",
+    "zh": "快一點",
+    "en": "hurry up",
+    "sentence": "Nhanh lên, chúng ta sắp trễ rồi!",
+    "translation": "快一點，我們快遲到了！"
+  },
+  {
+    "vn": "đừng",
+    "zh": "不要",
+    "en": "do not, don't, not",
+    "sentence": "Đừng làm như vậy nữa.",
+    "translation": "不要再這樣做了。"
+  },
+  {
+    "vn": "ư",
+    "zh": "嗎？（語氣助詞）",
+    "en": "(question particle)",
+    "sentence": "Bạn đi đâu vậy ư?",
+    "translation": "你要去哪裡嗎？"
+  },
+  {
+    "vn": "hãy",
+    "zh": "請（用於祈使句）",
+    "en": "let's, let, please",
+    "sentence": "Hãy giữ im lặng trong thư viện.",
+    "translation": "請在圖書館保持安靜。"
+  },
+  {
+    "vn": "chúc mừng",
+    "zh": "祝賀",
+    "en": "congratulate",
+    "sentence": "Chúc mừng bạn đã đỗ đại học!",
+    "translation": "恭喜你考上大學！"
+  },
+  {
+    "vn": "chia buồn",
+    "zh": "哀悼",
+    "en": "condole, condolence",
+    "sentence": "Tôi xin chia buồn với gia đình bạn.",
+    "translation": "我對你家人表示哀悼。"
+  },
+  {
+    "vn": "tai nạn",
+    "zh": "事故",
+    "en": "accident",
+    "sentence": "Anh ấy bị tai nạn giao thông hôm qua.",
+    "translation": "他昨天出了交通事故。"
+  },
+  {
     "vn": "địa hình",
     "zh": "地形",
     "en": "terrain",
