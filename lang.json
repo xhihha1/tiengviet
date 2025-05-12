@@ -1,5 +1,124 @@
 [
   {
+    "vn": "thủ đô",
+    "zh": "首都",
+    "en": "capital",
+    "sentence": "Hà Nội là thủ đô của Việt Nam.",
+    "translation": "河內是越南的首都。"
+  },
+  {
+    "vn": "quốc tịch",
+    "zh": "國籍",
+    "en": "nationality, citizenship",
+    "sentence": "Bạn có quốc tịch gì?",
+    "translation": "你是哪一國國籍？"
+  },
+  {
+    "vn": "ngôn ngữ",
+    "zh": "語言",
+    "en": "language",
+    "sentence": "Tiếng Việt là ngôn ngữ chính ở Việt Nam.",
+    "translation": "越南語是越南的主要語言。"
+  },
+  {
+    "vn": "quốc gia",
+    "zh": "國家",
+    "en": "country, national (adj), nation",
+    "sentence": "Mỗi quốc gia có văn hóa riêng.",
+    "translation": "每個國家都有自己的文化。"
+  },
+  {
+    "vn": "văn hoá",
+    "zh": "文化",
+    "en": "culture",
+    "sentence": "Tôi rất thích văn hoá Nhật Bản.",
+    "translation": "我非常喜歡日本文化。"
+  },
+  {
+    "vn": "hàn quốc",
+    "zh": "韓國",
+    "en": "South Korea",
+    "sentence": "Cô ấy đang học tiếng Hàn để du học Hàn Quốc.",
+    "translation": "她正在學韓語以便去韓國留學。"
+  },
+  {
+    "vn": "nhật",
+    "zh": "日本",
+    "en": "Japan",
+    "sentence": "Tôi muốn đi du lịch Nhật vào mùa xuân.",
+    "translation": "我想在春天去日本旅遊。"
+  },
+  {
+    "vn": "thuỵ sĩ",
+    "zh": "瑞士",
+    "en": "Switzerland",
+    "sentence": "Thuỵ Sĩ nổi tiếng với đồng hồ và sô-cô-la.",
+    "translation": "瑞士以手錶和巧克力聞名。"
+  },
+  {
+    "vn": "bồ đào nha",
+    "zh": "葡萄牙",
+    "en": "Portugal",
+    "sentence": "Bồ Đào Nha là quê hương của cầu thủ Ronaldo.",
+    "translation": "葡萄牙是球員羅納度的故鄉。"
+  },
+  {
+    "vn": "nga",
+    "zh": "俄羅斯",
+    "en": "Russia",
+    "sentence": "Nga có diện tích lớn nhất thế giới.",
+    "translation": "俄羅斯是世界上面積最大的國家。"
+  },
+  {
+    "vn": "úc",
+    "zh": "澳洲",
+    "en": "Australia, Australian",
+    "sentence": "Gia đình tôi đang định cư ở Úc.",
+    "translation": "我們全家現在定居在澳洲。"
+  },
+  {
+    "vn": "ấn độ",
+    "zh": "印度",
+    "en": "India",
+    "sentence": "Tôi đang nghiên cứu về văn hoá Ấn Độ.",
+    "translation": "我正在研究印度文化。"
+  },
+  {
+    "vn": "cộng hoà séc",
+    "zh": "捷克共和國",
+    "en": "Czech Republic",
+    "sentence": "Cộng hoà Séc nổi tiếng với bia và kiến trúc cổ.",
+    "translation": "捷克共和國以啤酒和古老建築聞名。"
+  },
+  {
+    "vn": "Trung Quốc",
+    "zh": "中國",
+    "en": "China",
+    "sentence": "Tôi đã từng đi du lịch Trung Quốc ba lần.",
+    "translation": "我去過中國旅遊三次。"
+  },
+  {
+    "vn": "Đức",
+    "zh": "德國",
+    "en": "Germany",
+    "sentence": "Đức nổi tiếng với ngành công nghiệp ô tô.",
+    "translation": "德國以汽車工業聞名。"
+  },
+  {
+    "vn": "Tây Ban Nha",
+    "zh": "西班牙",
+    "en": "Spain, Spanish",
+    "sentence": "Tôi học tiếng Tây Ban Nha vì thích nhạc Flamenco.",
+    "translation": "我學西班牙語因為喜歡佛朗明哥音樂。"
+  },
+  {
+    "vn": "Pháp",
+    "zh": "法國",
+    "en": "French, France",
+    "sentence": "Pháp là đất nước nổi tiếng với ẩm thực và thời trang.",
+    "translation": "法國是以美食與時尚聞名的國家。"
+  },
+  {
     "vn": "không có gì",
     "zh": "不客氣",
     "en": "you're welcome",
