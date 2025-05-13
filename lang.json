@@ -1,5 +1,103 @@
 [
   {
+    "vn": "sẽ",
+    "zh": "將會",
+    "en": "are going to, are going to be, will be",
+    "sentence": "Ngày mai tôi sẽ đi du lịch.",
+    "translation": "明天我將會去旅行。"
+  },
+  {
+    "vn": "sự bắt đầu",
+    "zh": "開始",
+    "en": "beginning",
+    "sentence": "Mọi chuyện đều có sự bắt đầu.",
+    "translation": "所有事情都有一個開始。"
+  },
+  {
+    "vn": "sự ủng hộ",
+    "zh": "支持",
+    "en": "support",
+    "sentence": "Tôi rất biết ơn vì sự ủng hộ của bạn.",
+    "translation": "我很感謝你的支持。"
+  },
+  {
+    "vn": "sự đồng ý",
+    "zh": "同意",
+    "en": "agreement",
+    "sentence": "Cô ấy gật đầu như một sự đồng ý.",
+    "translation": "她點頭表示同意。"
+  },
+  {
+    "vn": "sự thay đổi",
+    "zh": "改變",
+    "en": "change",
+    "sentence": "Sự thay đổi là cần thiết để phát triển.",
+    "translation": "改變對於發展是必要的。"
+  },
+  {
+    "vn": "sự lịch sự",
+    "zh": "禮貌",
+    "en": "politeness",
+    "sentence": "Anh ấy luôn thể hiện sự lịch sự với mọi người.",
+    "translation": "他總是對每個人都很有禮貌。"
+  },
+  {
+    "vn": "sự nghiêm túc",
+    "zh": "認真",
+    "en": "seriousness",
+    "sentence": "Tôi đánh giá cao sự nghiêm túc của bạn.",
+    "translation": "我很欣賞你的認真態度。"
+  },
+  {
+    "vn": "sự thân thiện",
+    "zh": "友善",
+    "en": "friendliness",
+    "sentence": "Chúng tôi rất ấn tượng với sự thân thiện của người dân nơi đây.",
+    "translation": "我們對這裡人的友善印象深刻。"
+  },
+  {
+    "vn": "sự thành công",
+    "zh": "成功",
+    "en": "success",
+    "sentence": "Sự thành công đến từ nỗ lực không ngừng.",
+    "translation": "成功來自不斷的努力。"
+  },
+  {
+    "vn": "sự kiên nhẫn",
+    "zh": "耐心",
+    "en": "patience",
+    "sentence": "Thành công cần có sự kiên nhẫn.",
+    "translation": "成功需要有耐心。"
+  },
+  {
+    "vn": "sự phức tạp",
+    "zh": "複雜性",
+    "en": "complexity",
+    "sentence": "Chúng tôi không lường trước được sự phức tạp của vấn đề này.",
+    "translation": "我們沒預料到這問題的複雜性。"
+  },
+  {
+    "vn": "sự",
+    "zh": "（名詞前的構詞成分）",
+    "en": "(classifier)",
+    "sentence": "Từ 'sự' thường được dùng trước các danh từ trừu tượng.",
+    "translation": "「sự」通常用在抽象名詞之前。"
+  },
+  {
+    "vn": "sự thật",
+    "zh": "事實",
+    "en": "truth",
+    "sentence": "Chúng ta cần biết sự thật.",
+    "translation": "我們需要知道真相。"
+  },
+  {
+    "vn": "sự đơn giản",
+    "zh": "簡單",
+    "en": "simplicity",
+    "sentence": "Tôi thích sự đơn giản trong thiết kế này.",
+    "translation": "我喜歡這個設計的簡單風格。"
+  },
+  {
     "vn": "thủ đô",
     "zh": "首都",
     "en": "capital",
