@@ -1,5 +1,47 @@
 [
   {
+    "vn": "doanh nhân",
+    "zh": "企業家",
+    "en": "businessman, entrepreneur, businesswoman",
+    "sentence": "Cô ấy là một doanh nhân thành đạt.",
+    "translation": "她是一位成功的企業家。"
+  },
+  {
+    "vn": "diễn viên",
+    "zh": "演員",
+    "en": "actor, actress",
+    "sentence": "Anh ấy là một diễn viên nổi tiếng.",
+    "translation": "他是一位著名的演員。"
+  },
+  {
+    "vn": "kỹ sư",
+    "zh": "工程師",
+    "en": "engineer",
+    "sentence": "Tôi muốn trở thành một kỹ sư xây dựng.",
+    "translation": "我想成為一名土木工程師。"
+  },
+  {
+    "vn": "ngư dân",
+    "zh": "漁夫",
+    "en": "fisherman",
+    "sentence": "Ngư dân ra khơi từ sáng sớm.",
+    "translation": "漁夫一大早就出海了。"
+  },
+  {
+    "vn": "ca sĩ",
+    "zh": "歌手",
+    "en": "singer, singers",
+    "sentence": "Cô ấy muốn trở thành ca sĩ chuyên nghiệp.",
+    "translation": "她想成為一位專業歌手。"
+  },
+  {
+    "vn": "kế toán",
+    "zh": "會計",
+    "en": "accountant, accounting",
+    "sentence": "Anh trai tôi làm việc như một kế toán.",
+    "translation": "我哥哥是一名會計師。"
+  },
+  {
     "vn": "công nhân",
     "zh": "工人",
     "en": "worker, workers, a worker",
