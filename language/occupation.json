@@ -1,5 +1,26 @@
 [
   {
+    "vn": "Kỹ sư phần mềm",
+    "zh": "軟體工程師",
+    "en": "software engineer",
+    "sentence": "Kỹ sư phần mềm đang phát triển một ứng dụng mới.",
+    "translation": "軟體工程師正在開發一個新應用程式。"
+  },
+  {
+    "vn": "Lập trình viên",
+    "zh": "程式設計師 / 程式員",
+    "en": "programmer / developer",
+    "sentence": "Lập trình viên này chuyên viết mã cho các trang web.",
+    "translation": "這位程式設計師專門為網站撰寫程式碼。"
+  },
+  {
+    "vn": "Kỹ sư máy tính",
+    "zh": "電腦工程師",
+    "en": "computer engineer",
+    "sentence": "Kỹ sư máy tính đang thiết kế một hệ thống phần cứng mới.",
+    "translation": "電腦工程師正在設計一套新的硬體系統。"
+  },
+  {
     "vn": "nhà toán học",
     "zh": "數學家",
     "en": "mathematician",
