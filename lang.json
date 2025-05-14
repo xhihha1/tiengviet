@@ -1,5 +1,89 @@
 [
   {
+    "vn": "nhà toán học",
+    "zh": "數學家",
+    "en": "mathematician",
+    "sentence": "Nhà toán học đang giải một bài toán phức tạp.",
+    "translation": "數學家正在解一道複雜的數學題。"
+  },
+  {
+    "vn": "nhà báo",
+    "zh": "記者",
+    "en": "journalist",
+    "sentence": "Nhà báo đang viết bài cho tờ báo sáng mai.",
+    "translation": "記者正在為明天的報紙撰寫文章。"
+  },
+  {
+    "vn": "nhà sư",
+    "zh": "和尚",
+    "en": "monk",
+    "sentence": "Nhà sư sống trong chùa và thiền mỗi ngày.",
+    "translation": "和尚住在寺廟裡，每天打坐。"
+  },
+  {
+    "vn": "nhà lãnh đạo",
+    "zh": "領導者",
+    "en": "leader, leaders",
+    "sentence": "Nhà lãnh đạo cần có tầm nhìn và quyết đoán.",
+    "translation": "領導者需要有遠見與果斷。"
+  },
+  {
+    "vn": "nhà khoa học",
+    "zh": "科學家",
+    "en": "scientist, scientists",
+    "sentence": "Các nhà khoa học đang nghiên cứu về năng lượng tái tạo.",
+    "translation": "科學家們正在研究再生能源。"
+  },
+  {
+    "vn": "nhà thiết kế",
+    "zh": "設計師",
+    "en": "designer",
+    "sentence": "Cô ấy là một nhà thiết kế thời trang nổi tiếng.",
+    "translation": "她是一位著名的時尚設計師。"
+  },
+  {
+    "vn": "kiến trúc sư",
+    "zh": "建築師",
+    "en": "architect",
+    "sentence": "Kiến trúc sư đang thiết kế một tòa nhà mới.",
+    "translation": "建築師正在設計一棟新大樓。"
+  },
+  {
+    "vn": "tương lai",
+    "zh": "未來",
+    "en": "future",
+    "sentence": "Chúng ta phải chuẩn bị cho tương lai.",
+    "translation": "我們必須為未來做好準備。"
+  },
+  {
+    "vn": "nha sĩ",
+    "zh": "牙醫",
+    "en": "dentist, dentists",
+    "sentence": "Tôi có hẹn với nha sĩ vào chiều nay.",
+    "translation": "我今天下午和牙醫有約。"
+  },
+  {
+    "vn": "y tá",
+    "zh": "護士",
+    "en": "nurse",
+    "sentence": "Y tá đang chăm sóc bệnh nhân trong bệnh viện.",
+    "translation": "護士正在醫院照顧病人。"
+  },
+  {
+    "vn": "nông dân",
+    "zh": "農夫",
+    "en": "farmer",
+    "sentence": "Nông dân làm việc trên cánh đồng mỗi ngày.",
+    "translation": "農夫每天都在田裡工作。"
+  },
+  {
+    "vn": "đầu bếp",
+    "zh": "廚師",
+    "en": "cook",
+    "sentence": "Đầu bếp chuẩn bị bữa ăn tối cho khách.",
+    "translation": "廚師正在為客人準備晚餐。"
+  },
+  {
     "vn": "doanh nhân",
     "zh": "企業家",
     "en": "businessman, entrepreneur, businesswoman",

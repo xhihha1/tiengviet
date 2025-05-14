@@ -1,0 +1,205 @@
+[
+  {
+    "vn": "nhà toán học",
+    "zh": "數學家",
+    "en": "mathematician",
+    "sentence": "Nhà toán học đang giải một bài toán phức tạp.",
+    "translation": "數學家正在解一道複雜的數學題。"
+  },
+  {
+    "vn": "nhà báo",
+    "zh": "記者",
+    "en": "journalist",
+    "sentence": "Nhà báo đang viết bài cho tờ báo sáng mai.",
+    "translation": "記者正在為明天的報紙撰寫文章。"
+  },
+  {
+    "vn": "nhà sư",
+    "zh": "和尚",
+    "en": "monk",
+    "sentence": "Nhà sư sống trong chùa và thiền mỗi ngày.",
+    "translation": "和尚住在寺廟裡，每天打坐。"
+  },
+  {
+    "vn": "nhà lãnh đạo",
+    "zh": "領導者",
+    "en": "leader, leaders",
+    "sentence": "Nhà lãnh đạo cần có tầm nhìn và quyết đoán.",
+    "translation": "領導者需要有遠見與果斷。"
+  },
+  {
+    "vn": "nhà khoa học",
+    "zh": "科學家",
+    "en": "scientist, scientists",
+    "sentence": "Các nhà khoa học đang nghiên cứu về năng lượng tái tạo.",
+    "translation": "科學家們正在研究再生能源。"
+  },
+  {
+    "vn": "nhà thiết kế",
+    "zh": "設計師",
+    "en": "designer",
+    "sentence": "Cô ấy là một nhà thiết kế thời trang nổi tiếng.",
+    "translation": "她是一位著名的時尚設計師。"
+  },
+  {
+    "vn": "kiến trúc sư",
+    "zh": "建築師",
+    "en": "architect",
+    "sentence": "Kiến trúc sư đang thiết kế một tòa nhà mới.",
+    "translation": "建築師正在設計一棟新大樓。"
+  },
+  {
+    "vn": "tương lai",
+    "zh": "未來",
+    "en": "future",
+    "sentence": "Chúng ta phải chuẩn bị cho tương lai.",
+    "translation": "我們必須為未來做好準備。"
+  },
+  {
+    "vn": "nha sĩ",
+    "zh": "牙醫",
+    "en": "dentist, dentists",
+    "sentence": "Tôi có hẹn với nha sĩ vào chiều nay.",
+    "translation": "我今天下午和牙醫有約。"
+  },
+  {
+    "vn": "y tá",
+    "zh": "護士",
+    "en": "nurse",
+    "sentence": "Y tá đang chăm sóc bệnh nhân trong bệnh viện.",
+    "translation": "護士正在醫院照顧病人。"
+  },
+  {
+    "vn": "nông dân",
+    "zh": "農夫",
+    "en": "farmer",
+    "sentence": "Nông dân làm việc trên cánh đồng mỗi ngày.",
+    "translation": "農夫每天都在田裡工作。"
+  },
+  {
+    "vn": "đầu bếp",
+    "zh": "廚師",
+    "en": "cook",
+    "sentence": "Đầu bếp chuẩn bị bữa ăn tối cho khách.",
+    "translation": "廚師正在為客人準備晚餐。"
+  },
+  {
+    "vn": "doanh nhân",
+    "zh": "企業家",
+    "en": "businessman, entrepreneur, businesswoman",
+    "sentence": "Cô ấy là một doanh nhân thành đạt.",
+    "translation": "她是一位成功的企業家。"
+  },
+  {
+    "vn": "diễn viên",
+    "zh": "演員",
+    "en": "actor, actress",
+    "sentence": "Anh ấy là một diễn viên nổi tiếng.",
+    "translation": "他是一位著名的演員。"
+  },
+  {
+    "vn": "kỹ sư",
+    "zh": "工程師",
+    "en": "engineer",
+    "sentence": "Tôi muốn trở thành một kỹ sư xây dựng.",
+    "translation": "我想成為一名土木工程師。"
+  },
+  {
+    "vn": "ngư dân",
+    "zh": "漁夫",
+    "en": "fisherman",
+    "sentence": "Ngư dân ra khơi từ sáng sớm.",
+    "translation": "漁夫一大早就出海了。"
+  },
+  {
+    "vn": "ca sĩ",
+    "zh": "歌手",
+    "en": "singer, singers",
+    "sentence": "Cô ấy muốn trở thành ca sĩ chuyên nghiệp.",
+    "translation": "她想成為一位專業歌手。"
+  },
+  {
+    "vn": "kế toán",
+    "zh": "會計",
+    "en": "accountant, accounting",
+    "sentence": "Anh trai tôi làm việc như một kế toán.",
+    "translation": "我哥哥是一名會計師。"
+  },
+  {
+    "vn": "công nhân",
+    "zh": "工人",
+    "en": "worker, workers, a worker",
+    "sentence": "Công nhân đang làm việc trong nhà máy.",
+    "translation": "工人正在工廠裡工作。"
+  },
+  {
+    "vn": "cảnh sát",
+    "zh": "警察",
+    "en": "police, officers, officer",
+    "sentence": "Cảnh sát đang điều tra vụ việc.",
+    "translation": "警察正在調查案件。"
+  },
+  {
+    "vn": "nhạc sĩ",
+    "zh": "作曲家",
+    "en": "songwriter, songwriters",
+    "sentence": "Anh ấy là một nhạc sĩ nổi tiếng.",
+    "translation": "他是一位有名的作曲家。"
+  },
+  {
+    "vn": "nghệ sĩ",
+    "zh": "藝術家",
+    "en": "artist",
+    "sentence": "Cô ấy là một nghệ sĩ tài năng.",
+    "translation": "她是一位有才華的藝術家。"
+  },
+  {
+    "vn": "nghề nghiệp",
+    "zh": "職業",
+    "en": "profession, occupation",
+    "sentence": "Bạn muốn theo đuổi nghề nghiệp gì?",
+    "translation": "你想從事什麼職業？"
+  },
+  {
+    "vn": "thuyền trưởng",
+    "zh": "船長",
+    "en": "captain",
+    "sentence": "Thuyền trưởng ra lệnh khởi hành.",
+    "translation": "船長下令啟航。"
+  },
+  {
+    "vn": "luật sư",
+    "zh": "律師",
+    "en": "lawyer",
+    "sentence": "Tôi cần tìm một luật sư giỏi.",
+    "translation": "我需要找一位優秀的律師。"
+  },
+  {
+    "vn": "sự nghiệp",
+    "zh": "事業",
+    "en": "career",
+    "sentence": "Anh ấy rất chú trọng đến sự nghiệp.",
+    "translation": "他非常重視自己的事業。"
+  },
+  {
+    "vn": "thư ký",
+    "zh": "秘書",
+    "en": "secretary",
+    "sentence": "Thư ký của tôi sẽ sắp xếp cuộc họp.",
+    "translation": "我的秘書會安排會議。"
+  },
+  {
+    "vn": "diễn viên hài",
+    "zh": "喜劇演員",
+    "en": "comedian",
+    "sentence": "Anh ấy là một diễn viên hài.",
+    "translation": "他是一個喜劇演員。"
+  },
+  {
+    "vn": "trở thành",
+    "zh": "成為",
+    "en": "become, get, becoming",
+    "sentence": "Tôi muốn trở thành bác sĩ.",
+    "translation": "我想成為醫生。"
+  }
+]
