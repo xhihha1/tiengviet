@@ -1,5 +1,68 @@
 [
   {
+    "vn": "công nhân",
+    "zh": "工人",
+    "en": "worker, workers, a worker",
+    "sentence": "Công nhân đang làm việc trong nhà máy.",
+    "translation": "工人正在工廠裡工作。"
+  },
+  {
+    "vn": "cảnh sát",
+    "zh": "警察",
+    "en": "police, officers, officer",
+    "sentence": "Cảnh sát đang điều tra vụ việc.",
+    "translation": "警察正在調查案件。"
+  },
+  {
+    "vn": "nhạc sĩ",
+    "zh": "作曲家",
+    "en": "songwriter, songwriters",
+    "sentence": "Anh ấy là một nhạc sĩ nổi tiếng.",
+    "translation": "他是一位有名的作曲家。"
+  },
+  {
+    "vn": "nghệ sĩ",
+    "zh": "藝術家",
+    "en": "artist",
+    "sentence": "Cô ấy là một nghệ sĩ tài năng.",
+    "translation": "她是一位有才華的藝術家。"
+  },
+  {
+    "vn": "nghề nghiệp",
+    "zh": "職業",
+    "en": "profession, occupation",
+    "sentence": "Bạn muốn theo đuổi nghề nghiệp gì?",
+    "translation": "你想從事什麼職業？"
+  },
+  {
+    "vn": "thuyền trưởng",
+    "zh": "船長",
+    "en": "captain",
+    "sentence": "Thuyền trưởng ra lệnh khởi hành.",
+    "translation": "船長下令啟航。"
+  },
+  {
+    "vn": "luật sư",
+    "zh": "律師",
+    "en": "lawyer",
+    "sentence": "Tôi cần tìm một luật sư giỏi.",
+    "translation": "我需要找一位優秀的律師。"
+  },
+  {
+    "vn": "sự nghiệp",
+    "zh": "事業",
+    "en": "career",
+    "sentence": "Anh ấy rất chú trọng đến sự nghiệp.",
+    "translation": "他非常重視自己的事業。"
+  },
+  {
+    "vn": "thư ký",
+    "zh": "秘書",
+    "en": "secretary",
+    "sentence": "Thư ký của tôi sẽ sắp xếp cuộc họp.",
+    "translation": "我的秘書會安排會議。"
+  },
+  {
     "vn": "sẽ",
     "zh": "將會",
     "en": "are going to, are going to be, will be",
