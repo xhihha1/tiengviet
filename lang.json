@@ -1,5 +1,166 @@
 [
   {
+    "vn": "đam mê",
+    "zh": "熱情；激情",
+    "en": "passion",
+    "sentence": "Cô ấy có đam mê với âm nhạc từ nhỏ.",
+    "translation": "她從小就對音樂充滿熱情。"
+  },
+  {
+    "vn": "cả tin",
+    "zh": "容易相信別人；輕信",
+    "en": "gullible, credulous",
+    "sentence": "Anh ấy quá cả tin nên thường bị lừa.",
+    "translation": "他太輕信別人，所以常被騙。"
+  },
+  {
+    "vn": "quan tâm",
+    "zh": "關心；在意",
+    "en": "care, considered, cares",
+    "sentence": "Tôi rất quan tâm đến sức khỏe của bạn.",
+    "translation": "我非常關心你的健康。"
+  },
+  {
+    "vn": "tử tế",
+    "zh": "善良；有禮貌",
+    "en": "kind, gracious",
+    "sentence": "Anh ấy là một người rất tử tế.",
+    "translation": "他是一個非常善良的人。"
+  },
+  {
+    "vn": "chuyên nghiệp",
+    "zh": "專業",
+    "en": "professional",
+    "sentence": "Cô ấy làm việc rất chuyên nghiệp.",
+    "translation": "她工作非常專業。"
+  },
+  {
+    "vn": "bảo thủ",
+    "zh": "保守",
+    "en": "conservative",
+    "sentence": "Ông ấy có quan điểm bảo thủ về giáo dục.",
+    "translation": "他對教育的觀點很保守。"
+  },
+  {
+    "vn": "tôn trọng",
+    "zh": "尊重",
+    "en": "respect, respects",
+    "sentence": "Chúng ta cần tôn trọng ý kiến của người khác.",
+    "translation": "我們需要尊重他人的意見。"
+  },
+  {
+    "vn": "siêng năng",
+    "zh": "勤勞；勤奮",
+    "en": "hard-working, diligent",
+    "sentence": "Cô ấy là một sinh viên siêng năng.",
+    "translation": "她是一個勤奮的學生。"
+  },
+  {
+    "vn": "xấu tính",
+    "zh": "壞脾氣；惡劣性格",
+    "en": "mean",
+    "sentence": "Đừng chơi với người xấu tính.",
+    "translation": "不要跟脾氣壞的人交往。"
+  },
+  {
+    "vn": "tham lam",
+    "zh": "貪心",
+    "en": "greedy",
+    "sentence": "Người tham lam sẽ không bao giờ hài lòng.",
+    "translation": "貪心的人永遠不會滿足。"
+  },
+  {
+    "vn": "bất cẩn",
+    "zh": "粗心；不小心",
+    "en": "careless",
+    "sentence": "Vì bất cẩn nên anh ấy làm rơi điện thoại.",
+    "translation": "因為粗心，他把手機摔了。"
+  },
+  {
+    "vn": "lười biếng",
+    "zh": "懶惰",
+    "en": "lazy",
+    "sentence": "Cậu bé rất lười biếng và không chịu học bài.",
+    "translation": "那男孩非常懶惰，不願意學習。"
+  },
+  {
+    "vn": "bất lịch sự",
+    "zh": "沒禮貌",
+    "en": "impolite",
+    "sentence": "Nói chuyện lớn tiếng ở nơi công cộng là bất lịch sự.",
+    "translation": "在公共場合大聲說話是沒禮貌的。"
+  },
+  {
+    "vn": "bất lợi",
+    "zh": "不利",
+    "en": "disadvantage, disadvantageous",
+    "sentence": "Thời tiết xấu là bất lợi cho cuộc thi.",
+    "translation": "惡劣的天氣對比賽不利。"
+  },
+  {
+    "vn": "khiêm tốn",
+    "zh": "謙虛",
+    "en": "humble, modest",
+    "sentence": "Dù rất giỏi nhưng anh ấy rất khiêm tốn.",
+    "translation": "雖然很厲害，但他非常謙虛。"
+  },
+  {
+    "vn": "lợi thế",
+    "zh": "優勢",
+    "en": "advantage, advantages",
+    "sentence": "Biết nhiều ngôn ngữ là một lợi thế lớn.",
+    "translation": "懂多種語言是一大優勢。"
+  },
+  {
+    "vn": "may mắn",
+    "zh": "幸運",
+    "en": "lucky, luck",
+    "sentence": "Tôi cảm thấy rất may mắn khi có bạn bên cạnh.",
+    "translation": "有你在身邊，我感到非常幸運。"
+  },
+  {
+    "vn": "tính cách",
+    "zh": "性格；個性",
+    "en": "characteristic, character, personality",
+    "sentence": "Tính cách của cô ấy rất vui vẻ và cởi mở.",
+    "translation": "她的性格非常開朗和隨和。"
+  },
+  {
+    "vn": "chất lượng",
+    "zh": "品質",
+    "en": "quality, qualities",
+    "sentence": "Sản phẩm này có chất lượng rất tốt.",
+    "translation": "這個產品的品質非常好。"
+  },
+  {
+    "vn": "linh hoạt",
+    "zh": "靈活",
+    "en": "flexible",
+    "sentence": "Lịch trình làm việc của anh ấy rất linh hoạt.",
+    "translation": "他的工作時間安排非常靈活。"
+  },
+  {
+    "vn": "cạnh tranh",
+    "zh": "競爭",
+    "en": "compete, competing",
+    "sentence": "Các công ty đang cạnh tranh khốc liệt.",
+    "translation": "各家公司正在激烈競爭。"
+  },
+  {
+    "vn": "vẻ đẹp",
+    "zh": "美麗；美感",
+    "en": "beauty",
+    "sentence": "Vẻ đẹp của thiên nhiên thật tuyệt vời.",
+    "translation": "大自然的美真是令人驚嘆。"
+  },
+  {
+    "vn": "tập trung",
+    "zh": "集中；專心",
+    "en": "concentrate, focus",
+    "sentence": "Bạn cần tập trung vào việc học.",
+    "translation": "你需要專心學習。"
+  },
+  {
     "vn": "nhà toán học",
     "zh": "數學家",
     "en": "mathematician",
