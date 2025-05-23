@@ -1,5 +1,131 @@
 [
   {
+    "vn": "dám",
+    "zh": "敢",
+    "en": "dare, dares",
+    "sentence": "Tôi không dám nói sự thật với anh ấy.",
+    "translation": "我不敢對他說出真相。"
+  },
+  {
+    "vn": "giữ",
+    "zh": "保持、保管",
+    "en": "keep",
+    "sentence": "Bạn hãy giữ bí mật này nhé.",
+    "translation": "你要保守這個秘密喔。"
+  },
+  {
+    "vn": "tắm",
+    "zh": "洗澡",
+    "en": "takes a shower, bath, bathing",
+    "sentence": "Tôi tắm mỗi sáng trước khi đi làm.",
+    "translation": "我每天早上上班前都會洗澡。"
+  },
+  {
+    "vn": "tìm ra",
+    "zh": "找出、發現",
+    "en": "find, finds, find out",
+    "sentence": "Cuối cùng tôi đã tìm ra cách giải bài toán này.",
+    "translation": "我終於找出了解這道數學題的方法。"
+  },
+  {
+    "vn": "xứng đáng",
+    "zh": "值得、配得上",
+    "en": "deserve",
+    "sentence": "Cô ấy xứng đáng được khen ngợi.",
+    "translation": "她值得被稱讚。"
+  },
+  {
+    "vn": "trở lại",
+    "zh": "回來、返回",
+    "en": "return, returns",
+    "sentence": "Anh ấy sẽ trở lại vào tuần sau.",
+    "translation": "他下週會回來。"
+  },
+  {
+    "vn": "sau",
+    "zh": "之後、後面",
+    "en": "behind, next, then",
+    "sentence": "Chúng ta sẽ đi ăn sau buổi học.",
+    "translation": "我們下課後再去吃飯。"
+  },
+  {
+    "vn": "đối mặt",
+    "zh": "面對",
+    "en": "face",
+    "sentence": "Tôi phải đối mặt với sự thật.",
+    "translation": "我必須面對事實。"
+  },
+  {
+    "vn": "thoả mãn",
+    "zh": "滿足",
+    "en": "satisfied, satisfy",
+    "sentence": "Tôi rất thoả mãn với kết quả này.",
+    "translation": "我對這個結果感到非常滿意。"
+  },
+  {
+    "vn": "hỗ trợ",
+    "zh": "支援、協助",
+    "en": "support, supports, supporting",
+    "sentence": "Chúng tôi luôn sẵn sàng hỗ trợ bạn.",
+    "translation": "我們隨時準備好支援你。"
+  },
+  {
+    "vn": "khuyên",
+    "zh": "勸、建議",
+    "en": "recommended, advises, advised",
+    "sentence": "Bác sĩ khuyên tôi nên nghỉ ngơi nhiều hơn.",
+    "translation": "醫生建議我多休息。"
+  },
+  {
+    "vn": "luyện tập",
+    "zh": "練習",
+    "en": "practice",
+    "sentence": "Bạn nên luyện tập nói tiếng Việt mỗi ngày.",
+    "translation": "你應該每天練習說越南語。"
+  },
+  {
+    "vn": "đánh giá cao",
+    "zh": "欣賞、重視",
+    "en": "appreciate",
+    "sentence": "Tôi đánh giá cao sự giúp đỡ của bạn.",
+    "translation": "我非常感謝你的幫助。"
+  },
+  {
+    "vn": "hợp tác",
+    "zh": "合作",
+    "en": "cooperate",
+    "sentence": "Chúng tôi muốn hợp tác với công ty bạn.",
+    "translation": "我們希望與貴公司合作。"
+  },
+  {
+    "vn": "khẳng định",
+    "zh": "肯定、確認",
+    "en": "affirm",
+    "sentence": "Anh ta khẳng định mình vô tội.",
+    "translation": "他堅稱自己是無辜的。"
+  },
+  {
+    "vn": "trừng phạt",
+    "zh": "懲罰",
+    "en": "punish",
+    "sentence": "Học sinh đó bị trừng phạt vì nói dối.",
+    "translation": "那名學生因為說謊而被處罰。"
+  },
+  {
+    "vn": "phát hiện",
+    "zh": "發現",
+    "en": "discover",
+    "sentence": "Tôi vừa phát hiện ra một lỗi trong hệ thống.",
+    "translation": "我剛剛發現系統中有一個錯誤。"
+  },
+  {
+    "vn": "nhận ra",
+    "zh": "察覺、認出",
+    "en": "realize",
+    "sentence": "Tôi nhận ra mình đã mắc sai lầm.",
+    "translation": "我意識到自己犯了錯。"
+  },
+  {
     "vn": "đam mê",
     "zh": "熱情；激情",
     "en": "passion",
