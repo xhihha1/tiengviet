@@ -1,5 +1,187 @@
 [
   {
+    "vn": "tủ lạnh",
+    "zh": "冰箱",
+    "en": "refrigerator",
+    "sentence": "Tôi để trái cây trong tủ lạnh để giữ chúng tươi lâu hơn.",
+    "translation": "我把水果放在冰箱裡以保持它們新鮮。"
+  },
+  {
+    "vn": "quạt",
+    "zh": "風扇",
+    "en": "fan",
+    "sentence": "Trời nóng nên tôi bật quạt để mát hơn.",
+    "translation": "天氣熱所以我開風扇讓自己涼快一點。"
+  },
+  {
+    "vn": "nhẫn",
+    "zh": "戒指",
+    "en": "ring",
+    "sentence": "Cô ấy đeo một chiếc nhẫn kim cương trên ngón tay.",
+    "translation": "她在手指上戴著一枚鑽戒。"
+  },
+  {
+    "vn": "kính",
+    "zh": "眼鏡",
+    "en": "glasses",
+    "sentence": "Tôi cần đeo kính để đọc sách rõ hơn.",
+    "translation": "我需要戴眼鏡才能更清楚地閱讀。"
+  },
+  {
+    "vn": "ảnh",
+    "zh": "照片",
+    "en": "photo",
+    "sentence": "Chúng tôi đã chụp nhiều ảnh trong chuyến du lịch.",
+    "translation": "我們在旅行中拍了很多照片。"
+  },
+  {
+    "vn": "cờ",
+    "zh": "旗幟",
+    "en": "flag",
+    "sentence": "Học sinh đứng chào cờ vào sáng thứ hai.",
+    "translation": "學生們在星期一早上升旗致敬。"
+  },
+  {
+    "vn": "bột",
+    "zh": "粉末",
+    "en": "powder",
+    "sentence": "Tôi mua bột cacao để làm bánh.",
+    "translation": "我買了可可粉來做蛋糕。"
+  },
+  {
+    "vn": "búa",
+    "zh": "錘子",
+    "en": "hammer",
+    "sentence": "Anh ấy dùng búa để sửa lại cái bàn.",
+    "translation": "他用錘子修理桌子。"
+  },
+  {
+    "vn": "vật thể",
+    "zh": "物體",
+    "en": "object",
+    "sentence": "Có một vật thể lạ trên bầu trời.",
+    "translation": "天空上有一個不明物體。"
+  },
+  {
+    "vn": "máy",
+    "zh": "機器",
+    "en": "machine",
+    "sentence": "Máy giặt của tôi bị hỏng rồi.",
+    "translation": "我的洗衣機壞了。"
+  },
+  {
+    "vn": "thang",
+    "zh": "梯子",
+    "en": "ladder",
+    "sentence": "Tôi dùng thang để leo lên mái nhà.",
+    "translation": "我用梯子爬上屋頂。"
+  },
+  {
+    "vn": "hộp",
+    "zh": "盒子",
+    "en": "box",
+    "sentence": "Tôi cất đồ trong hộp để giữ gọn gàng.",
+    "translation": "我把東西收在盒子裡保持整潔。"
+  },
+  {
+    "vn": "giấy",
+    "zh": "紙",
+    "en": "paper",
+    "sentence": "Tôi cần giấy để in tài liệu.",
+    "translation": "我需要紙來列印文件。"
+  },
+  {
+    "vn": "bàn chải",
+    "zh": "刷子、牙刷",
+    "en": "toothbrush, brushes, brush",
+    "sentence": "Tôi dùng bàn chải để đánh răng mỗi sáng.",
+    "translation": "我每天早上用牙刷刷牙。"
+  },
+  {
+    "vn": "chìa khoá",
+    "zh": "鑰匙",
+    "en": "key, keys",
+    "sentence": "Tôi quên mang chìa khoá nên không vào được nhà.",
+    "translation": "我忘了帶鑰匙，進不了家門。"
+  },
+  {
+    "vn": "không bao giờ",
+    "zh": "從不",
+    "en": "never",
+    "sentence": "Tôi không bao giờ hút thuốc.",
+    "translation": "我從不抽菸。"
+  },
+  {
+    "vn": "luôn",
+    "zh": "總是",
+    "en": "always",
+    "sentence": "Cô ấy luôn mỉm cười với mọi người.",
+    "translation": "她總是對大家微笑。"
+  },
+  {
+    "vn": "hiếm khi",
+    "zh": "很少",
+    "en": "rarely",
+    "sentence": "Anh ta hiếm khi đi ra ngoài vào cuối tuần.",
+    "translation": "他週末很少出門。"
+  },
+  {
+    "vn": "thường xuyên",
+    "zh": "經常",
+    "en": "usually, regularly, often",
+    "sentence": "Tôi thường xuyên tập thể dục vào buổi sáng.",
+    "translation": "我經常在早上運動。"
+  },
+  {
+    "vn": "đôi khi",
+    "zh": "有時",
+    "en": "sometimes",
+    "sentence": "Đôi khi tôi thức dậy trễ vào cuối tuần.",
+    "translation": "週末我有時會晚起。"
+  },
+  {
+    "vn": "trống rỗng",
+    "zh": "空的",
+    "en": "empty",
+    "sentence": "Cái chai này đã trống rỗng.",
+    "translation": "這瓶子已經空了。"
+  },
+  {
+    "vn": "no",
+    "zh": "飽的",
+    "en": "full",
+    "sentence": "Tôi ăn xong và cảm thấy rất no.",
+    "translation": "我吃完後感覺非常飽。"
+  },
+  {
+    "vn": "chăm chỉ",
+    "zh": "勤奮",
+    "en": "hard",
+    "sentence": "Cô ấy là một học sinh chăm chỉ.",
+    "translation": "她是一位勤奮的學生。"
+  },
+  {
+    "vn": "xấu",
+    "zh": "醜、壞",
+    "en": "bad, ugly",
+    "sentence": "Thời tiết hôm nay rất xấu.",
+    "translation": "今天天氣很差。"
+  },
+  {
+    "vn": "quen thuộc",
+    "zh": "熟悉",
+    "en": "familiar",
+    "sentence": "Khu phố này trông rất quen thuộc với tôi.",
+    "translation": "這個街區對我來說很熟悉。"
+  },
+  {
+    "vn": "hơi",
+    "zh": "有點、氣、稍微",
+    "en": "a bit, breath, pretty",
+    "sentence": "Tôi hơi mệt nên muốn nghỉ một chút.",
+    "translation": "我有點累，所以想休息一下。"
+  },
+  {
     "vn": "dám",
     "zh": "敢",
     "en": "dare, dares",
