@@ -1,5 +1,124 @@
 [
   {
+    "vn": "liềm",
+    "zh": "鐮刀",
+    "en": "sickle",
+    "sentence": "Người nông dân dùng liềm để gặt lúa.",
+    "translation": "農民用鐮刀割稻。"
+  },
+  {
+    "vn": "lược",
+    "zh": "梳子",
+    "en": "comb",
+    "sentence": "Cô ấy dùng lược chải tóc mỗi sáng.",
+    "translation": "她每天早上用梳子梳頭髮。"
+  },
+  {
+    "vn": "máy tính bảng",
+    "zh": "平板電腦",
+    "en": "tablet",
+    "sentence": "Tôi thường dùng máy tính bảng để đọc sách.",
+    "translation": "我常用平板電腦看書。"
+  },
+  {
+    "vn": "máy giặt",
+    "zh": "洗衣機",
+    "en": "washing machine",
+    "sentence": "Máy giặt đang hoạt động.",
+    "translation": "洗衣機正在運轉。"
+  },
+  {
+    "vn": "nhật ký",
+    "zh": "日記",
+    "en": "diary",
+    "sentence": "Cô bé viết nhật ký mỗi tối.",
+    "translation": "小女孩每天晚上寫日記。"
+  },
+  {
+    "vn": "kéo",
+    "zh": "剪刀",
+    "en": "scissors",
+    "sentence": "Tôi cần kéo để cắt giấy.",
+    "translation": "我需要剪刀來剪紙。"
+  },
+  {
+    "vn": "bút chì",
+    "zh": "鉛筆",
+    "en": "pencil",
+    "sentence": "Anh ấy vẽ bằng bút chì.",
+    "translation": "他用鉛筆畫畫。"
+  },
+  {
+    "vn": "máy ảnh",
+    "zh": "相機",
+    "en": "camera",
+    "sentence": "Tôi mang theo máy ảnh khi đi du lịch.",
+    "translation": "我旅行時會帶著相機。"
+  },
+  {
+    "vn": "quà",
+    "zh": "禮物",
+    "en": "gift, present",
+    "sentence": "Tôi nhận được một món quà sinh nhật.",
+    "translation": "我收到一個生日禮物。"
+  },
+  {
+    "vn": "dao",
+    "zh": "刀子",
+    "en": "knife",
+    "sentence": "Cẩn thận khi dùng dao.",
+    "translation": "使用刀子時要小心。"
+  },
+  {
+    "vn": "diều",
+    "zh": "風箏",
+    "en": "kite",
+    "sentence": "Trẻ em thích thả diều vào chiều gió.",
+    "translation": "小孩喜歡在有風的下午放風箏。"
+  },
+  {
+    "vn": "nam châm",
+    "zh": "磁鐵",
+    "en": "magnet",
+    "sentence": "Nam châm hút được kim loại.",
+    "translation": "磁鐵能吸住金屬。"
+  },
+  {
+    "vn": "thiệp",
+    "zh": "賀卡",
+    "en": "card",
+    "sentence": "Tôi đã viết một tấm thiệp chúc mừng sinh nhật.",
+    "translation": "我寫了一張生日賀卡。"
+  },
+  {
+    "vn": "thẻ tín dụng",
+    "zh": "信用卡",
+    "en": "credit card",
+    "sentence": "Tôi dùng thẻ tín dụng để thanh toán.",
+    "translation": "我用信用卡付款。"
+  },
+  {
+    "vn": "bong bóng",
+    "zh": "氣球",
+    "en": "balloon, balloons",
+    "sentence": "Trẻ con rất thích chơi bong bóng.",
+    "translation": "小朋友很喜歡玩氣球。"
+  },
+  {
+    "vn": "màn hình",
+    "zh": "螢幕",
+    "en": "screen, monitor",
+    "sentence": "Màn hình máy tính bị mờ.",
+    "translation": "電腦螢幕變得模糊了。"
+  },
+  {
+    "vn": "bàn phím",
+    "zh": "鍵盤",
+    "en": "keyboard",
+    "sentence": "Bàn phím của tôi không hoạt động.",
+    "translation": "我的鍵盤壞了。"
+  },
+  {
     "vn": "tủ lạnh",
     "zh": "冰箱",
     "en": "refrigerator",
