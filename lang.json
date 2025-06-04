@@ -1,5 +1,82 @@
 [
   {
+    "vn": "mặc dù",
+    "zh": "雖然",
+    "en": "though, even though, although",
+    "sentence": "Mặc dù trời mưa, họ vẫn đi học đúng giờ.",
+    "translation": "雖然下雨，他們還是準時去上學。"
+  },
+  {
+    "vn": "cho dù",
+    "zh": "即使",
+    "en": "even if",
+    "sentence": "Cho dù mệt, tôi vẫn phải làm việc.",
+    "translation": "即使很累，我還是得工作。"
+  },
+  {
+    "vn": "tuy nhiên",
+    "zh": "然而、不過",
+    "en": "however",
+    "sentence": "Cô ấy rất giỏi, tuy nhiên cô ấy rất khiêm tốn.",
+    "translation": "她很厲害，然而卻非常謙虛。"
+  },
+  {
+    "vn": "vậy nên",
+    "zh": "所以、因此",
+    "en": "so, therefore, then",
+    "sentence": "Trời lạnh, vậy nên tôi mặc áo khoác.",
+    "translation": "天氣冷，所以我穿了外套。"
+  },
+  {
+    "vn": "vậy",
+    "zh": "那麼、所以",
+    "en": "then, so, indicate interrogation",
+    "sentence": "Bạn không đến, vậy tôi phải làm sao?",
+    "translation": "你不來，那我該怎麼辦？"
+  },
+  {
+    "vn": "vậy mà",
+    "zh": "但是、卻",
+    "en": "but",
+    "sentence": "Anh ấy hứa sẽ đến, vậy mà lại không đến.",
+    "translation": "他承諾會來，結果卻沒來。"
+  },
+  {
+    "vn": "hơn nữa",
+    "zh": "而且、此外",
+    "en": "in addition, additionally, moreover",
+    "sentence": "Cô ấy thông minh, hơn nữa còn rất chăm chỉ.",
+    "translation": "她不但聰明，而且非常勤奮。"
+  },
+  {
+    "vn": "một khi",
+    "zh": "一旦",
+    "en": "once, as soon as",
+    "sentence": "Một khi đã quyết định, tôi sẽ không thay đổi.",
+    "translation": "一旦決定了，我就不會改變。"
+  },
+  {
+    "vn": "như vậy",
+    "zh": "這樣、因此",
+    "en": "as a result, like that",
+    "sentence": "Anh ấy học chăm chỉ, như vậy mới đạt kết quả tốt.",
+    "translation": "他努力學習，這樣才會有好成績。"
+  },
+  {
+    "vn": "chỉ",
+    "zh": "只、只是、指出",
+    "en": "only, just, show",
+    "sentence": "Tôi chỉ muốn giúp đỡ bạn thôi.",
+    "translation": "我只是想幫助你而已。"
+  },
+  {
+    "vn": "trừ khi",
+    "zh": "除非",
+    "en": "unless",
+    "sentence": "Tôi sẽ không đi, trừ khi bạn đi cùng tôi.",
+    "translation": "除非你跟我一起去，否則我不去。"
+  },
+  {
     "vn": "liềm",
     "zh": "鐮刀",
     "en": "sickle",
