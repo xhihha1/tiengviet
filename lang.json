@@ -1,5 +1,152 @@
 [
   {
+    "vn": "có thể",
+    "zh": "可以，也許，可能",
+    "en": "can, may, possibly",
+    "sentence": "Tôi có thể giúp bạn một tay.",
+    "translation": "我可以幫你一把。"
+  },
+  {
+    "vn": "cần phải",
+    "zh": "需要，必須",
+    "en": "need to, need, needs",
+    "sentence": "Chúng ta cần phải hoàn thành công việc này hôm nay.",
+    "translation": "我們今天需要完成這項工作。"
+  },
+  {
+    "vn": "phải",
+    "zh": "必須，是，對",
+    "en": "is, right, has to",
+    "sentence": "Bạn phải làm bài tập về nhà trước khi chơi.",
+    "translation": "你必須先做功課再去玩。"
+  },
+  {
+    "vn": "không thể",
+    "zh": "不能，無法",
+    "en": "cannot, can't",
+    "sentence": "Tôi không thể đến buổi tiệc tối nay.",
+    "translation": "我今晚不能參加派對。"
+  },
+  {
+    "vn": "không được",
+    "zh": "不可以，不允許",
+    "en": "must not",
+    "sentence": "Bạn không được nói dối.",
+    "translation": "你不可以說謊。"
+  },
+  {
+    "vn": "cùng nhau",
+    "zh": "一起，一同",
+    "en": "together",
+    "sentence": "Chúng tôi cùng nhau đi du lịch.",
+    "translation": "我們一起去旅行。"
+  },
+  {
+    "vn": "bỗng",
+    "zh": "突然，忽然",
+    "en": "suddenly",
+    "sentence": "Trời bỗng đổ mưa.",
+    "translation": "天突然下雨了。"
+  },
+  {
+    "vn": "suýt",
+    "zh": "差點，幾乎",
+    "en": "almost, nearly",
+    "sentence": "Tôi suýt ngã khi đi trên cầu.",
+    "translation": "我走在橋上時差點跌倒。"
+  },
+  {
+    "vn": "chưa",
+    "zh": "還沒，尚未",
+    "en": "yet, n't, not yet",
+    "sentence": "Tôi chưa ăn sáng.",
+    "translation": "我還沒吃早餐。"
+  },
+  {
+    "vn": "xung quanh",
+    "zh": "四周，周圍",
+    "en": "around",
+    "sentence": "Có nhiều cây cối xung quanh nhà.",
+    "translation": "房子周圍有很多樹。"
+  },
+  {
+    "vn": "thậm chí",
+    "zh": "甚至",
+    "en": "even",
+    "sentence": "Thậm chí anh ấy còn không chào tôi.",
+    "translation": "他甚至沒有跟我打招呼。"
+  },
+  {
+    "vn": "dù sao",
+    "zh": "無論如何，反正",
+    "en": "anyway",
+    "sentence": "Dù sao thì chúng ta cũng phải cố gắng.",
+    "translation": "無論如何我們都要努力。"
+  },
+  {
+    "vn": "khoảng",
+    "zh": "大約，約",
+    "en": "about, roughly",
+    "sentence": "Tôi sẽ đến khoảng 7 giờ.",
+    "translation": "我大約七點會到。"
+  },
+  {
+    "vn": "nói chung",
+    "zh": "總的來說，一般而言",
+    "en": "generally, to conclude",
+    "sentence": "Nói chung, kết quả là tích cực.",
+    "translation": "總的來說，結果是正面的。"
+  },
+  {
+    "vn": "gần như",
+    "zh": "幾乎，差不多",
+    "en": "almost, nearly",
+    "sentence": "Tôi gần như quên mất cuộc hẹn.",
+    "translation": "我幾乎忘了那個約會。"
+  },
+  {
+    "vn": "với nhau",
+    "zh": "彼此，互相",
+    "en": "together",
+    "sentence": "Họ nói chuyện với nhau rất vui vẻ.",
+    "translation": "他們彼此談話得很開心。"
+  },
+  {
+    "vn": "ở đây",
+    "zh": "在這裡",
+    "en": "here",
+    "sentence": "Tôi sống ở đây từ nhỏ.",
+    "translation": "我從小就住在這裡。"
+  },
+  {
+    "vn": "hoàn toàn",
+    "zh": "完全，全然",
+    "en": "absolutely, completely, totally",
+    "sentence": "Tôi hoàn toàn đồng ý với bạn.",
+    "translation": "我完全同意你的意見。"
+  },
+  {
+    "vn": "một cách",
+    "zh": "以一種方式",
+    "en": "(indicate adverb)",
+    "sentence": "Anh ấy trả lời một cách lịch sự.",
+    "translation": "他以禮貌的方式回答。"
+  },
+  {
+    "vn": "ngay lập tức",
+    "zh": "立刻，馬上",
+    "en": "immediately",
+    "sentence": "Hãy làm việc đó ngay lập tức.",
+    "translation": "請立刻去做那件事。"
+  },
+  {
+    "vn": "lại",
+    "zh": "再次，又",
+    "en": "again",
+    "sentence": "Anh ấy lại quên mang chìa khóa.",
+    "translation": "他又忘了帶鑰匙。"
+  },
+  {
     "vn": "mặc dù",
     "zh": "雖然",
     "en": "though, even though, although",
