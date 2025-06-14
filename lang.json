@@ -1,5 +1,334 @@
 [
   {
+    "vn": "trụ sở chính",
+    "zh": "總部",
+    "en": "headquarters",
+    "sentence": "Trụ sở chính của công ty đặt tại Hà Nội.",
+    "translation": "公司的總部設在河內。"
+  },
+  {
+    "vn": "đường hầm",
+    "zh": "隧道",
+    "en": "tunnel",
+    "sentence": "Chúng tôi đi qua đường hầm dài nhất thành phố.",
+    "translation": "我們穿過了全市最長的隧道。"
+  },
+  {
+    "vn": "đường phố",
+    "zh": "街道",
+    "en": "street, streets",
+    "sentence": "Đường phố hôm nay rất đông đúc.",
+    "translation": "今天街道非常擁擠。"
+  },
+  {
+    "vn": "hang",
+    "zh": "洞穴",
+    "en": "cave",
+    "sentence": "Chúng tôi thám hiểm một hang sâu trong núi.",
+    "translation": "我們探險了一個深山裡的洞穴。"
+  },
+  {
+    "vn": "làng",
+    "zh": "村莊",
+    "en": "village",
+    "sentence": "Bà tôi sống ở một làng nhỏ.",
+    "translation": "我奶奶住在一個小村莊裡。"
+  },
+  {
+    "vn": "cầu",
+    "zh": "橋",
+    "en": "bridge",
+    "sentence": "Chiếc cầu này bắc qua sông lớn.",
+    "translation": "這座橋橫跨大河。"
+  },
+  {
+    "vn": "bệnh viện",
+    "zh": "醫院",
+    "en": "hospital",
+    "sentence": "Anh ấy đang nằm điều trị trong bệnh viện.",
+    "translation": "他正在醫院接受治療。"
+  },
+  {
+    "vn": "bưu điện",
+    "zh": "郵局",
+    "en": "post office",
+    "sentence": "Tôi gửi thư tại bưu điện gần nhà.",
+    "translation": "我在家附近的郵局寄信。"
+  },
+  {
+    "vn": "tiệm bánh",
+    "zh": "麵包店",
+    "en": "bakery, cake shop",
+    "sentence": "Tiệm bánh này nổi tiếng với bánh kem ngon.",
+    "translation": "這家麵包店以美味的蛋糕聞名。"
+  },
+  {
+    "vn": "thư viện",
+    "zh": "圖書館",
+    "en": "library",
+    "sentence": "Tôi thường học bài trong thư viện.",
+    "translation": "我常在圖書館讀書。"
+  },
+  {
+    "vn": "siêu thị",
+    "zh": "超市",
+    "en": "supermarket",
+    "sentence": "Tôi đi siêu thị mua thực phẩm mỗi tuần.",
+    "translation": "我每週去超市買食物。"
+  },
+  {
+    "vn": "trạm xe buýt",
+    "zh": "公車站",
+    "en": "bus station, bus stop",
+    "sentence": "Tôi chờ bạn ở trạm xe buýt.",
+    "translation": "我在公車站等你。"
+  },
+  {
+    "vn": "vùng",
+    "zh": "地區",
+    "en": "region, zone",
+    "sentence": "Vùng này nổi tiếng về trồng cà phê.",
+    "translation": "這個地區以種植咖啡聞名。"
+  },
+  {
+    "vn": "trung tâm thương mại",
+    "zh": "商場",
+    "en": "shopping mall, mall",
+    "sentence": "Chúng tôi đi mua sắm ở trung tâm thương mại.",
+    "translation": "我們去商場購物。"
+  },
+  {
+    "vn": "biên giới",
+    "zh": "邊界",
+    "en": "border",
+    "sentence": "Họ sống gần biên giới giữa hai nước.",
+    "translation": "他們住在兩國邊界附近。"
+  },
+  {
+    "vn": "nông trại",
+    "zh": "農場",
+    "en": "farm",
+    "sentence": "Gia đình tôi có một nông trại nhỏ.",
+    "translation": "我家有一個小農場。"
+  },
+  {
+    "vn": "bảo tàng",
+    "zh": "博物館",
+    "en": "museum",
+    "sentence": "Chúng tôi tham quan bảo tàng lịch sử.",
+    "translation": "我們參觀了歷史博物館。"
+  },
+  {
+    "vn": "quảng trường",
+    "zh": "廣場",
+    "en": "square",
+    "sentence": "Mọi người tụ tập tại quảng trường trung tâm.",
+    "translation": "大家聚集在市中心廣場。"
+  },
+  {
+    "vn": "rạp phim",
+    "zh": "電影院",
+    "en": "movie theater",
+    "sentence": "Chúng tôi xem phim tại rạp phim mới.",
+    "translation": "我們在新電影院看電影。"
+  },
+  {
+    "vn": "hiệu sách",
+    "zh": "書店",
+    "en": "bookstore",
+    "sentence": "Tôi mua sách tại hiệu sách gần trường.",
+    "translation": "我在學校附近的書店買書。"
+  },
+  {
+    "vn": "tù",
+    "zh": "監牢",
+    "en": "prison, jail, bars",
+    "sentence": "Anh ta bị đưa vào tù vì tội trộm cắp.",
+    "translation": "他因偷竊罪被送進監牢。"
+  },
+  {
+    "vn": "nhà tù",
+    "zh": "監獄",
+    "en": "prison",
+    "sentence": "Nhà tù này được xây dựng từ thế kỷ 19.",
+    "translation": "這座監獄建於19世紀。"
+  },
+  {
+    "vn": "con đường",
+    "zh": "道路",
+    "en": "path, road, street",
+    "sentence": "Con đường này dẫn đến biển.",
+    "translation": "這條路通往海邊。"
+  },
+  {
+    "vn": "quán cà phê",
+    "zh": "咖啡館",
+    "en": "café, coffee shop, cafe",
+    "sentence": "Chúng tôi hẹn nhau tại quán cà phê.",
+    "translation": "我們在咖啡館碰面。"
+  },
+  {
+    "vn": "quận",
+    "zh": "區、行政區",
+    "en": "district",
+    "sentence": "Tôi sống ở quận 1 của thành phố.",
+    "translation": "我住在城市的一區。"
+  },
+  {
+    "vn": "nhà hát",
+    "zh": "劇院",
+    "en": "theater",
+    "sentence": "Buổi hòa nhạc diễn ra tại nhà hát lớn.",
+    "translation": "音樂會在大劇院舉行。"
+  },
+  {
+    "vn": "thị trấn",
+    "zh": "鎮",
+    "en": "town",
+    "sentence": "Gia đình tôi sống ở một thị trấn nhỏ.",
+    "translation": "我家住在一個小鎮。"
+  },
+  {
+    "vn": "toà nhà",
+    "zh": "大樓",
+    "en": "building",
+    "sentence": "Công ty nằm trong một toà nhà cao tầng.",
+    "translation": "公司位於一棟高樓裡。"
+  },
+  {
+    "vn": "chợ",
+    "zh": "市場",
+    "en": "market",
+    "sentence": "Mẹ tôi đi chợ mua rau mỗi sáng.",
+    "translation": "我媽媽每天早上去市場買菜。"
+  },
+  {
+    "vn": "khu vực",
+    "zh": "區域",
+    "en": "region, section, zone",
+    "sentence": "Khu vực này rất an toàn.",
+    "translation": "這個區域很安全。"
+  },
+  {
+    "vn": "địa chỉ",
+    "zh": "地址",
+    "en": "address",
+    "sentence": "Hãy ghi rõ địa chỉ trên phong bì.",
+    "translation": "請在信封上寫清楚地址。"
+  },
+  {
+    "vn": "công viên",
+    "zh": "公園",
+    "en": "park, parks",
+    "sentence": "Tôi đi dạo trong công viên mỗi chiều.",
+    "translation": "我每天傍晚在公園散步。"
+  },
+  {
+    "vn": "văn phòng",
+    "zh": "辦公室",
+    "en": "office",
+    "sentence": "Cô ấy làm việc tại văn phòng trung tâm.",
+    "translation": "她在市中心的辦公室工作。"
+  },
+  {
+    "vn": "lâu đài",
+    "zh": "城堡",
+    "en": "castle, palace",
+    "sentence": "Chúng tôi tham quan lâu đài cổ.",
+    "translation": "我們參觀了古老的城堡。"
+  },
+  {
+    "vn": "nơi",
+    "zh": "地方",
+    "en": "site, part, place",
+    "sentence": "Đây là nơi tôi sinh ra.",
+    "translation": "這裡是我出生的地方。"
+  },
+  {
+    "vn": "nhà thờ",
+    "zh": "教堂",
+    "en": "church",
+    "sentence": "Chúng tôi cầu nguyện trong nhà thờ.",
+    "translation": "我們在教堂裡祈禱。"
+  },
+  {
+    "vn": "phòng ngủ",
+    "zh": "臥室",
+    "en": "bedroom, bedrooms",
+    "sentence": "Tôi dọn dẹp phòng ngủ mỗi ngày.",
+    "translation": "我每天打掃臥室。"
+  },
+  {
+    "vn": "trung tâm",
+    "zh": "中心",
+    "en": "center, central",
+    "sentence": "Trung tâm thành phố rất sầm uất.",
+    "translation": "市中心非常熱鬧。"
+  },
+  {
+    "vn": "ngôi",
+    "zh": "（量詞，用於房子、廟宇等）",
+    "en": "(classifier)",
+    "sentence": "Có một ngôi chùa cổ trên núi.",
+    "translation": "山上有一座古廟。"
+  },
+  {
+    "vn": "bãi biển",
+    "zh": "海灘",
+    "en": "beach",
+    "sentence": "Chúng tôi tắm nắng trên bãi biển.",
+    "translation": "我們在海灘上曬太陽。"
+  },
+  {
+    "vn": "chùa",
+    "zh": "寺廟",
+    "en": "pagoda, temple",
+    "sentence": "Tôi đến chùa cầu bình an.",
+    "translation": "我去寺廟祈求平安。"
+  },
+  {
+    "vn": "thành phố",
+    "zh": "城市",
+    "en": "city",
+    "sentence": "Thành phố này rất hiện đại.",
+    "translation": "這個城市非常現代化。"
+  },
+  {
+    "vn": "sân",
+    "zh": "院子、場地",
+    "en": "yard, ground",
+    "sentence": "Trẻ em chơi bóng trong sân.",
+    "translation": "孩子們在院子裡踢球。"
+  },
+  {
+    "vn": "phòng tắm",
+    "zh": "浴室",
+    "en": "bathroom, bathrooms",
+    "sentence": "Phòng tắm rất sạch sẽ.",
+    "translation": "浴室非常乾淨。"
+  },
+  {
+    "vn": "phòng khách",
+    "zh": "客廳",
+    "en": "lounge, living room",
+    "sentence": "Gia đình tụ họp trong phòng khách.",
+    "translation": "全家人聚在客廳裡。"
+  },
+  {
+    "vn": "nhà",
+    "zh": "房子、家",
+    "en": "house, home",
+    "sentence": "Tôi trở về nhà sau giờ làm việc.",
+    "translation": "我下班後回家。"
+  },
+  {
+    "vn": "bếp",
+    "zh": "廚房",
+    "en": "kitchen",
+    "sentence": "Mẹ tôi nấu ăn trong bếp.",
+    "translation": "我媽媽在廚房做飯。"
+  },
+  {
     "vn": "có thể",
     "zh": "可以，也許，可能",
     "en": "can, may, possibly",
