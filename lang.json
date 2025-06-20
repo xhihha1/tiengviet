@@ -1,5 +1,131 @@
 [
   {
+    "vn": "đài loan",
+    "zh": "台灣",
+    "en": "Taiwan",
+    "sentence": "Tôi muốn đi du lịch Đài Loan vào mùa xuân.",
+    "translation": "我想在春天去台灣旅遊。"
+  },
+  {
+    "vn": "ai cập",
+    "zh": "埃及",
+    "en": "Egypt",
+    "sentence": "Kim tự tháp là biểu tượng nổi tiếng của Ai Cập.",
+    "translation": "金字塔是埃及著名的象徵。"
+  },
+  {
+    "vn": "nam phi",
+    "zh": "南非",
+    "en": "South Africa",
+    "sentence": "Nam Phi nổi tiếng với động vật hoang dã.",
+    "translation": "南非以野生動物聞名。"
+  },
+  {
+    "vn": "bỉ",
+    "zh": "比利時",
+    "en": "Belgium",
+    "sentence": "Socola của Bỉ rất nổi tiếng trên thế giới.",
+    "translation": "比利時的巧克力在全世界都很有名。"
+  },
+  {
+    "vn": "thái lan",
+    "zh": "泰國",
+    "en": "Thailand",
+    "sentence": "Chúng tôi đã ăn món Thái ở Bangkok.",
+    "translation": "我們在曼谷吃了泰國菜。"
+  },
+  {
+    "vn": "hy lạp",
+    "zh": "希臘",
+    "en": "Greece",
+    "sentence": "Tôi muốn đến Hy Lạp để thăm các đền thờ cổ.",
+    "translation": "我想去希臘參觀古老的神廟。"
+  },
+  {
+    "vn": "đan mạch",
+    "zh": "丹麥",
+    "en": "Denmark",
+    "sentence": "Đan Mạch nổi tiếng với phong cách sống hạnh phúc.",
+    "translation": "丹麥以幸福的生活方式聞名。"
+  },
+  {
+    "vn": "phần lan",
+    "zh": "芬蘭",
+    "en": "Finland",
+    "sentence": "Phần Lan là quê hương của ông già Noel.",
+    "translation": "芬蘭是聖誕老人的故鄉。"
+  },
+  {
+    "vn": "thuỵ điển",
+    "zh": "瑞典",
+    "en": "Sweden",
+    "sentence": "Thụy Điển là nước rất phát triển ở Bắc Âu.",
+    "translation": "瑞典是北歐非常發達的國家。"
+  },
+  {
+    "vn": "indonesia",
+    "zh": "印尼",
+    "en": "Indonesia, Indonesian",
+    "sentence": "Indonesia có nhiều đảo và nền văn hóa đa dạng.",
+    "translation": "印尼有很多島嶼和多元的文化。"
+  },
+  {
+    "vn": "canada",
+    "zh": "加拿大",
+    "en": "Canada",
+    "sentence": "Canada có khí hậu lạnh và cảnh quan thiên nhiên đẹp.",
+    "translation": "加拿大氣候寒冷，擁有美麗的自然風光。"
+  },
+  {
+    "vn": "thổ nhĩ kỳ",
+    "zh": "土耳其",
+    "en": "Turkey",
+    "sentence": "Thổ Nhĩ Kỳ nằm giữa châu Á và châu Âu.",
+    "translation": "土耳其位於亞洲與歐洲之間。"
+  },
+  {
+    "vn": "ba lan",
+    "zh": "波蘭",
+    "en": "Poland, Polish",
+    "sentence": "Ba Lan là một nước có lịch sử lâu đời ở châu Âu.",
+    "translation": "波蘭是歐洲歷史悠久的國家之一。"
+  },
+  {
+    "vn": "hỏi giờ",
+    "zh": "問時間",
+    "en": "ask for the time",
+    "sentence": "Tôi vừa hỏi giờ người lạ trên đường.",
+    "translation": "我剛剛在路上問陌生人現在幾點。"
+  },
+  {
+    "vn": "rưỡi",
+    "zh": "半、三十分",
+    "en": "half past, thirty (minutes), a half",
+    "sentence": "Bây giờ là sáu giờ rưỡi.",
+    "translation": "現在是六點半。"
+  },
+  {
+    "vn": "kém",
+    "zh": "差、較弱",
+    "en": "to, weak, bad",
+    "sentence": "Bây giờ là ba giờ kém năm.",
+    "translation": "現在是差五分三點。"
+  },
+  {
+    "vn": "lúc",
+    "zh": "在…時候",
+    "en": "moment, at, the time",
+    "sentence": "Tôi ăn trưa lúc mười hai giờ.",
+    "translation": "我十二點吃午餐。"
+  },
+  {
+    "vn": "mấy giờ",
+    "zh": "幾點",
+    "en": "what time, what time does ... ?, what time do ... ?",
+    "sentence": "Bây giờ là mấy giờ rồi?",
+    "translation": "現在幾點了？"
+  },
+  {
     "vn": "trụ sở chính",
     "zh": "總部",
     "en": "headquarters",
