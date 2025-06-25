@@ -1,5 +1,166 @@
 [
   {
+    "vn": "danh lam thắng cảnh",
+    "zh": "名勝古蹟",
+    "en": "landmark, landmarks",
+    "sentence": "Việt Nam có nhiều danh lam thắng cảnh nổi tiếng.",
+    "translation": "越南有許多著名的名勝古蹟。"
+  },
+  {
+    "vn": "thăm",
+    "zh": "拜訪、參觀",
+    "en": "visit",
+    "sentence": "Cuối tuần này tôi sẽ thăm ông bà.",
+    "translation": "這個週末我會去拜訪爺爺奶奶。"
+  },
+  {
+    "vn": "đại sứ quán",
+    "zh": "大使館",
+    "en": "embassy",
+    "sentence": "Tôi đến đại sứ quán để xin thị thực.",
+    "translation": "我去大使館辦簽證。"
+  },
+  {
+    "vn": "thị thực",
+    "zh": "簽證",
+    "en": "visa",
+    "sentence": "Bạn cần có thị thực để nhập cảnh nước đó.",
+    "translation": "你需要簽證才能進入那個國家。"
+  },
+  {
+    "vn": "thế giới",
+    "zh": "世界",
+    "en": "world",
+    "sentence": "Tôi muốn đi du lịch khắp thế giới.",
+    "translation": "我想環遊世界。"
+  },
+  {
+    "vn": "bản đồ",
+    "zh": "地圖",
+    "en": "map",
+    "sentence": "Tôi dùng bản đồ để tìm đường đi.",
+    "translation": "我用地圖來找路。"
+  },
+  {
+    "vn": "nội địa",
+    "zh": "國內的",
+    "en": "domestic",
+    "sentence": "Chuyến bay này là chuyến bay nội địa.",
+    "translation": "這是國內航班。"
+  },
+  {
+    "vn": "quốc tế",
+    "zh": "國際的",
+    "en": "international",
+    "sentence": "Sân bay này có cả chuyến bay quốc tế.",
+    "translation": "這座機場也有國際航班。"
+  },
+  {
+    "vn": "du khách",
+    "zh": "旅客",
+    "en": "tourist, tourists",
+    "sentence": "Có rất nhiều du khách đến đây mỗi năm.",
+    "translation": "每年都有很多旅客來這裡。"
+  },
+  {
+    "vn": "hành trình",
+    "zh": "旅程",
+    "en": "journey",
+    "sentence": "Hành trình này rất thú vị và bổ ích.",
+    "translation": "這趟旅程非常有趣且有收穫。"
+  },
+  {
+    "vn": "chuyến bay",
+    "zh": "班機",
+    "en": "flight",
+    "sentence": "Chuyến bay của tôi bị hoãn hai tiếng.",
+    "translation": "我的班機延誤了兩小時。"
+  },
+  {
+    "vn": "du lịch",
+    "zh": "旅遊",
+    "en": "travel, travels",
+    "sentence": "Gia đình tôi thường đi du lịch vào mùa hè.",
+    "translation": "我家通常夏天去旅遊。"
+  },
+  {
+    "vn": "xe máy",
+    "zh": "機車",
+    "en": "motorcycle",
+    "sentence": "Anh ấy đi làm bằng xe máy mỗi ngày.",
+    "translation": "他每天騎機車上班。"
+  },
+  {
+    "vn": "hành lý",
+    "zh": "行李",
+    "en": "luggage",
+    "sentence": "Bạn đã chuẩn bị hành lý chưa?",
+    "translation": "你準備好行李了嗎？"
+  },
+  {
+    "vn": "xe hơi",
+    "zh": "汽車",
+    "en": "car",
+    "sentence": "Chúng tôi đi du lịch bằng xe hơi.",
+    "translation": "我們開車去旅行。"
+  },
+  {
+    "vn": "tàu thuỷ",
+    "zh": "輪船",
+    "en": "ship",
+    "sentence": "Tôi muốn đi du lịch bằng tàu thuỷ.",
+    "translation": "我想搭船去旅行。"
+  },
+  {
+    "vn": "cuộc phiêu lưu",
+    "zh": "冒險之旅",
+    "en": "adventure",
+    "sentence": "Chuyến đi này là một cuộc phiêu lưu thật sự.",
+    "translation": "這次旅程真的是一場冒險。"
+  },
+  {
+    "vn": "ba lô",
+    "zh": "背包",
+    "en": "backpack",
+    "sentence": "Tôi luôn mang theo ba lô khi đi du lịch.",
+    "translation": "我旅遊時總是帶著背包。"
+  },
+  {
+    "vn": "lái",
+    "zh": "開（車）、駕駛",
+    "en": "drive, fly (airplane), drives",
+    "sentence": "Anh ấy biết lái xe và cả máy bay.",
+    "translation": "他會開車也會開飛機。"
+  },
+  {
+    "vn": "hôm qua",
+    "zh": "昨天",
+    "en": "yesterday",
+    "sentence": "Hôm qua tôi đã đi mua vé máy bay.",
+    "translation": "我昨天去買了機票。"
+  },
+  {
+    "vn": "năm ngoái",
+    "zh": "去年",
+    "en": "last year",
+    "sentence": "Năm ngoái chúng tôi đi Pháp.",
+    "translation": "我們去年去了法國。"
+  },
+  {
+    "vn": "đã",
+    "zh": "已經",
+    "en": "has been, have been, were",
+    "sentence": "Tôi đã đến thành phố đó hai lần.",
+    "translation": "我已經去過那個城市兩次了。"
+  },
+  {
+    "vn": "đã từng",
+    "zh": "曾經",
+    "en": "used to, were, did",
+    "sentence": "Tôi đã từng sống ở nước ngoài.",
+    "translation": "我曾經住在國外。"
+  },
+  {
     "vn": "đài loan",
     "zh": "台灣",
     "en": "Taiwan",
