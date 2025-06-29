@@ -1,5 +1,173 @@
 [
   {
+    "vn": "thông báo",
+    "zh": "通知",
+    "en": "notify, notifies",
+    "sentence": "Giáo viên đã thông báo lịch thi cho học sinh.",
+    "translation": "老師已經通知學生考試時間了。"
+  },
+  {
+    "vn": "phản bội",
+    "zh": "背叛",
+    "en": "betrays, betray, betrayed",
+    "sentence": "Anh ấy đã phản bội niềm tin của tôi.",
+    "translation": "他背叛了我的信任。"
+  },
+  {
+    "vn": "cấm",
+    "zh": "禁止",
+    "en": "prohibit, prohibited, prohibits",
+    "sentence": "Ở đây cấm hút thuốc.",
+    "translation": "這裡禁止吸菸。"
+  },
+  {
+    "vn": "ngưỡng mộ",
+    "zh": "崇拜，欽佩",
+    "en": "admire, admires",
+    "sentence": "Tôi rất ngưỡng mộ tài năng của cô ấy.",
+    "translation": "我非常欽佩她的才能。"
+  },
+  {
+    "vn": "kết thúc",
+    "zh": "結束",
+    "en": "ends, end, finish",
+    "sentence": "Buổi học kết thúc lúc 5 giờ chiều.",
+    "translation": "課程在下午五點結束。"
+  },
+  {
+    "vn": "sở hữu",
+    "zh": "擁有",
+    "en": "own, owns",
+    "sentence": "Cô ấy sở hữu một ngôi nhà đẹp.",
+    "translation": "她擁有一棟漂亮的房子。"
+  },
+  {
+    "vn": "xây dựng",
+    "zh": "建設",
+    "en": "build",
+    "sentence": "Chúng tôi đang xây dựng một cây cầu mới.",
+    "translation": "我們正在建造一座新橋。"
+  },
+  {
+    "vn": "nhận được",
+    "zh": "收到",
+    "en": "receive, gets, receives",
+    "sentence": "Tôi vừa nhận được một email từ công ty.",
+    "translation": "我剛收到公司的一封電子郵件。"
+  },
+  {
+    "vn": "giải thích",
+    "zh": "解釋",
+    "en": "explain, explains",
+    "sentence": "Cô ấy giải thích bài học rất rõ ràng.",
+    "translation": "她把課程解釋得很清楚。"
+  },
+  {
+    "vn": "liên hệ",
+    "zh": "聯繫",
+    "en": "contact, contacted",
+    "sentence": "Nếu có thắc mắc, hãy liên hệ với chúng tôi.",
+    "translation": "如有疑問，請聯繫我們。"
+  },
+  {
+    "vn": "vâng lời",
+    "zh": "聽話，服從",
+    "en": "obey",
+    "sentence": "Trẻ em cần phải vâng lời cha mẹ.",
+    "translation": "小孩應該聽從父母的話。"
+  },
+  {
+    "vn": "chờ",
+    "zh": "等待",
+    "en": "wait for, layovers, waits",
+    "sentence": "Tôi đang chờ bạn trước cổng trường.",
+    "translation": "我正在學校門口等你。"
+  },
+  {
+    "vn": "định nghĩa",
+    "zh": "定義",
+    "en": "definition, define",
+    "sentence": "Bạn có thể định nghĩa từ này không?",
+    "translation": "你可以定義這個詞嗎？"
+  },
+  {
+    "vn": "tạo ra",
+    "zh": "創造",
+    "en": "create, creates, make",
+    "sentence": "Chúng tôi muốn tạo ra một sản phẩm mới.",
+    "translation": "我們想創造一個新產品。"
+  },
+  {
+    "vn": "dành",
+    "zh": "花費（時間）",
+    "en": "spend (time), spends, spend",
+    "sentence": "Tôi thường dành thời gian đọc sách vào buổi tối.",
+    "translation": "我常在晚上花時間閱讀。"
+  },
+  {
+    "vn": "cảm thấy",
+    "zh": "感覺",
+    "en": "feel",
+    "sentence": "Tôi cảm thấy rất mệt sau khi làm việc.",
+    "translation": "工作完之後我覺得很累。"
+  },
+  {
+    "vn": "theo",
+    "zh": "跟隨，根據",
+    "en": "follow, takes, follows",
+    "sentence": "Anh ấy theo tôi suốt buổi chiều.",
+    "translation": "他整個下午都跟著我。"
+  },
+  {
+    "vn": "tiếp tục",
+    "zh": "繼續",
+    "en": "continue, continues, keep",
+    "sentence": "Chúng ta hãy tiếp tục làm việc.",
+    "translation": "我們繼續工作吧。"
+  },
+  {
+    "vn": "cho rằng",
+    "zh": "認為",
+    "en": "assume, assumes",
+    "sentence": "Tôi cho rằng điều đó là đúng.",
+    "translation": "我認為那是對的。"
+  },
+  {
+    "vn": "xuất hiện",
+    "zh": "出現",
+    "en": "appear, appears",
+    "sentence": "Một con mèo bỗng nhiên xuất hiện trước cửa.",
+    "translation": "一隻貓突然出現在門口。"
+  },
+  {
+    "vn": "giới thiệu",
+    "zh": "介紹",
+    "en": "introduce, introduces",
+    "sentence": "Tôi muốn giới thiệu bạn với đồng nghiệp của tôi.",
+    "translation": "我想把你介紹給我的同事。"
+  },
+  {
+    "vn": "xuất khẩu",
+    "zh": "出口",
+    "en": "export, exports, exporting",
+    "sentence": "Công ty này xuất khẩu hàng hóa ra nước ngoài.",
+    "translation": "這家公司將產品出口到國外。"
+  },
+  {
+    "vn": "nhập khẩu",
+    "zh": "進口",
+    "en": "import, importing, imports",
+    "sentence": "Việt Nam nhập khẩu nhiều máy móc từ Nhật Bản.",
+    "translation": "越南從日本進口很多機械。"
+  },
+  {
+    "vn": "trộn",
+    "zh": "混合",
+    "en": "mix",
+    "sentence": "Bạn hãy trộn các nguyên liệu này lại với nhau.",
+    "translation": "請把這些材料混合在一起。"
+  },
+  {
     "vn": "danh lam thắng cảnh",
     "zh": "名勝古蹟",
     "en": "landmark, landmarks",
