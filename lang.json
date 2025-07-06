@@ -1,5 +1,68 @@
 [
   {
+    "vn": "trên",
+    "zh": "在……上面",
+    "en": "on, over, top",
+    "sentence": "Cuốn sách nằm trên bàn.",
+    "translation": "書本放在桌子上。"
+  },
+  {
+    "vn": "dưới",
+    "zh": "在……下面",
+    "en": "under, beneath, bottom",
+    "sentence": "Con mèo đang ngủ dưới ghế.",
+    "translation": "貓正在椅子下面睡覺。"
+  },
+  {
+    "vn": "ngoại trừ",
+    "zh": "除了……之外",
+    "en": "except, apart from, besides",
+    "sentence": "Tất cả mọi người đến trễ ngoại trừ Nam.",
+    "translation": "除了南之外，大家都遲到了。"
+  },
+  {
+    "vn": "bên",
+    "zh": "旁邊",
+    "en": "side, with",
+    "sentence": "Tôi ngồi bên cửa sổ.",
+    "translation": "我坐在靠窗的位置。"
+  },
+  {
+    "vn": "giữa",
+    "zh": "在……之間",
+    "en": "middle, among, between",
+    "sentence": "Chiếc bàn nằm giữa phòng.",
+    "translation": "桌子放在房間中央。"
+  },
+  {
+    "vn": "cạnh",
+    "zh": "緊挨，旁邊",
+    "en": "beside, edge, side",
+    "sentence": "Cửa hàng cạnh nhà tôi rất tiện.",
+    "translation": "我家旁邊的店很方便。"
+  },
+  {
+    "vn": "bởi",
+    "zh": "由……（被）",
+    "en": "by",
+    "sentence": "Bức tranh được vẽ bởi họa sĩ nổi tiếng.",
+    "translation": "這幅畫是由著名畫家所畫。"
+  },
+  {
+    "vn": "bị",
+    "zh": "被（表被動）",
+    "en": "is, being, be",
+    "sentence": "Cửa sổ bị vỡ hôm qua.",
+    "translation": "窗戶昨天被打破了。"
+  },
+  {
+    "vn": "được",
+    "zh": "被（可），得到",
+    "en": "can, ok, for",
+    "sentence": "Cô ấy được chọn làm trưởng lớp.",
+    "translation": "她被選為班長。"
+  },
+  {
     "vn": "thông báo",
     "zh": "通知",
     "en": "notify, notifies",
