@@ -1,5 +1,152 @@
 [
   {
+    "vn": "bài thuyết trình",
+    "zh": "簡報、報告",
+    "en": "presentation",
+    "sentence": "Tôi sẽ có một bài thuyết trình vào ngày mai.",
+    "translation": "我明天有一場簡報。"
+  },
+  {
+    "vn": "giáo sư",
+    "zh": "教授",
+    "en": "professor, professors",
+    "sentence": "Giáo sư đang giảng bài về lịch sử.",
+    "translation": "教授正在講授歷史課。"
+  },
+  {
+    "vn": "bài giảng",
+    "zh": "講課、課程內容",
+    "en": "lecture, lectures",
+    "sentence": "Bài giảng hôm nay rất thú vị.",
+    "translation": "今天的課程非常有趣。"
+  },
+  {
+    "vn": "báo cáo",
+    "zh": "報告",
+    "en": "report, reports",
+    "sentence": "Tôi đang viết báo cáo cho dự án.",
+    "translation": "我正在寫專案報告。"
+  },
+  {
+    "vn": "nghiên cứu sinh",
+    "zh": "博士研究生",
+    "en": "PhD student, doctoral student",
+    "sentence": "Anh ấy là nghiên cứu sinh năm thứ hai.",
+    "translation": "他是二年級的博士生。"
+  },
+  {
+    "vn": "đại học",
+    "zh": "大學",
+    "en": "university, universities",
+    "sentence": "Tôi học ở đại học quốc gia Hà Nội.",
+    "translation": "我在河內國立大學就讀。"
+  },
+  {
+    "vn": "văn bản",
+    "zh": "文本、文件",
+    "en": "document, text",
+    "sentence": "Bạn hãy đọc văn bản trước khi đến lớp.",
+    "translation": "上課前請先閱讀文件。"
+  },
+  {
+    "vn": "ngành",
+    "zh": "科系、專業",
+    "en": "business, branch, major",
+    "sentence": "Tôi học ngành công nghệ thông tin.",
+    "translation": "我主修資訊工程。"
+  },
+  {
+    "vn": "bài kiểm tra",
+    "zh": "測驗",
+    "en": "test, the test, quiz",
+    "sentence": "Ngày mai lớp có bài kiểm tra toán.",
+    "translation": "明天班上有數學測驗。"
+  },
+  {
+    "vn": "chương",
+    "zh": "章節",
+    "en": "chapter",
+    "sentence": "Bạn nên đọc chương ba để chuẩn bị cho lớp học.",
+    "translation": "你應該閱讀第三章以備課堂。"
+  },
+  {
+    "vn": "ví dụ",
+    "zh": "例子、舉例",
+    "en": "example, instance, examples",
+    "sentence": "Ví dụ này giúp tôi hiểu bài học rõ hơn.",
+    "translation": "這個例子幫助我更了解課程。"
+  },
+  {
+    "vn": "kiến thức",
+    "zh": "知識",
+    "en": "knowledge",
+    "sentence": "Đọc sách giúp mở rộng kiến thức.",
+    "translation": "閱讀能拓展知識。"
+  },
+  {
+    "vn": "nghiên cứu",
+    "zh": "研究",
+    "en": "study, research",
+    "sentence": "Cô ấy đang nghiên cứu về sinh học.",
+    "translation": "她正在研究生物學。"
+  },
+  {
+    "vn": "ý tưởng",
+    "zh": "想法、創意",
+    "en": "idea, ideas",
+    "sentence": "Tôi có một ý tưởng mới cho dự án.",
+    "translation": "我對這個專案有一個新想法。"
+  },
+  {
+    "vn": "học bổng",
+    "zh": "獎學金",
+    "en": "scholarship",
+    "sentence": "Anh ấy nhận được học bổng toàn phần.",
+    "translation": "他獲得了全額獎學金。"
+  },
+  {
+    "vn": "trường",
+    "zh": "學校",
+    "en": "school",
+    "sentence": "Trường của tôi rất lớn và đẹp.",
+    "translation": "我的學校又大又漂亮。"
+  },
+  {
+    "vn": "khoá học",
+    "zh": "課程",
+    "en": "course",
+    "sentence": "Tôi đăng ký khoá học tiếng Anh.",
+    "translation": "我報名了英文課程。"
+  },
+  {
+    "vn": "giáo dục",
+    "zh": "教育",
+    "en": "education, educate, educated",
+    "sentence": "Giáo dục là nền tảng của sự phát triển.",
+    "translation": "教育是發展的基礎。"
+  },
+  {
+    "vn": "chương trình",
+    "zh": "課程、計畫",
+    "en": "program",
+    "sentence": "Chương trình học rất hữu ích.",
+    "translation": "課程內容非常有幫助。"
+  },
+  {
+    "vn": "ghi chú",
+    "zh": "筆記",
+    "en": "note",
+    "sentence": "Tôi luôn ghi chú trong lớp học.",
+    "translation": "我在課堂上總是做筆記。"
+  },
+  {
+    "vn": "lớp học",
+    "zh": "教室、課堂",
+    "en": "classroom, classrooms, class",
+    "sentence": "Lớp học bắt đầu lúc tám giờ sáng.",
+    "translation": "課堂早上八點開始。"
+  },
+  {
     "vn": "trên",
     "zh": "在……上面",
     "en": "on, over, top",
