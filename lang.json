@@ -1,5 +1,306 @@
 [
   {
+    "vn": "tình bạn",
+    "zh": "友誼",
+    "en": "friendship",
+    "sentence": "Tình bạn đích thực kéo dài cả đời.",
+    "translation": "真正的友誼可以維持一輩子。"
+  },
+  {
+    "vn": "loài người",
+    "zh": "人類",
+    "en": "the human race, humankind, mankind",
+    "sentence": "Sự tiến bộ của loài người phụ thuộc vào giáo dục.",
+    "translation": "人類的進步取決於教育。"
+  },
+  {
+    "vn": "uỷ ban",
+    "zh": "委員會",
+    "en": "committee",
+    "sentence": "Uỷ ban đã đưa ra quyết định quan trọng.",
+    "translation": "委員會已經做出重要決定。"
+  },
+  {
+    "vn": "tính nhân đạo",
+    "zh": "人道主義",
+    "en": "humanity",
+    "sentence": "Chúng ta phải thể hiện tính nhân đạo trong mọi hành động.",
+    "translation": "我們必須在所有行動中展現人道主義精神。"
+  },
+  {
+    "vn": "dân số",
+    "zh": "人口",
+    "en": "population",
+    "sentence": "Dân số thành phố này đã vượt quá một triệu người.",
+    "translation": "這個城市的人口已經超過一百萬人。"
+  },
+  {
+    "vn": "hội thảo",
+    "zh": "研討會",
+    "en": "workshop",
+    "sentence": "Tôi đăng ký tham dự hội thảo về công nghệ.",
+    "translation": "我報名參加科技研討會。"
+  },
+  {
+    "vn": "con người",
+    "zh": "人、人類",
+    "en": "person, humans, human",
+    "sentence": "Mỗi con người đều có giá trị riêng.",
+    "translation": "每個人都有其獨特的價值。"
+  },
+  {
+    "vn": "bạn trai",
+    "zh": "男朋友",
+    "en": "boyfriend",
+    "sentence": "Bạn trai cô ấy đến từ nước ngoài.",
+    "translation": "她的男朋友來自國外。"
+  },
+  {
+    "vn": "lịch sử",
+    "zh": "歷史",
+    "en": "history",
+    "sentence": "Lịch sử giúp chúng ta hiểu quá khứ.",
+    "translation": "歷史幫助我們理解過去。"
+  },
+  {
+    "vn": "kẻ thù",
+    "zh": "敵人",
+    "en": "enemy",
+    "sentence": "Chúng ta nên đối xử với kẻ thù một cách văn minh.",
+    "translation": "我們應該以文明的方式對待敵人。"
+  },
+  {
+    "vn": "công cộng",
+    "zh": "公共",
+    "en": "public",
+    "sentence": "Công cộng cần có nơi để nghỉ ngơi và giải trí.",
+    "translation": "公共場所需要有休憩和娛樂的空間。"
+  },
+  {
+    "vn": "mối quan hệ",
+    "zh": "關係",
+    "en": "relationship, relation",
+    "sentence": "Mối quan hệ gia đình rất quan trọng.",
+    "translation": "家庭關係非常重要。"
+  },
+  {
+    "vn": "một ai đó",
+    "zh": "某人",
+    "en": "someone, somebody",
+    "sentence": "Tôi muốn nói chuyện với một ai đó có kinh nghiệm.",
+    "translation": "我想與有經驗的人談談。"
+  },
+  {
+    "vn": "điều",
+    "zh": "事情、事物",
+    "en": "things, thing, that",
+    "sentence": "Có nhiều điều trong cuộc sống không thể giải thích.",
+    "translation": "生活中有許多事物無法說明。"
+  },
+  {
+    "vn": "mọi",
+    "zh": "每一、所有",
+    "en": "any, every, all",
+    "sentence": "Mọi người đều có quyền được hạnh phúc.",
+    "translation": "每個人都有權利獲得幸福。"
+  },
+  {
+    "vn": "cả hai",
+    "zh": "兩個都",
+    "en": "both",
+    "sentence": "Cả hai phương án đều khả thi.",
+    "translation": "兩個方案都可行。"
+  },
+  {
+    "vn": "bất kỳ ai",
+    "zh": "任何人",
+    "en": "anyone, anybody",
+    "sentence": "Bất kỳ ai cũng có thể tham gia.",
+    "translation": "任何人都可以參加。"
+  },
+  {
+    "vn": "bất kỳ cái gì",
+    "zh": "任何事物",
+    "en": "anything",
+    "sentence": "Bạn có thể hỏi bất kỳ cái gì bạn muốn.",
+    "translation": "你可以問任何你想問的事情。"
+  },
+  {
+    "vn": "khác",
+    "zh": "不同的、其他",
+    "en": "different, other, another",
+    "sentence": "Tôi muốn thử món ăn khác.",
+    "translation": "我想試別的菜。"
+  },
+  {
+    "vn": "không ai",
+    "zh": "沒有人",
+    "en": "nobody, no one",
+    "sentence": "Không ai có thể làm thay bạn.",
+    "translation": "沒有人可以取代你。"
+  },
+  {
+    "vn": "tất cả",
+    "zh": "全部、所有",
+    "en": "all, whole, every",
+    "sentence": "Tất cả học sinh đều phải tham gia buổi học hôm nay.",
+    "translation": "所有學生都要參加今天的課。"
+  },
+  {
+    "vn": "cái gì đó",
+    "zh": "某某事物",
+    "en": "something",
+    "sentence": "Tôi cảm thấy có cái gì đó sai sai.",
+    "translation": "我覺得有什麼不對勁。"
+  },
+  {
+    "vn": "mọi thứ",
+    "zh": "一切、所有東西",
+    "en": "everything, things",
+    "sentence": "Tôi đã chuẩn bị mọi thứ cho chuyến đi.",
+    "translation": "我已經為這次旅行準備好一切了。"
+  },
+  {
+    "vn": "bản thân",
+    "zh": "自己、本身",
+    "en": "myself, themselves, himself",
+    "sentence": "Chỉ bản thân bạn mới hiểu bạn rõ nhất.",
+    "translation": "只有你自己最了解你。"
+  },
+  {
+    "vn": "tự mình",
+    "zh": "自己、獨自",
+    "en": "by herself, by myself, by themselves",
+    "sentence": "Cô ấy đã hoàn thành công việc tự mình.",
+    "translation": "她自己完成了這項工作。"
+  },
+  {
+    "vn": "tự",
+    "zh": "自我",
+    "en": "self, by oneself",
+    "sentence": "Bạn nên học cách tự lập.",
+    "translation": "你應該學會自立。"
+  },
+  {
+    "vn": "so với",
+    "zh": "相比於",
+    "en": "in comparison to, than",
+    "sentence": "So với năm ngoái, doanh thu tăng 20%.",
+    "translation": "與去年相比，營收增加了20%。"
+  },
+  {
+    "vn": "cho đến khi",
+    "zh": "直到……為止",
+    "en": "until",
+    "sentence": "Đợi ở đây cho đến khi tôi quay lại.",
+    "translation": "在這裡等到我回來為止。"
+  },
+  {
+    "vn": "thật sự",
+    "zh": "真的",
+    "en": "real, really",
+    "sentence": "Tôi thật sự cảm kích vì sự giúp đỡ của bạn.",
+    "translation": "我真的很感激你的幫助。"
+  },
+  {
+    "vn": "mà",
+    "zh": "那、但是",
+    "en": "that, but, if",
+    "sentence": "Anh ấy nói mà không nghĩ trước.",
+    "translation": "他說話卻沒先想。"
+  },
+  {
+    "vn": "thà",
+    "zh": "寧可",
+    "en": "would rather",
+    "sentence": "Tôi thà đi bộ còn hơn ngồi xe buýt.",
+    "translation": "我寧可走路也不想搭公車。"
+  },
+  {
+    "vn": "rồi",
+    "zh": "已經",
+    "en": "is, now, already",
+    "sentence": "Cô ấy đã về nhà rồi.",
+    "translation": "她已經回家了。"
+  },
+  {
+    "vn": "còn hơn",
+    "zh": "比……更",
+    "en": "than",
+    "sentence": "Việc này quan trọng còn hơn cả tiền bạc.",
+    "translation": "這件事比金錢更重要。"
+  },
+  {
+    "vn": "hết",
+    "zh": "用完、結束",
+    "en": "run out of (sth)",
+    "sentence": "Chúng tôi đã hết sữa trong tủ lạnh.",
+    "translation": "我們冰箱裡的牛奶已經用完了。"
+  },
+  {
+    "vn": "lạc",
+    "zh": "迷路、落花生",
+    "en": "lost, peanut",
+    "sentence": "Tôi bị lạc khi đi du lịch một mình.",
+    "translation": "我一個人旅行時迷路了。"
+  },
+  {
+    "vn": "được không",
+    "zh": "可以嗎？",
+    "en": "can ... ?, could",
+    "sentence": "Tôi mượn sách này được không?",
+    "translation": "我可以借這本書嗎？"
+  },
+  {
+    "vn": "mời",
+    "zh": "邀請、請",
+    "en": "invite, please, invited",
+    "sentence": "Mời bạn dùng trà và bánh ngọt.",
+    "translation": "請你喝茶吃蛋糕。"
+  },
+  {
+    "vn": "một chút",
+    "zh": "一點點",
+    "en": "a bit, a little, a bit of",
+    "sentence": "Xin cho tôi một chút nước.",
+    "translation": "請給我一點水。"
+  },
+  {
+    "vn": "làm phiền",
+    "zh": "打擾",
+    "en": "bother",
+    "sentence": "Xin lỗi đã làm phiền bạn lúc nãy.",
+    "translation": "對不起剛才打擾你了。"
+  },
+  {
+    "vn": "cũng được",
+    "zh": "也可以",
+    "en": "it is okay to (verb), (I'm) okay with",
+    "sentence": "Nếu bạn muốn, cũng được.",
+    "translation": "如果你想，也可以。"
+  },
+  {
+    "vn": "rằng",
+    "zh": "那（連接詞）",
+    "en": "that",
+    "sentence": "Anh ấy nói rằng anh bận.",
+    "translation": "他說他很忙。"
+  },
+  {
+    "vn": "có vẻ",
+    "zh": "似乎",
+    "en": "seem, seems, appear",
+    "sentence": "Cô ấy có vẻ vui hôm nay.",
+    "translation": "她今天似乎很開心。"
+  },
+  {
+    "vn": "có lẽ",
+    "zh": "也許",
+    "en": "maybe",
+    "sentence": "Có lẽ chúng ta nên dừng lại.",
+    "translation": "也許我們該停下來了。"
+  },
+  {
     "vn": "bài thuyết trình",
     "zh": "簡報、報告",
     "en": "presentation",
