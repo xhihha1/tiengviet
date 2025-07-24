@@ -1,5 +1,90 @@
 [
   {
+    "vn": "Cô ấy đã phản bội tình bạn của chúng tôi.",
+    "zh": "她背叛了我们的友谊。",
+    "en": "She betrayed our friendship."
+  },
+  {
+    "vn": "Anh ấy chỉ cần một quyển sách để đọc.",
+    "zh": "他只需要一本书来读。",
+    "en": "He just needs a book to read."
+  },
+  {
+    "vn": "Họ muốn tự mình nấu mì Ý.",
+    "zh": "他们想自己做意大利面。",
+    "en": "They want to cook pasta by themselves."
+  },
+  {
+    "vn": "Uỷ ban đang thảo luận về dân số của quốc gia.",
+    "zh": "委员会正在讨论国家的人口问题。",
+    "en": "The committee is discussing the country's population."
+  },
+  {
+    "vn": "Tôi mua cả hai chiếc nhẫn này.",
+    "zh": "我买了这两枚戒指。",
+    "en": "I bought both of these rings."
+  },
+  {
+    "vn": "Mọi thành công bắt đầu từ thất bại.",
+    "zh": "所有的成功都始于失败。",
+    "en": "Every success begins with failure."
+  },
+  {
+    "vn": "Không ai biết mọi thứ.",
+    "zh": "没有人知道一切。",
+    "en": "No one knows everything."
+  },
+  {
+    "vn": "Em trai tôi có thể tự nấu ăn.",
+    "zh": "我弟弟可以自己做饭。",
+    "en": "My younger brother can cook by himself."
+  },
+  {
+    "vn": "Tôi cho phép bản thân thất bại.",
+    "zh": "我允许自己失败。",
+    "en": "I allow myself to fail."
+  },
+  {
+    "vn": "Tôi tự mình nấu món súp.",
+    "zh": "我自己煮了汤。",
+    "en": "I cooked the soup myself."
+  },
+  {
+    "vn": "Đến lúc chúng tôi phải đi làm rồi.",
+    "zh": "我们该去上班了。",
+    "en": "It's time for us to go to work."
+  },
+  {
+    "vn": "Anh ấy không thật sự hoàn hảo.",
+    "zh": "他并不真正完美。",
+    "en": "He is not really perfect."
+  },
+  {
+    "vn": "Anh ấy cười và nói với tôi rằng anh ấy yêu tôi.",
+    "zh": "他笑着对我说他爱我。",
+    "en": "He smiled and told me that he loves me."
+  },
+  {
+    "vn": "Họ có vẻ là một đôi.",
+    "zh": "他们看起来是一对。",
+    "en": "They seem to be a couple."
+  },
+  {
+    "vn": "Đừng làm phiền tôi!",
+    "zh": "别打扰我！",
+    "en": "Don't bother me!"
+  },
+  {
+    "vn": "Sao cũng được!",
+    "zh": "都可以！",
+    "en": "Whatever!"
+  },
+  {
+    "vn": "Một người Canada và một người Mỹ",
+    "zh": "一个加拿大人和一个美国人",
+    "en": "A Canadian and an American"
+  },
+  {
     "vn": "họ ủng hộ tôi nên hộ giúp đỡ tôi",
     "en": "They support me so they help me",
     "zh": "他們支持我，所以他們幫助我"
@@ -140,8 +225,3 @@
     "zh": "那些大洋真的很大"
   }
 ]
-
-
-
-
-
