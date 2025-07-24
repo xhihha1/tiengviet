@@ -1,5 +1,187 @@
 [
   {
+    "vn": "giải pháp",
+    "zh": "解決方案",
+    "en": "solution",
+    "sentence": "Chúng tôi đang tìm một giải pháp cho vấn đề này.",
+    "translation": "我們正在尋找這個問題的解決方案。"
+  },
+  {
+    "vn": "kết quả",
+    "zh": "結果",
+    "en": "result",
+    "sentence": "Kết quả của kỳ thi sẽ được công bố vào tuần sau.",
+    "translation": "考試結果將在下週公布。"
+  },
+  {
+    "vn": "lựa chọn",
+    "zh": "選擇",
+    "en": "option",
+    "sentence": "Bạn có nhiều lựa chọn cho bữa tối hôm nay.",
+    "translation": "你今天晚餐有很多選擇。"
+  },
+  {
+    "vn": "trường hợp",
+    "zh": "情況、案例",
+    "en": "case",
+    "sentence": "Trong trường hợp khẩn cấp, hãy gọi số 115.",
+    "translation": "在緊急情況下，請撥打115。"
+  },
+  {
+    "vn": "cấp độ",
+    "zh": "等級、層級",
+    "en": "level",
+    "sentence": "Học sinh được chia theo cấp độ tiếng Anh.",
+    "translation": "學生按照英語等級分班。"
+  },
+  {
+    "vn": "nội dung",
+    "zh": "內容",
+    "en": "content",
+    "sentence": "Nội dung bài giảng rất dễ hiểu.",
+    "translation": "課程內容非常容易理解。"
+  },
+  {
+    "vn": "loại",
+    "zh": "種類",
+    "en": "sorts, kind of, kind",
+    "sentence": "Có nhiều loại trái cây trong giỏ.",
+    "translation": "籃子裡有很多種水果。"
+  },
+  {
+    "vn": "phiên bản",
+    "zh": "版本",
+    "en": "edition, version",
+    "sentence": "Đây là phiên bản mới nhất của phần mềm.",
+    "translation": "這是該軟體的最新版本。"
+  },
+  {
+    "vn": "hồ sơ",
+    "zh": "檔案、履歷",
+    "en": "profile, record, curriculum vitae",
+    "sentence": "Hãy nộp hồ sơ xin việc trước ngày mai.",
+    "translation": "請在明天前提交求職履歷。"
+  },
+  {
+    "vn": "tài khoản",
+    "zh": "帳號",
+    "en": "account",
+    "sentence": "Bạn cần đăng nhập bằng tài khoản của mình.",
+    "translation": "你需要用自己的帳號登入。"
+  },
+  {
+    "vn": "danh sách",
+    "zh": "清單、名單",
+    "en": "list",
+    "sentence": "Tôi đã lập danh sách những việc cần làm.",
+    "translation": "我已經列出待辦事項清單。"
+  },
+  {
+    "vn": "nhóm",
+    "zh": "團體、小組",
+    "en": "group, team",
+    "sentence": "Chúng tôi làm việc theo nhóm để hoàn thành dự án.",
+    "translation": "我們以小組形式完成這個項目。"
+  },
+  {
+    "vn": "dịch vụ",
+    "zh": "服務",
+    "en": "service",
+    "sentence": "Dịch vụ ở khách sạn này rất tốt.",
+    "translation": "這家飯店的服務很好。"
+  },
+  {
+    "vn": "hệ thống",
+    "zh": "系統",
+    "en": "system",
+    "sentence": "Hệ thống máy tính vừa được nâng cấp.",
+    "translation": "電腦系統剛剛升級完成。"
+  },
+  {
+    "vn": "thành viên",
+    "zh": "成員",
+    "en": "member, members",
+    "sentence": "Mỗi thành viên đều có trách nhiệm riêng.",
+    "translation": "每位成員都有自己的責任。"
+  },
+  {
+    "vn": "thiết kế",
+    "zh": "設計",
+    "en": "design",
+    "sentence": "Anh ấy làm việc trong lĩnh vực thiết kế đồ họa.",
+    "translation": "他從事平面設計工作。"
+  },
+  {
+    "vn": "ly hôn",
+    "zh": "離婚",
+    "en": "divorce",
+    "sentence": "Họ quyết định ly hôn sau nhiều năm sống chung.",
+    "translation": "他們在共同生活多年後決定離婚。"
+  },
+  {
+    "vn": "tình yêu",
+    "zh": "愛情",
+    "en": "love",
+    "sentence": "Tình yêu thật đẹp khi cả hai cùng cố gắng.",
+    "translation": "當兩人一起努力時，愛情才會美麗。"
+  },
+  {
+    "vn": "đám cưới",
+    "zh": "婚禮",
+    "en": "wedding",
+    "sentence": "Đám cưới của họ sẽ được tổ chức vào tháng sau.",
+    "translation": "他們的婚禮將在下個月舉行。"
+  },
+  {
+    "vn": "cưới",
+    "zh": "結婚",
+    "en": "marry, marrying",
+    "sentence": "Họ dự định cưới vào cuối năm nay.",
+    "translation": "他們打算今年年底結婚。"
+  },
+  {
+    "vn": "bạn gái",
+    "zh": "女朋友",
+    "en": "girlfriend",
+    "sentence": "Anh ấy đưa bạn gái về ra mắt gia đình.",
+    "translation": "他帶女朋友回家見家人。"
+  },
+  {
+    "vn": "cá nhân",
+    "zh": "個人",
+    "en": "individual",
+    "sentence": "Mỗi cá nhân có quyền riêng tư.",
+    "translation": "每個人都有隱私權。"
+  },
+  {
+    "vn": "kẻ ác",
+    "zh": "壞人、惡人",
+    "en": "villain, villains",
+    "sentence": "Trong phim, kẻ ác luôn thua cuộc.",
+    "translation": "在電影裡，壞人總是輸。"
+  },
+  {
+    "vn": "khách hàng",
+    "zh": "顧客、客戶",
+    "en": "customer, customers",
+    "sentence": "Chúng tôi luôn đặt khách hàng lên hàng đầu.",
+    "translation": "我們始終將顧客放在第一位。"
+  },
+  {
+    "vn": "đồng nghiệp",
+    "zh": "同事",
+    "en": "colleague, co-worker",
+    "sentence": "Tôi học được rất nhiều từ đồng nghiệp của mình.",
+    "translation": "我從我的同事那裡學到了很多。"
+  },
+  {
+    "vn": "anh hùng",
+    "zh": "英雄",
+    "en": "hero",
+    "sentence": "Anh hùng là người dám hy sinh vì người khác.",
+    "translation": "英雄是願意為他人犧牲的人。"
+  },
+  {
     "vn": "tình bạn",
     "zh": "友誼",
     "en": "friendship",
